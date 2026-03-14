@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SpriteData>
+  <SpriteCategories>
+    <SpriteCategory>
+      <Name>wot_logo</Name>
+      <AlwaysLoad />
+      <SpriteSheetCount>1</SpriteSheetCount>
+      <SpriteSheetSize ID="1" Width="2048" Height="512" />
+    </SpriteCategory>
+  </SpriteCategories>
+  <SpriteParts>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>General\InitialMenu\main_menu_logo</Name>
+      <Width>480</Width>
+      <Height>132</Height>
+      <SheetX>970</SheetX>
+      <SheetY>1</SheetY>
+      <CategoryName>wot_logo</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>General\InitialMenu\main_menu_logo_960</Name>
+      <Width>960</Width>
+      <Height>265</Height>
+      <SheetX>10</SheetX>
+      <SheetY>1</SheetY>
+      <CategoryName>wot_logo</CategoryName>
+    </SpritePart>
+  </SpriteParts>
+  <Sprites>
+    <GenericSprite>
+      <Name>General\InitialMenu\main_menu_logo</Name>
+      <SpritePartName>General\InitialMenu\main_menu_logo</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>General\InitialMenu\main_menu_logo_960</Name>
+      <SpritePartName>General\InitialMenu\main_menu_logo_960</SpritePartName>
+    </GenericSprite>
+  </Sprites>
+</SpriteData>
