@@ -45,3 +45,5 @@ Next is the navigation mesh
 
 Lastly is settlement related crashes can occur as i have found in the code they hard code settlement names for random things. I might need the dmp file to review those, or at least let me know what you where doing, when it happened.
 
+
+NOTE: Towns and Castles are not properly aligned to map as i am replacing the icons still so havent wasted time updating this.
