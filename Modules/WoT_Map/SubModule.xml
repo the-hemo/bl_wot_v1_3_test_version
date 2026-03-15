@@ -91,6 +91,14 @@
         <GameType value="EditorGame" />
       </IncludedGameTypes>
     </XmlNode>
+    <XmlNode>
+      <XmlName id="SPBattleScenes" path="sp_battle_scenes" />
+      <IncludedGameTypes>
+        <GameType value="Campaign" />
+        <GameType value="CampaignStoryMode" />
+        <GameType value="EditorGame" />
+      </IncludedGameTypes>
+    </XmlNode>
 
   </Xmls>
 </Module>
