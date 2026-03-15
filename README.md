@@ -42,6 +42,8 @@ Next is the navigation mesh
 4. General feedback around navigation?
 
 
+Battle Map has been added now - no blight scenes as yet though, only vanilla.
+
 
 Lastly is settlement related crashes can occur as i have found in the code they hard code settlement names for random things. I might need the dmp file to review those, or at least let me know what you where doing, when it happened.
 
