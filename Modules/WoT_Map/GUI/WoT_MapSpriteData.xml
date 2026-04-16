@@ -1,9 +1,13 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <SpriteData>
   <SpriteCategories>
     <SpriteCategory>
+      <Name>ui_WOT_cc</Name>
+      <SpriteSheetCount>1</SpriteSheetCount>
+      <SpriteSheetSize ID="1" Width="4096" Height="4096" />
+    </SpriteCategory>
+    <SpriteCategory>
       <Name>wot_logo</Name>
-      <AlwaysLoad />
       <SpriteSheetCount>1</SpriteSheetCount>
       <SpriteSheetSize ID="1" Width="2048" Height="512" />
     </SpriteCategory>
@@ -11,11 +15,173 @@
   <SpriteParts>
     <SpritePart>
       <SheetID>1</SheetID>
+      <Name>CharacterCreation\aserai</Name>
+      <Width>373</Width>
+      <Height>665</Height>
+      <SheetX>2305</SheetX>
+      <SheetY>888</SheetY>
+      <CategoryName>ui_WOT_cc</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>CharacterCreation\battania</Name>
+      <Width>373</Width>
+      <Height>665</Height>
+      <SheetX>2305</SheetX>
+      <SheetY>1561</SheetY>
+      <CategoryName>ui_WOT_cc</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>CharacterCreation\empire</Name>
+      <Width>373</Width>
+      <Height>683</Height>
+      <SheetX>1924</SheetX>
+      <SheetY>888</SheetY>
+      <CategoryName>ui_WOT_cc</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>CharacterCreation\khuzait</Name>
+      <Width>373</Width>
+      <Height>665</Height>
+      <SheetX>3448</SheetX>
+      <SheetY>888</SheetY>
+      <CategoryName>ui_WOT_cc</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>CharacterCreation\sturgia</Name>
+      <Width>373</Width>
+      <Height>665</Height>
+      <SheetX>3067</SheetX>
+      <SheetY>888</SheetY>
+      <CategoryName>ui_WOT_cc</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>CharacterCreation\vlandia</Name>
+      <Width>373</Width>
+      <Height>665</Height>
+      <SheetX>2686</SheetX>
+      <SheetY>888</SheetY>
+      <CategoryName>ui_WOT_cc</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>CharacterCreation\Culture\aiel_cc</Name>
+      <Width>952</Width>
+      <Height>876</Height>
+      <SheetX>964</SheetX>
+      <SheetY>888</SheetY>
+      <CategoryName>ui_WOT_cc</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>CharacterCreation\Culture\aserai</Name>
+      <Width>541</Width>
+      <Height>94</Height>
+      <SheetX>2686</SheetX>
+      <SheetY>1765</SheetY>
+      <CategoryName>ui_WOT_cc</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>CharacterCreation\Culture\battania</Name>
+      <Width>541</Width>
+      <Height>94</Height>
+      <SheetX>3235</SheetX>
+      <SheetY>1765</SheetY>
+      <CategoryName>ui_WOT_cc</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>CharacterCreation\Culture\borderlands_cc</Name>
+      <Width>952</Width>
+      <Height>876</Height>
+      <SheetX>4</SheetX>
+      <SheetY>888</SheetY>
+      <CategoryName>ui_WOT_cc</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>CharacterCreation\Culture\coastlands_cc</Name>
+      <Width>952</Width>
+      <Height>876</Height>
+      <SheetX>2884</SheetX>
+      <SheetY>4</SheetY>
+      <CategoryName>ui_WOT_cc</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>CharacterCreation\Culture\empire</Name>
+      <Width>541</Width>
+      <Height>94</Height>
+      <SheetX>3235</SheetX>
+      <SheetY>1561</SheetY>
+      <CategoryName>ui_WOT_cc</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>CharacterCreation\Culture\khuzait</Name>
+      <Width>541</Width>
+      <Height>94</Height>
+      <SheetX>2686</SheetX>
+      <SheetY>1663</SheetY>
+      <CategoryName>ui_WOT_cc</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>CharacterCreation\Culture\seanchan_cc</Name>
+      <Width>952</Width>
+      <Height>876</Height>
+      <SheetX>1924</SheetX>
+      <SheetY>4</SheetY>
+      <CategoryName>ui_WOT_cc</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>CharacterCreation\Culture\shadow_cc</Name>
+      <Width>952</Width>
+      <Height>876</Height>
+      <SheetX>964</SheetX>
+      <SheetY>4</SheetY>
+      <CategoryName>ui_WOT_cc</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>CharacterCreation\Culture\sturgia</Name>
+      <Width>541</Width>
+      <Height>94</Height>
+      <SheetX>3235</SheetX>
+      <SheetY>1663</SheetY>
+      <CategoryName>ui_WOT_cc</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>CharacterCreation\Culture\vlandia</Name>
+      <Width>541</Width>
+      <Height>94</Height>
+      <SheetX>2686</SheetX>
+      <SheetY>1561</SheetY>
+      <CategoryName>ui_WOT_cc</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>CharacterCreation\Culture\westlands</Name>
+      <Width>952</Width>
+      <Height>876</Height>
+      <SheetX>4</SheetX>
+      <SheetY>4</SheetY>
+      <CategoryName>ui_WOT_cc</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
       <Name>General\InitialMenu\main_menu_logo</Name>
       <Width>480</Width>
       <Height>132</Height>
-      <SheetX>970</SheetX>
-      <SheetY>1</SheetY>
+      <SheetX>972</SheetX>
+      <SheetY>4</SheetY>
       <CategoryName>wot_logo</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -23,12 +189,84 @@
       <Name>General\InitialMenu\main_menu_logo_960</Name>
       <Width>960</Width>
       <Height>265</Height>
-      <SheetX>10</SheetX>
-      <SheetY>1</SheetY>
+      <SheetX>4</SheetX>
+      <SheetY>4</SheetY>
       <CategoryName>wot_logo</CategoryName>
     </SpritePart>
   </SpriteParts>
   <Sprites>
+    <GenericSprite>
+      <Name>CharacterCreation\aserai</Name>
+      <SpritePartName>CharacterCreation\aserai</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>CharacterCreation\battania</Name>
+      <SpritePartName>CharacterCreation\battania</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>CharacterCreation\empire</Name>
+      <SpritePartName>CharacterCreation\empire</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>CharacterCreation\khuzait</Name>
+      <SpritePartName>CharacterCreation\khuzait</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>CharacterCreation\sturgia</Name>
+      <SpritePartName>CharacterCreation\sturgia</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>CharacterCreation\vlandia</Name>
+      <SpritePartName>CharacterCreation\vlandia</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>CharacterCreation\Culture\aiel_cc</Name>
+      <SpritePartName>CharacterCreation\Culture\aiel_cc</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>CharacterCreation\Culture\aserai</Name>
+      <SpritePartName>CharacterCreation\Culture\aserai</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>CharacterCreation\Culture\battania</Name>
+      <SpritePartName>CharacterCreation\Culture\battania</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>CharacterCreation\Culture\borderlands_cc</Name>
+      <SpritePartName>CharacterCreation\Culture\borderlands_cc</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>CharacterCreation\Culture\coastlands_cc</Name>
+      <SpritePartName>CharacterCreation\Culture\coastlands_cc</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>CharacterCreation\Culture\empire</Name>
+      <SpritePartName>CharacterCreation\Culture\empire</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>CharacterCreation\Culture\khuzait</Name>
+      <SpritePartName>CharacterCreation\Culture\khuzait</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>CharacterCreation\Culture\seanchan_cc</Name>
+      <SpritePartName>CharacterCreation\Culture\seanchan_cc</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>CharacterCreation\Culture\shadow_cc</Name>
+      <SpritePartName>CharacterCreation\Culture\shadow_cc</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>CharacterCreation\Culture\sturgia</Name>
+      <SpritePartName>CharacterCreation\Culture\sturgia</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>CharacterCreation\Culture\vlandia</Name>
+      <SpritePartName>CharacterCreation\Culture\vlandia</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>CharacterCreation\Culture\westlands</Name>
+      <SpritePartName>CharacterCreation\Culture\westlands</SpritePartName>
+    </GenericSprite>
     <GenericSprite>
       <Name>General\InitialMenu\main_menu_logo</Name>
       <SpritePartName>General\InitialMenu\main_menu_logo</SpritePartName>

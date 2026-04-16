@@ -1,0 +1,71 @@
+<prefabs>
+	<game_entity name="trolloc_village_l1" old_prefab_name="">
+		<transform position="11.271, 13.702, 1.000" rotation_euler="0.000, 0.000, 0.000" scale="0.330, 0.330, 0.330"/>
+		<components>
+			<meta_mesh_component name="trolloccamp1"/>
+		</components>
+		<children>
+			<game_entity name="meat" old_prefab_name="">
+				<transform position="-0.055, -0.536, 0.229" rotation_euler="-1.465, 2.196, -3.142" scale="0.606, 0.606, 0.606"/>
+				<components>
+					<meta_mesh_component name="merchandise_meat"/>
+				</components>
+			</game_entity>
+			<game_entity name="cooked_meat" old_prefab_name="">
+				<transform position="-0.016, 0.640, 0.216" rotation_euler="0.000, 0.000, -0.822" scale="1.212, 1.212, 1.212"/>
+				<components>
+					<meta_mesh_component name="cooked_ribs"/>
+				</components>
+			</game_entity>
+			<game_entity name="weapons" old_prefab_name="">
+				<transform position="-2.001, -0.970, 0.000" rotation_euler="0.000, 0.000, -0.735" scale="0.606, 0.606, 0.606"/>
+				<components>
+					<meta_mesh_component name="weapon_rack_aserai_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="weapons" old_prefab_name="">
+				<transform position="-1.757, 2.044, 0.000" rotation_euler="0.000, 0.000, 0.962" scale="0.606, 0.606, 0.606"/>
+				<components>
+					<meta_mesh_component name="weapon_rack_sturgia_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="melon" old_prefab_name="">
+				<transform position="0.135, -0.093, -0.039" rotation_euler="0.000, 0.000, 0.000" scale="1.515, 1.515, 1.515"/>
+				<components>
+					<meta_mesh_component name="watermelon_piece"/>
+				</components>
+			</game_entity>
+			<game_entity name="melon" old_prefab_name="">
+				<transform position="-0.141, -0.093, -0.039" rotation_euler="0.000, 0.000, 0.000" scale="1.515, 1.515, 1.515"/>
+				<components>
+					<meta_mesh_component name="watermelon_piece"/>
+				</components>
+			</game_entity>
+			<game_entity name="brazier" old_prefab_name="">
+				<transform position="0.533, -2.624, 0.053" rotation_euler="1.176, 0.000, 0.000" scale="0.606, 0.606, 0.606"/>
+				<components>
+					<meta_mesh_component name="empire_pot_holder_01"/>
+				</components>
+			</game_entity>
+			<game_entity name="skin" old_prefab_name="">
+				<transform position="0.020, 2.117, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="0.303, 0.303, 0.303"/>
+				<components>
+					<meta_mesh_component name="mat_fur_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="skin" old_prefab_name="">
+				<transform position="-0.771, -1.799, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="0.303, 0.303, 0.303"/>
+				<components>
+					<meta_mesh_component name="mat_fur_b"/>
+				</components>
+			</game_entity>
+			<game_entity name="woodpile" old_prefab_name="">
+				<transform position="-2.079, 0.452, 0.000" rotation_euler="0.000, 0.000, 1.111" scale="0.303, 0.303, 0.303"/>
+				<components>
+					<meta_mesh_component name="bd_wood_heap_c"/>
+				</components>
+			</game_entity>
+		</children>
+	</game_entity>
+</prefabs>
+

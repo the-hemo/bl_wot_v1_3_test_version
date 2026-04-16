@@ -1,51 +1,81 @@
 # bl\_wot\_v1\_3\_test\_version
 
-Bannerlord v1.3.nn Wheel of Time Mod Test Build
+Bannerlord v1.3.nn Wheel of Time Mod Test Build v2.0
 
 
 
-No other mods are required to run this test build at present.  Please keep testing clean to just this mod.  
+**Dependancies**
+
+You will need Harmony v2.4.2.nnn
 
 
 
-Open the Modules folder and you will see a folder called WoT\_Map
-
-This is the mod folder to copy into your games module folder.
+**How to Install**
 
 
 
-Load order
+**Click on the green button "<> Code" and choose download as ZIP**
 
-PLace it after the vanilla game mods 
+**Unzip once you have down loaded.**
 
-Make sure Warsails is deactivated - this mod is not compatible with the Warsails DLC at present.  
-
-
-
-== Intial Testing ==
-
-
-I would like your opinion and thoughts for the following:
-
-1. The map terrain
-2. Flora - Forest (i know some appear in the water - im trying to figure out how to remove)
-3. Flora - Plains
-4. Flora - Blight
+**Unblock the dll file**
 
 
 
-Next is the navigation mesh
+Open the unzipped folder until see two folders:
 
-1. Do you cross rivers fine?
-2. Can you get around the map ok?
-3. Do caravans get stuck anywhere?
-4. General feedback around navigation?
+&#x09;Wheel of Time Mod
 
-
-Battle Map has been added now - no blight scenes as yet though, only vanilla.
+&#x09;WoT\_Map
 
 
-Lastly is settlement related crashes can occur as i have found in the code they hard code settlement names for random things. I might need the dmp file to review those, or at least let me know what you where doing, when it happened.
+
+These are the two mod folders to copy into your games module folder.
 
 
-NOTE: Towns and Castles are not properly aligned to map as i am replacing the icons still so havent wasted time updating this.
+
+**Load Order**
+
+Harmony V2.4.2
+
+
+
+Vanilla Bannerlord Files
+
+Disable War Sails DLC (Not compatible)
+
+
+
+Wheel of Time Mod (contains all the item assets)
+
+WoT\_Map (contains DLL, Map and remaining XMLs)
+
+
+
+Please keep testing clean to just this mod.
+
+Reminder: Make sure Warsails is deactivated - this mod is not compatible with the Warsails DLC at present.
+
+
+
+**== Intial Testing ==**
+
+Its not complete, i still have to:
+
+1. Finish the settlement icons (this will resolve castles and city positions - but let me know about village issues)
+2. Apply custom snow map
+3. Fine Tune the battle map
+4. Balance Items
+5. Update Loadouts
+6. Update Culture Names
+7. Character Creation
+8. Questions
+9. Recruitment Patches
+10. Investigate Friendly Fire
+
+11\. Please much more - but you get the idea....
+
+
+
+Just play around and see what you notice, if your unsure that its related to the big tickets above, just let me know in the bug reports channel on Discord.
+

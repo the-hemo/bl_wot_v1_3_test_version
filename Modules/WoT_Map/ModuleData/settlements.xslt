@@ -5,5 +5,5 @@
             <xsl:apply-templates select="@*|node()"/>
         </xsl:copy>
     </xsl:template>
-    <xsl:template match="Settlement"/>
+	<xsl:template match="Settlement[not(@id='Settlement.town_V6')]"/>
 </xsl:stylesheet>

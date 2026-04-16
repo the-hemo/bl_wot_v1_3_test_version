@@ -1,0 +1,2623 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SPCultures>
+  <!--Duplicate empire culture updated as work around for Militia Patch not working in 1.3.nn for WhiteTower and BlackTower-->
+  <Culture id="white" name="{=whitetowerfaction}Aes Sedai" is_main_culture="false" color="0xffFFFFFF" color2="0xff000000" 
+		   elite_basic_troop="NPCCharacter.AesSedai1" basic_troop="NPCCharacter.WhiteTower_militia1" 
+		   melee_militia_troop="NPCCharacter.WhiteTower_militia1" ranged_militia_troop="NPCCharacter.WhiteTower_militiabow1" 
+		   melee_elite_militia_troop="NPCCharacter.Whitetower_warder1" ranged_elite_militia_troop="NPCCharacter.AesSedai2" 
+		   can_have_settlement="true" villager_party_template="PartyTemplate.villager_wetlands_template" 
+		   default_party_template="PartyTemplate.kingdom_hero_party_whitetower_template" 
+		   settlement_patrol_template_level_1="PartyTemplate.patrol_party_empire_template_level_1" 
+		   settlement_patrol_template_level_2="PartyTemplate.patrol_party_empire_template_level_2" 
+		   settlement_patrol_template_level_3="PartyTemplate.patrol_party_empire_template_level_3" 
+		   militia_party_template="PartyTemplate.militia_whitetower_template" 
+		   rebels_party_template="PartyTemplate.rebels_wetlands_template" 
+		   vassal_reward_party_template="PartyTemplate.vassal_reward_troops_wetlands" 
+		   prosperity_bonus="1" encounter_background_mesh="encounter_empire" 
+		   faction_banner_key="20.25.25.1836.1836.768.788.1.0.-30.510.12.12.1171.782.945.552.1.1.-52.510.25.25.1171.517.1053.512.1.1.-52.510.84.84.1171.742.869.654.1.1.-52.510.123.123.1171.829.562.879.1.1.-52.510.35.35.1171.896.446.967.1.1.-52.510.142.142.1171.769.674.809.1.1.-52.510.126.129.1171.746.765.722.1.1.-52.503.40.40.433.433.768.788.1.1.0.503.116.116.245.245.796.687.1.1.0.503.40.40.211.171.754.913.1.1.0.503.40.40.203.169.781.913.1.1.0.427.116.116.232.183.806.883.1.1.101.427.116.116.232.183.781.883.1.1.109.427.40.40.232.183.752.875.1.1.122.427.116.116.232.183.772.719.1.1.300.503.116.116.84.70.754.761.1.1.0.503.40.40.84.70.655.837.1.1.0.427.116.116.232.183.873.676.1.1.122.427.116.116.232.183.897.700.1.1.122.427.116.116.232.183.907.730.1.1.122.427.116.116.232.183.873.853.1.1.103.503.116.116.84.70.907.771.1.1.0.503.116.116.84.193.941.789.1.1.0.503.116.116.84.193.945.785.1.1.0.503.116.116.84.193.913.879.1.1.-29.503.116.116.84.193.927.873.1.1.-29.503.116.116.84.193.887.915.1.1.-40.503.116.116.41.81.829.977.1.1.-56.503.116.116.72.77.871.831.1.1.-40.503.116.116.72.77.767.767.1.1.-40.503.40.40.80.87.783.947.1.1.-71.427.116.116.80.87.791.969.1.1.82.427.116.116.80.87.767.965.1.1.93.503.40.40.95.128.765.943.1.1.-71.503.40.40.127.129.771.919.1.1.-71.503.40.40.127.129.781.919.1.1.-71.503.40.40.127.129.789.893.1.1.-71.503.40.40.127.129.787.869.1.1.-71.503.116.116.127.129.775.744.1.1.-71.503.116.116.-20.45.785.999.1.1.-82" text="{=aessedaiculture}The Aes Sedai are woman who can channel the One Power, and have been trained it the White Tower of Tar Valon. They have to pass tests to earn their ring and title of Aes Sedai, and swear the Three Oaths to bind their behaviour.  Thier vast power offers great influence over the other nations around the world." tournament_master="NPCCharacter.tournament_master_empire" villager="NPCCharacter.villager_wetlands" caravan_master="NPCCharacter.caravan_master_empire" armed_trader="NPCCharacter.armed_trader_empire" caravan_guard="NPCCharacter.caravan_guard_empire" veteran_caravan_guard="NPCCharacter.veteran_caravan_guard_empire" prison_guard="NPCCharacter.prison_guard_empire" guard="NPCCharacter.guard_empire" blacksmith="NPCCharacter.blacksmith_empire" weaponsmith="NPCCharacter.weaponsmith_empire" townswoman="NPCCharacter.townswoman_empire" townswoman_infant="NPCCharacter.townswoman_infant_empire" townswoman_child="NPCCharacter.townswoman_child_empire" townswoman_teenager="NPCCharacter.townswoman_teenager_empire" townsman="NPCCharacter.townsman_empire" townsman_infant="NPCCharacter.townsman_infant_empire" townsman_child="NPCCharacter.townsman_child_empire" village_woman="NPCCharacter.village_woman_empire" villager_male_child="NPCCharacter.villager_child_empire" villager_male_teenager="NPCCharacter.villager_teenager_empire" villager_female_child="NPCCharacter.village_woman_child_empire" villager_female_teenager="NPCCharacter.village_woman_teenager_empire" townsman_teenager="NPCCharacter.townsman_teenager_empire" ransom_broker="NPCCharacter.ransom_broker_empire" gangleader_bodyguard="NPCCharacter.gangleader_bodyguard_empire" merchant_notary="NPCCharacter.merchant_notary_empire" artisan_notary="NPCCharacter.artisan_notary_empire" preacher_notary="NPCCharacter.preacher_notary_empire" rural_notable_notary="NPCCharacter.rural_notable_notary_empire" shop_worker="NPCCharacter.shop_worker_empire" tavernkeeper="NPCCharacter.tavernkeeper_empire" taverngamehost="NPCCharacter.taverngamehost_empire" musician="NPCCharacter.musician_empire" tavern_wench="NPCCharacter.tavern_wench_empire" armorer="NPCCharacter.armorer_empire" horseMerchant="NPCCharacter.horseMerchant_empire" barber="NPCCharacter.barber_empire" merchant="NPCCharacter.merchant_empire" beggar="NPCCharacter.beggar_empire" female_beggar="NPCCharacter.female_beggar_empire" female_dancer="NPCCharacter.female_dancer_empire" default_stealth_equipment_roster="EquipmentRoster.default_stealth_equipment_roster" default_battle_equipment_roster="EquipmentRoster.WT_civ_template_default" default_civilian_equipment_roster="EquipmentRoster.WT_civ_template_default" duel_preset_equipment_roster="EquipmentRoster.emp_duel_preset_template" board_game_type="Tablut" marriage_bride_equipment_roster="EquipmentRoster.marriage_female_emp_cutscene_template" default_character_creation_body_property="BodyProperty.default_character_creation_body_property_empire" start_point_position_x="377.95" start_point_position_y="402.08">
+    <caravan_party_templates>
+      <caravan_party_template id="PartyTemplate.caravan_template_wetlands" />
+    </caravan_party_templates>
+    <elite_caravan_party_templates>
+      <caravan_party_template id="PartyTemplate.elite_caravan_template_wetlands" />
+    </elite_caravan_party_templates>
+    <available_ship_hulls></available_ship_hulls>
+    <vassal_reward_items>
+      <item id="Item.OnePowerAirShield" />
+    </vassal_reward_items>
+    <banner_bearer_replacement_weapons>
+      <item id="Item.iron_spatha_sword_t2" />
+      <item id="Item.empire_sword_1_t2" />
+      <item id="Item.empire_sword_2_t3" />
+      <item id="Item.empire_sword_6_t5" />
+    </banner_bearer_replacement_weapons>
+    <default_policies>
+      <policy id="policy_senate" />
+    </default_policies>
+    <male_names>
+      <name name="{=v9B50R0Q}Acarion" />
+      <name name="{=aeLgc0cU}Acthon" />
+      <name name="{=tWDyWroN}Amnon" />
+      <name name="{=uTFjknE2}Andros" />
+      <name name="{=fXgftgNv}Aphanys" />
+      <name name="{=QjJAbaoT}Apys" />
+      <name name="{=zInIqBD0}Arenicos" />
+      <name name="{=W1uwgvAQ}Arion" />
+      <name name="{=5VzWRMTn}Artimendros" />
+      <name name="{=rGuYLmez}Ascyron" />
+      <name name="{=J1nh9YiN}Atilon" />
+      <name name="{=NBAGX54b}Avigos" />
+      <name name="{=9cDw6vPF}Cadomenos" />
+      <name name="{=R11i2uVl}Calytos" />
+      <name name="{=lD1sl2XC}Camnon" />
+      <name name="{=LP7yYoGQ}Caribos" />
+      <name name="{=VhbasI9J}Castor" />
+      <name name="{=VG9ng2n2}Chandion" />
+      <name name="{=aezwJGvY}Chenon" />
+      <name name="{=acp2IcMs}Crotor" />
+      <name name="{=XKxeaF0I}Dalidos" />
+      <name name="{=pCBkH35Q}Danos" />
+      <name name="{=2OJEyP0d}Dasys" />
+      <name name="{=SoTUisL3}Deltisos" />
+      <name name="{=2uKoNaSG}Denos" />
+      <name name="{=HfuAdGQX}Destor" />
+      <name name="{=lEHtUGed}Diocosos" />
+      <name name="{=5EiKEdi5}Dorion" />
+      <name name="{=yAZC6F7P}Ecsorios" />
+      <name name="{=hyOgAehG}Emarys" />
+      <name name="{=rUvnbDi2}Encurion" />
+      <name name="{=KjzJjj5n}Eronys" />
+      <name name="{=gYit4RTe}Euchor" />
+      <name name="{=oQCZp9qv}Eumenys" />
+      <name name="{=uW38UtSH}Eupitor" />
+      <name name="{=WfAuSpJq}Eutos" />
+      <name name="{=RyorjCXF}Galon" />
+      <name name="{=ZFlIT1tH}Ganimynos" />
+      <name name="{=f3hTGKIP}Garitops" />
+      <name name="{=nqxxr9We}Gavalon" />
+      <name name="{=iDxygnVF}Gerotheon" />
+      <name name="{=rFbAjSWM}Gorigos" />
+      <name name="{=NxDJcR2c}Haratheos" />
+      <name name="{=tgVJZ1Uc}Hecaron" />
+      <name name="{=wQJGxBJI}Hophtalamos" />
+      <name name="{=4lEEqyCg}Jacorios" />
+      <name name="{=DwzrsJxS}Jamanys" />
+      <name name="{=IU63oxWD}Jemynon" />
+      <name name="{=t1OpnZph}Jeremos" />
+      <name name="{=katzUyMI}Joron" />
+      <name name="{=GWaJ7Ksq}Joculos" />
+      <name name="{=iJvIH6NP}Jutheros" />
+      <name name="{=BCy1KpvR}Lacalion" />
+      <name name="{=6LMiTKZz}Lamenon" />
+      <name name="{=F13aYbuk}Lavalios" />
+      <name name="{=NFIQZOPQ}Leosios" />
+      <name name="{=lbTMVAcI}Lerosion" />
+      <name name="{=bHbR5Mgy}Losys" />
+      <name name="{=CbxLZdVg}Lycos" />
+      <name name="{=HCXHcBzT}Mattis" />
+      <name name="{=X21PahQn}Menaclys" />
+      <name name="{=am2UnbAK}Menor" />
+      <name name="{=tTuaiLS6}Meritor" />
+      <name name="{=qqW5n5Ox}Milos" />
+      <name name="{=5yFy4U4i}Morynon" />
+      <name name="{=ud6rhXbn}Mostiros" />
+      <name name="{=04zSjaRe}Nartiros" />
+      <name name="{=FF3dQKc1}Nethor" />
+      <name name="{=u1lTJoPO}Nemos" />
+      <name name="{=sDFb1PRI}Nortos" />
+      <name name="{=QGIAbglw}Obron" />
+      <name name="{=AEaRpupL}Ocheros" />
+      <name name="{=ZmQx4gT3}Olichor" />
+      <name name="{=pq0w8kry}Orachos" />
+      <name name="{=JFVseSa3}Oros" />
+      <name name="{=7UkzXWTQ}Osarios" />
+      <name name="{=cZIhxH9e}Pacarios" />
+      <name name="{=9sokmYMZ}Padmos" />
+      <name name="{=NXOOJs2X}Patrys" />
+      <name name="{=plx8kkxa}Pelicos" />
+      <name name="{=1cKxsHSh}Penton" />
+      <name name="{=vgBRa2BE}Poraclys" />
+      <name name="{=q186AQHt}Phadon" />
+      <name name="{=yhfJVEe0}Phelenos" />
+      <name name="{=LMWiJi6V}Phirentos" />
+      <name name="{=XZxIpCQH}Phorys" />
+      <name name="{=VJbAdJe4}Purios" />
+      <name name="{=M9CWBbMe}Rhanos" />
+      <name name="{=P1zsoSPN}Rhovarion" />
+      <name name="{=Ho6zsGTI}Sachanion" />
+      <name name="{=5eTb2xr7}Sanion" />
+      <name name="{=Zm4a2xsf}Salusios" />
+      <name name="{=egCbjHDT}Semnon" />
+      <name name="{=GeJobcre}Sinor" />
+      <name name="{=E4WhEvu7}Sotherys" />
+      <name name="{=FClEZIkT}Sovos" />
+      <name name="{=rVUhYuvE}Suterios" />
+      <name name="{=PDK4FHAx}Suvys" />
+      <name name="{=Axe5FkET}Talison" />
+      <name name="{=PR4IqkTW}Temeon" />
+      <name name="{=9xyXdX4I}Tharos" />
+      <name name="{=zfUhnG7y}Themestios" />
+      <name name="{=9mQuSI3c}Thucasys" />
+      <name name="{=P7iNhhPl}Turiados" />
+      <name name="{=kfNW01y5}Tynops" />
+      <name name="{=amlzciqP}Ucasios" />
+      <name name="{=wbJzSg3X}Ulbesos" />
+      <name name="{=SRncaw79}Urios" />
+      <name name="{=pRbKbPK3}Vadrios" />
+      <name name="{=TiJOjUi5}Valaos" />
+      <name name="{=5nEh20ju}Vasylops" />
+      <name name="{=VN1D1Qps}Velanor" />
+      <name name="{=QNtdUfis}Vemioros" />
+      <name name="{=bWb245zO}Voleos" />
+      <name name="{=aH2ncPbK}Zalasos" />
+      <name name="{=WTePYMNF}Zaraclys" />
+      <name name="{=p0hcyZdp}Zenon" />
+      <name name="{=3RBVn5yi}Zoros" />
+      <name name="{=uCyAnus4}Zostios" />
+      <name name="{=7hYr7jQ7}Leutros" />
+      <name name="{=e7dayl1i}Mavinon" />
+      <name name="{=3EZMoUlp}Narmys" />
+      <name name="{=PvoTcJHa}Naselos" />
+      <name name="{=QumqvLnP}Ochivos" />
+      <name name="{=gxHrt6bC}Phamynor" />
+      <name name="{=6IDmRZ5k}Phestos" />
+      <name name="{=ek1Q2TJz}Polon" />
+    </male_names>
+    <female_names>
+      <name name="{=h8DsXm7X}Achena" />
+      <name name="{=BNnLbOkN}Adinea" />
+      <name name="{=EGatdCLg}Alena" />
+      <name name="{=UPaP0B2L}Alchyla" />
+      <name name="{=QyXwJXIV}Andrasa" />
+      <name name="{=NM5f1Q6I}Ariada" />
+      <name name="{=3RbayfTG}Ascytala" />
+      <name name="{=bmHAYBwX}Catila" />
+      <name name="{=AdK4Ilzw}Chalia" />
+      <name name="{=xVSOKf0p}Chara" />
+      <name name="{=915frsPd}Corena" />
+      <name name="{=KPQqENbd}Carinila" />
+      <name name="{=BNuZ6nvd}Daniria" />
+      <name name="{=sEgUB3jW}Deasora" />
+      <name name="{=YBGCXSEx}Debana" />
+      <name name="{=93hivVp6}Donysa" />
+      <name name="{=0dHy2430}Echalera" />
+      <name name="{=Oy5dH7gZ}Elea" />
+      <name name="{=2YbgWjTK}Emyna" />
+      <name name="{=rA3KybBX}Ethirea" />
+      <name name="{=qiTtJyHE}Gala" />
+      <name name="{=fGmpS0Dr}Gandarina" />
+      <name name="{=ecJRFHyY}Gisetha" />
+      <name name="{=a6qaFH7L}Herena" />
+      <name name="{=LE9mRhSs}Hespedia" />
+      <name name="{=tGhrpQ0D}Hyradia" />
+      <name name="{=0MJi7mre}Hyscasia" />
+      <name name="{=JQdqGaaB}Isibala" />
+      <name name="{=RHXdqjQY}Ilina" />
+      <name name="{=HSlPLC4m}Ira" />
+      <name name="{=PNR2CvvX}Ithicala" />
+      <name name="{=eOHeCKxn}Jespara" />
+      <name name="{=6vtmYjTW}Jolanna" />
+      <name name="{=Ew69yN84}Juthys" />
+      <name name="{=028iCb8B}Jythea" />
+      <name name="{=Jif1C3X3}Laria" />
+      <name name="{=LX1YS9DW}Lasilea" />
+      <name name="{=2oy7atk6}Lundana" />
+      <name name="{=dwFZFQ6V}Lysica" />
+      <name name="{=2fYYfHUI}Martira" />
+      <name name="{=cqSaKXzl}Matha" />
+      <name name="{=Vxt0xTvV}Mavea" />
+      <name name="{=lgvtLEDA}Melchea" />
+      <name name="{=QvfUqzpF}Mina" />
+      <name name="{=11KckWau}Mitara" />
+      <name name="{=IJlw8V5D}Mystesa" />
+      <name name="{=uLjRHv9p}Nadea" />
+      <name name="{=hreO0wwb}Nerhea" />
+      <name name="{=04dAbdjM}Nyvia" />
+      <name name="{=dLOlnl8m}Palysira" />
+      <name name="{=pXBvPxHI}Penestea" />
+      <name name="{=FUT6eXfw}Phaea" />
+      <name name="{=WrAMfIG1}Phenoria" />
+      <name name="{=uYbmhjI6}Rhamira" />
+      <name name="{=BIAEZaVx}Rhandana" />
+      <name name="{=H7oJaxqM}Rhelasa" />
+      <name name="{=XMTD2clw}Rhoe" />
+      <name name="{=0XEaaoah}Rosazia" />
+      <name name="{=L9weGfoX}Salea" />
+      <name name="{=nSoJkeBI}Sittacea" />
+      <name name="{=V1QLbhRl}Sora" />
+      <name name="{=qMJ7UZvk}Surena" />
+      <name name="{=gmD9mgR1}Synira" />
+      <name name="{=Cxazvjr3}Tamarea" />
+      <name name="{=b2aRoXsb}Tessa" />
+      <name name="{=bQKbW8Tx}Thasyna" />
+      <name name="{=YVVCaQE5}Thera" />
+      <name name="{=CvVJyKYA}Thelea" />
+      <name name="{=jJV5Tn09}Tethyclesa" />
+      <name name="{=e4jAHUX0}Tymata" />
+      <name name="{=z2KE7glc}Thylea" />
+      <name name="{=3bIc2X2l}Vaminesa" />
+      <name name="{=VzhbUL60}Vendelia" />
+      <name name="{=a2ajWcI3}Viria" />
+      <name name="{=5VZ0GF6Y}Zalisa" />
+      <name name="{=wbLqHvjE}Zerosica" />
+      <name name="{=zxZH2WbD}Zimena" />
+      <name name="{=AccBcEIt}Zoana" />
+    </female_names>
+    <clan_names>
+      <name name="{=pRA9EzNv}Acapanos" />
+      <name name="{=vdOWVAoz}Altesios" />
+      <name name="{=ogq9oxDn}Angarys" />
+      <name name="{=TNI6qRbQ}Astrethides" />
+      <name name="{=NTRPMben}Atragorys" />
+      <name name="{=MgDUudOx}Balastisos" />
+      <name name="{=t36SVqzP}Bustamys" />
+      <name name="{=xyKumbJI}Calastides" />
+      <name name="{=Rvww4Kxi}Corstases" />
+      <name name="{=jhlwsyqq}Chromasos" />
+      <name name="{=kWiQaFLM}Delicos" />
+      <name name="{=aaOSBHrI}Dinamontes" />
+      <name name="{=DiB4ukeK}Elysos" />
+      <name name="{=7lixVdYb}Erchisasos" />
+      <name name="{=FakFqJf1}Eurtimides" />
+      <name name="{=pUvrTrHT}Gessios" />
+      <name name="{=sgIlIqrI}Goronos" />
+      <name name="{=fsOUhzLv}Jalos" />
+      <name name="{=GcgpbmWB}Jintasos" />
+      <name name="{=IK7uQU2p}Lasirys" />
+      <name name="{=CuocGtTq}Lestharos" />
+      <name name="{=w4u0LxQb}Lovanides" />
+      <name name="{=lsOtNjxl}Manitesos" />
+      <name name="{=FVl3D2qT}Meones" />
+      <name name="{=8CQuY3RO}Munitides" />
+      <name name="{=fAKa9JfU}Nathanys" />
+      <name name="{=HSpdZCr5}Nebranos" />
+      <name name="{=024kHRwG}Nomanides" />
+      <name name="{=RhwPmahK}Opynates" />
+      <name name="{=E1NB09bP}Otsamides" />
+      <name name="{=PbxaX8F5}Othalotos" />
+      <name name="{=OL6fbZRY}Paltos" />
+      <name name="{=ild3wLKb}Pylitax" />
+      <name name="{=eRg4Ngl1}Pharchasys" />
+      <name name="{=HPrHkie6}Phenigos" />
+      <name name="{=XWqBgFzc}Phorides" />
+      <name name="{=Yl3c9WaM}Salastrys" />
+      <name name="{=DYdI0faN}Stracanasthes" />
+      <name name="{=g7etVhSO}Sumessos" />
+      <name name="{=U9kQ2sTU}Tasyx" />
+      <name name="{=lMxYCQYF}Teminides" />
+      <name name="{=oGf1fUpP}Therycos" />
+      <name name="{=AeNqteUX}Zebales" />
+      <name name="{=63ZZltcm}Zalastros" />
+    </clan_names>
+    <cultural_feats>
+      <feat id="empire_decreased_garrison_wage" />
+      <feat id="empire_army_influence" />
+      <feat id="empire_slower_hearth_production" />
+    </cultural_feats>
+    <possible_clan_banner_icon_ids>
+      <icon id="100" />
+      <icon id="101" />
+      <icon id="102" />
+      <icon id="103" />
+      <icon id="104" />
+      <icon id="105" />
+      <icon id="106" />
+      <icon id="107" />
+      <icon id="108" />
+      <icon id="109" />
+      <icon id="110" />
+      <icon id="119" />
+      <icon id="147" />
+      <icon id="148" />
+      <icon id="152" />
+      <icon id="200" />
+      <icon id="201" />
+      <icon id="202" />
+      <icon id="203" />
+      <icon id="204" />
+      <icon id="205" />
+      <icon id="206" />
+      <icon id="207" />
+      <icon id="208" />
+      <icon id="209" />
+      <icon id="210" />
+      <icon id="211" />
+      <icon id="212" />
+      <icon id="213" />
+      <icon id="214" />
+      <icon id="215" />
+      <icon id="216" />
+      <icon id="217" />
+      <icon id="218" />
+      <icon id="219" />
+      <icon id="220" />
+      <icon id="221" />
+      <icon id="222" />
+      <icon id="223" />
+      <icon id="400" />
+    </possible_clan_banner_icon_ids>
+    <notable_templates>
+      <template name="NPCCharacter.spc_notable_empire_0" />
+      <template name="NPCCharacter.spc_notable_empire_0b" />
+      <template name="NPCCharacter.spc_notable_empire_1" />
+      <template name="NPCCharacter.spc_notable_empire_1b" />
+      <template name="NPCCharacter.spc_notable_empire_2" />
+      <template name="NPCCharacter.spc_notable_empire_2b" />
+      <template name="NPCCharacter.spc_notable_empire_3" />
+      <template name="NPCCharacter.spc_notable_empire_3b" />
+      <template name="NPCCharacter.spc_notable_empire_4" />
+      <template name="NPCCharacter.spc_notable_empire_4b" />
+      <template name="NPCCharacter.spc_notable_empire_5" />
+      <template name="NPCCharacter.spc_notable_empire_6" />
+      <template name="NPCCharacter.spc_notable_empire_7" />
+      <template name="NPCCharacter.spc_notable_empire_8" />
+      <template name="NPCCharacter.spc_notable_empire_9" />
+      <template name="NPCCharacter.spc_notable_empire_10" />
+      <template name="NPCCharacter.spc_notable_empire_11" />
+      <template name="NPCCharacter.spc_notable_empire_12" />
+      <template name="NPCCharacter.spc_notable_empire_13" />
+      <template name="NPCCharacter.spc_notable_empire_21" />
+      <template name="NPCCharacter.spc_notable_empire_22" />
+      <template name="NPCCharacter.spc_notable_empire_gl1" />
+      <template name="NPCCharacter.spc_notable_empire_gl4" />
+      <template name="NPCCharacter.spc_empire_headman_1" />
+      <template name="NPCCharacter.spc_empire_headman_2" />
+      <template name="NPCCharacter.spc_empire_headman_3" />
+    </notable_templates>
+    <lord_templates>
+      <template name="NPCCharacter.spc_legion_of_the_betrayed_leader_0" />
+      <template name="NPCCharacter.spc_legion_of_the_betrayed_leader_1" />
+      <template name="NPCCharacter.spc_legion_of_the_betrayed_leader_2" />
+      <template name="NPCCharacter.spc_legion_of_the_betrayed_leader_3" />
+      <template name="NPCCharacter.spc_hidden_hand_leader_0" />
+      <template name="NPCCharacter.spc_hidden_hand_leader_1" />
+      <template name="NPCCharacter.spc_hidden_hand_leader_2" />
+      <template name="NPCCharacter.spc_hidden_hand_leader_3" />
+      <template name="NPCCharacter.spc_embers_of_flame_leader_0" />
+      <template name="NPCCharacter.spc_embers_of_flame_leader_1" />
+      <template name="NPCCharacter.spc_embers_of_flame_leader_2" />
+      <template name="NPCCharacter.spc_embers_of_flame_leader_3" />
+      <template name="NPCCharacter.spc_eleftheroi_leader_0" />
+      <template name="NPCCharacter.spc_eleftheroi_leader_1" />
+      <template name="NPCCharacter.spc_eleftheroi_leader_2" />
+      <template name="NPCCharacter.spc_eleftheroi_leader_3" />
+    </lord_templates>
+    <rebellion_hero_templates>
+      <template name="NPCCharacter.spc_legion_of_the_betrayed_leader_0" />
+      <template name="NPCCharacter.spc_legion_of_the_betrayed_leader_1" />
+      <template name="NPCCharacter.spc_legion_of_the_betrayed_leader_2" />
+      <template name="NPCCharacter.spc_legion_of_the_betrayed_leader_3" />
+      <template name="NPCCharacter.spc_hidden_hand_leader_0" />
+      <template name="NPCCharacter.spc_hidden_hand_leader_1" />
+      <template name="NPCCharacter.spc_hidden_hand_leader_2" />
+      <template name="NPCCharacter.spc_hidden_hand_leader_3" />
+      <template name="NPCCharacter.spc_embers_of_flame_leader_0" />
+      <template name="NPCCharacter.spc_embers_of_flame_leader_1" />
+      <template name="NPCCharacter.spc_embers_of_flame_leader_2" />
+      <template name="NPCCharacter.spc_embers_of_flame_leader_3" />
+      <template name="NPCCharacter.spc_eleftheroi_leader_0" />
+      <template name="NPCCharacter.spc_eleftheroi_leader_1" />
+      <template name="NPCCharacter.spc_eleftheroi_leader_2" />
+      <template name="NPCCharacter.spc_eleftheroi_leader_3" />
+    </rebellion_hero_templates>
+    <tournament_team_templates_one_participant>
+      <template name="NPCCharacter.tournament_template_empire_one_participant_set_v1" />
+    </tournament_team_templates_one_participant>
+    <tournament_team_templates_two_participant>
+      <template name="NPCCharacter.tournament_template_empire_two_participant_set_v1" />
+      <template name="NPCCharacter.tournament_template_empire_two_participant_set_v2" />
+      <template name="NPCCharacter.tournament_template_empire_two_participant_set_v3" />
+    </tournament_team_templates_two_participant>
+    <tournament_team_templates_four_participant>
+      <template name="NPCCharacter.tournament_template_empire_four_participant_set_v1" />
+      <template name="NPCCharacter.tournament_template_empire_four_participant_set_v2" />
+      <template name="NPCCharacter.tournament_template_empire_four_participant_set_v3" />
+    </tournament_team_templates_four_participant>
+    <basic_mercenary_troops>
+      <template name="NPCCharacter.Whitetower_warder1" />
+      <template name="NPCCharacter.western_mercenary" />
+      <template name="NPCCharacter.AesSedai3" />
+    </basic_mercenary_troops>
+  </Culture>
+  <Culture id="black" name="{=blacktowerfaction}Asha'man" is_main_culture="false" color="0xff000000" color2="0xffFFA41C" elite_basic_troop="NPCCharacter.Ashaman1" basic_troop="NPCCharacter.Militia1" melee_militia_troop="NPCCharacter.Militia1" ranged_militia_troop="NPCCharacter.Ashaman1" melee_elite_militia_troop="NPCCharacter.Militia3" ranged_elite_militia_troop="NPCCharacter.Ashaman3" can_have_settlement="true" villager_party_template="PartyTemplate.villager_wetlands_template" default_party_template="PartyTemplate.kingdom_hero_party_blacktower_template" settlement_patrol_template_level_1="PartyTemplate.patrol_party_empire_template_level_1" settlement_patrol_template_level_2="PartyTemplate.patrol_party_empire_template_level_2" settlement_patrol_template_level_3="PartyTemplate.patrol_party_empire_template_level_3" militia_party_template="PartyTemplate.militia_blacktower_template" rebels_party_template="PartyTemplate.rebels_wetlands_template" vassal_reward_party_template="PartyTemplate.vassal_reward_troops_wetlands" prosperity_bonus="1" encounter_background_mesh="encounter_empire" faction_banner_key="11.143.35.1836.1836.768.788.1.0.-30.505.143.143.1647.215.796.942.1.0.0.505.100.100.1647.215.801.1107.1.0.0.505.100.100.1647.215.865.732.1.0.0.505.143.143.1647.215.869.578.1.0.0.505.100.100.1647.215.869.420.1.0.0.516.27.27.433.451.780.766.1.0.-1.213.142.142.110.243.775.779.1.0.-1" text="{=blacktowerculture}The Asha'man are men who can channel the One Power, who have been trained at the Black Tower. Rand al'Thor describes an asha'man as a man who defended truth and justice and right for everyone. A guardian who would not yield even when hope was gone." tournament_master="NPCCharacter.tournament_master_empire" villager="NPCCharacter.villager_wetlands" caravan_master="NPCCharacter.caravan_master_empire" armed_trader="NPCCharacter.armed_trader_empire" caravan_guard="NPCCharacter.caravan_guard_empire" veteran_caravan_guard="NPCCharacter.veteran_caravan_guard_empire" prison_guard="NPCCharacter.prison_guard_empire" guard="NPCCharacter.guard_empire" blacksmith="NPCCharacter.blacksmith_empire" weaponsmith="NPCCharacter.weaponsmith_empire" townswoman="NPCCharacter.townswoman_empire" townswoman_infant="NPCCharacter.townswoman_infant_empire" townswoman_child="NPCCharacter.townswoman_child_empire" townswoman_teenager="NPCCharacter.townswoman_teenager_empire" townsman="NPCCharacter.townsman_empire" townsman_infant="NPCCharacter.townsman_infant_empire" townsman_child="NPCCharacter.townsman_child_empire" village_woman="NPCCharacter.village_woman_empire" villager_male_child="NPCCharacter.villager_child_empire" villager_male_teenager="NPCCharacter.villager_teenager_empire" villager_female_child="NPCCharacter.village_woman_child_empire" villager_female_teenager="NPCCharacter.village_woman_teenager_empire" townsman_teenager="NPCCharacter.townsman_teenager_empire" ransom_broker="NPCCharacter.ransom_broker_empire" gangleader_bodyguard="NPCCharacter.gangleader_bodyguard_empire" merchant_notary="NPCCharacter.merchant_notary_empire" artisan_notary="NPCCharacter.artisan_notary_empire" preacher_notary="NPCCharacter.preacher_notary_empire" rural_notable_notary="NPCCharacter.rural_notable_notary_empire" shop_worker="NPCCharacter.shop_worker_empire" tavernkeeper="NPCCharacter.tavernkeeper_empire" taverngamehost="NPCCharacter.taverngamehost_empire" musician="NPCCharacter.musician_empire" tavern_wench="NPCCharacter.tavern_wench_empire" armorer="NPCCharacter.armorer_empire" horseMerchant="NPCCharacter.horseMerchant_empire" barber="NPCCharacter.barber_empire" merchant="NPCCharacter.merchant_empire" beggar="NPCCharacter.beggar_empire" female_beggar="NPCCharacter.female_beggar_empire" female_dancer="NPCCharacter.female_dancer_empire" default_stealth_equipment_roster="EquipmentRoster.default_stealth_equipment_roster" default_battle_equipment_roster="EquipmentRoster.WOTashamancharacterCivil" default_civilian_equipment_roster="EquipmentRoster.WOTashamancharacterCivil" duel_preset_equipment_roster="EquipmentRoster.emp_duel_preset_template" board_game_type="Tablut" marriage_bride_equipment_roster="EquipmentRoster.marriage_female_emp_cutscene_template" default_character_creation_body_property="BodyProperty.default_character_creation_body_property_empire" start_point_position_x="377.95" start_point_position_y="402.08">
+    <caravan_party_templates>
+      <caravan_party_template id="PartyTemplate.caravan_template_wetlands" />
+    </caravan_party_templates>
+    <elite_caravan_party_templates>
+      <caravan_party_template id="PartyTemplate.elite_caravan_template_wetlands" />
+    </elite_caravan_party_templates>
+    <available_ship_hulls></available_ship_hulls>
+    <vassal_reward_items>
+      <item id="Item.OnepowerBlossomMulti" />
+    </vassal_reward_items>
+    <banner_bearer_replacement_weapons>
+      <item id="Item.iron_spatha_sword_t2" />
+      <item id="Item.empire_sword_1_t2" />
+      <item id="Item.empire_sword_2_t3" />
+      <item id="Item.empire_sword_6_t5" />
+    </banner_bearer_replacement_weapons>
+    <default_policies>
+      <policy id="policy_senate" />
+    </default_policies>
+    <male_names>
+      <name name="{=v9B50R0Q}Acarion" />
+      <name name="{=aeLgc0cU}Acthon" />
+      <name name="{=tWDyWroN}Amnon" />
+      <name name="{=uTFjknE2}Andros" />
+      <name name="{=fXgftgNv}Aphanys" />
+      <name name="{=QjJAbaoT}Apys" />
+      <name name="{=zInIqBD0}Arenicos" />
+      <name name="{=W1uwgvAQ}Arion" />
+      <name name="{=5VzWRMTn}Artimendros" />
+      <name name="{=rGuYLmez}Ascyron" />
+      <name name="{=J1nh9YiN}Atilon" />
+      <name name="{=NBAGX54b}Avigos" />
+      <name name="{=9cDw6vPF}Cadomenos" />
+      <name name="{=R11i2uVl}Calytos" />
+      <name name="{=lD1sl2XC}Camnon" />
+      <name name="{=LP7yYoGQ}Caribos" />
+      <name name="{=VhbasI9J}Castor" />
+      <name name="{=VG9ng2n2}Chandion" />
+      <name name="{=aezwJGvY}Chenon" />
+      <name name="{=acp2IcMs}Crotor" />
+      <name name="{=XKxeaF0I}Dalidos" />
+      <name name="{=pCBkH35Q}Danos" />
+      <name name="{=2OJEyP0d}Dasys" />
+      <name name="{=SoTUisL3}Deltisos" />
+      <name name="{=2uKoNaSG}Denos" />
+      <name name="{=HfuAdGQX}Destor" />
+      <name name="{=lEHtUGed}Diocosos" />
+      <name name="{=5EiKEdi5}Dorion" />
+      <name name="{=yAZC6F7P}Ecsorios" />
+      <name name="{=hyOgAehG}Emarys" />
+      <name name="{=rUvnbDi2}Encurion" />
+      <name name="{=KjzJjj5n}Eronys" />
+      <name name="{=gYit4RTe}Euchor" />
+      <name name="{=oQCZp9qv}Eumenys" />
+      <name name="{=uW38UtSH}Eupitor" />
+      <name name="{=WfAuSpJq}Eutos" />
+      <name name="{=RyorjCXF}Galon" />
+      <name name="{=ZFlIT1tH}Ganimynos" />
+      <name name="{=f3hTGKIP}Garitops" />
+      <name name="{=nqxxr9We}Gavalon" />
+      <name name="{=iDxygnVF}Gerotheon" />
+      <name name="{=rFbAjSWM}Gorigos" />
+      <name name="{=NxDJcR2c}Haratheos" />
+      <name name="{=tgVJZ1Uc}Hecaron" />
+      <name name="{=wQJGxBJI}Hophtalamos" />
+      <name name="{=4lEEqyCg}Jacorios" />
+      <name name="{=DwzrsJxS}Jamanys" />
+      <name name="{=IU63oxWD}Jemynon" />
+      <name name="{=t1OpnZph}Jeremos" />
+      <name name="{=katzUyMI}Joron" />
+      <name name="{=GWaJ7Ksq}Joculos" />
+      <name name="{=iJvIH6NP}Jutheros" />
+      <name name="{=BCy1KpvR}Lacalion" />
+      <name name="{=6LMiTKZz}Lamenon" />
+      <name name="{=F13aYbuk}Lavalios" />
+      <name name="{=NFIQZOPQ}Leosios" />
+      <name name="{=lbTMVAcI}Lerosion" />
+      <name name="{=bHbR5Mgy}Losys" />
+      <name name="{=CbxLZdVg}Lycos" />
+      <name name="{=HCXHcBzT}Mattis" />
+      <name name="{=X21PahQn}Menaclys" />
+      <name name="{=am2UnbAK}Menor" />
+      <name name="{=tTuaiLS6}Meritor" />
+      <name name="{=qqW5n5Ox}Milos" />
+      <name name="{=5yFy4U4i}Morynon" />
+      <name name="{=ud6rhXbn}Mostiros" />
+      <name name="{=04zSjaRe}Nartiros" />
+      <name name="{=FF3dQKc1}Nethor" />
+      <name name="{=u1lTJoPO}Nemos" />
+      <name name="{=sDFb1PRI}Nortos" />
+      <name name="{=QGIAbglw}Obron" />
+      <name name="{=AEaRpupL}Ocheros" />
+      <name name="{=ZmQx4gT3}Olichor" />
+      <name name="{=pq0w8kry}Orachos" />
+      <name name="{=JFVseSa3}Oros" />
+      <name name="{=7UkzXWTQ}Osarios" />
+      <name name="{=cZIhxH9e}Pacarios" />
+      <name name="{=9sokmYMZ}Padmos" />
+      <name name="{=NXOOJs2X}Patrys" />
+      <name name="{=plx8kkxa}Pelicos" />
+      <name name="{=1cKxsHSh}Penton" />
+      <name name="{=vgBRa2BE}Poraclys" />
+      <name name="{=q186AQHt}Phadon" />
+      <name name="{=yhfJVEe0}Phelenos" />
+      <name name="{=LMWiJi6V}Phirentos" />
+      <name name="{=XZxIpCQH}Phorys" />
+      <name name="{=VJbAdJe4}Purios" />
+      <name name="{=M9CWBbMe}Rhanos" />
+      <name name="{=P1zsoSPN}Rhovarion" />
+      <name name="{=Ho6zsGTI}Sachanion" />
+      <name name="{=5eTb2xr7}Sanion" />
+      <name name="{=Zm4a2xsf}Salusios" />
+      <name name="{=egCbjHDT}Semnon" />
+      <name name="{=GeJobcre}Sinor" />
+      <name name="{=E4WhEvu7}Sotherys" />
+      <name name="{=FClEZIkT}Sovos" />
+      <name name="{=rVUhYuvE}Suterios" />
+      <name name="{=PDK4FHAx}Suvys" />
+      <name name="{=Axe5FkET}Talison" />
+      <name name="{=PR4IqkTW}Temeon" />
+      <name name="{=9xyXdX4I}Tharos" />
+      <name name="{=zfUhnG7y}Themestios" />
+      <name name="{=9mQuSI3c}Thucasys" />
+      <name name="{=P7iNhhPl}Turiados" />
+      <name name="{=kfNW01y5}Tynops" />
+      <name name="{=amlzciqP}Ucasios" />
+      <name name="{=wbJzSg3X}Ulbesos" />
+      <name name="{=SRncaw79}Urios" />
+      <name name="{=pRbKbPK3}Vadrios" />
+      <name name="{=TiJOjUi5}Valaos" />
+      <name name="{=5nEh20ju}Vasylops" />
+      <name name="{=VN1D1Qps}Velanor" />
+      <name name="{=QNtdUfis}Vemioros" />
+      <name name="{=bWb245zO}Voleos" />
+      <name name="{=aH2ncPbK}Zalasos" />
+      <name name="{=WTePYMNF}Zaraclys" />
+      <name name="{=p0hcyZdp}Zenon" />
+      <name name="{=3RBVn5yi}Zoros" />
+      <name name="{=uCyAnus4}Zostios" />
+      <name name="{=7hYr7jQ7}Leutros" />
+      <name name="{=e7dayl1i}Mavinon" />
+      <name name="{=3EZMoUlp}Narmys" />
+      <name name="{=PvoTcJHa}Naselos" />
+      <name name="{=QumqvLnP}Ochivos" />
+      <name name="{=gxHrt6bC}Phamynor" />
+      <name name="{=6IDmRZ5k}Phestos" />
+      <name name="{=ek1Q2TJz}Polon" />
+    </male_names>
+    <female_names>
+      <name name="{=h8DsXm7X}Achena" />
+      <name name="{=BNnLbOkN}Adinea" />
+      <name name="{=EGatdCLg}Alena" />
+      <name name="{=UPaP0B2L}Alchyla" />
+      <name name="{=QyXwJXIV}Andrasa" />
+      <name name="{=NM5f1Q6I}Ariada" />
+      <name name="{=3RbayfTG}Ascytala" />
+      <name name="{=bmHAYBwX}Catila" />
+      <name name="{=AdK4Ilzw}Chalia" />
+      <name name="{=xVSOKf0p}Chara" />
+      <name name="{=915frsPd}Corena" />
+      <name name="{=KPQqENbd}Carinila" />
+      <name name="{=BNuZ6nvd}Daniria" />
+      <name name="{=sEgUB3jW}Deasora" />
+      <name name="{=YBGCXSEx}Debana" />
+      <name name="{=93hivVp6}Donysa" />
+      <name name="{=0dHy2430}Echalera" />
+      <name name="{=Oy5dH7gZ}Elea" />
+      <name name="{=2YbgWjTK}Emyna" />
+      <name name="{=rA3KybBX}Ethirea" />
+      <name name="{=qiTtJyHE}Gala" />
+      <name name="{=fGmpS0Dr}Gandarina" />
+      <name name="{=ecJRFHyY}Gisetha" />
+      <name name="{=a6qaFH7L}Herena" />
+      <name name="{=LE9mRhSs}Hespedia" />
+      <name name="{=tGhrpQ0D}Hyradia" />
+      <name name="{=0MJi7mre}Hyscasia" />
+      <name name="{=JQdqGaaB}Isibala" />
+      <name name="{=RHXdqjQY}Ilina" />
+      <name name="{=HSlPLC4m}Ira" />
+      <name name="{=PNR2CvvX}Ithicala" />
+      <name name="{=eOHeCKxn}Jespara" />
+      <name name="{=6vtmYjTW}Jolanna" />
+      <name name="{=Ew69yN84}Juthys" />
+      <name name="{=028iCb8B}Jythea" />
+      <name name="{=Jif1C3X3}Laria" />
+      <name name="{=LX1YS9DW}Lasilea" />
+      <name name="{=2oy7atk6}Lundana" />
+      <name name="{=dwFZFQ6V}Lysica" />
+      <name name="{=2fYYfHUI}Martira" />
+      <name name="{=cqSaKXzl}Matha" />
+      <name name="{=Vxt0xTvV}Mavea" />
+      <name name="{=lgvtLEDA}Melchea" />
+      <name name="{=QvfUqzpF}Mina" />
+      <name name="{=11KckWau}Mitara" />
+      <name name="{=IJlw8V5D}Mystesa" />
+      <name name="{=uLjRHv9p}Nadea" />
+      <name name="{=hreO0wwb}Nerhea" />
+      <name name="{=04dAbdjM}Nyvia" />
+      <name name="{=dLOlnl8m}Palysira" />
+      <name name="{=pXBvPxHI}Penestea" />
+      <name name="{=FUT6eXfw}Phaea" />
+      <name name="{=WrAMfIG1}Phenoria" />
+      <name name="{=uYbmhjI6}Rhamira" />
+      <name name="{=BIAEZaVx}Rhandana" />
+      <name name="{=H7oJaxqM}Rhelasa" />
+      <name name="{=XMTD2clw}Rhoe" />
+      <name name="{=0XEaaoah}Rosazia" />
+      <name name="{=L9weGfoX}Salea" />
+      <name name="{=nSoJkeBI}Sittacea" />
+      <name name="{=V1QLbhRl}Sora" />
+      <name name="{=qMJ7UZvk}Surena" />
+      <name name="{=gmD9mgR1}Synira" />
+      <name name="{=Cxazvjr3}Tamarea" />
+      <name name="{=b2aRoXsb}Tessa" />
+      <name name="{=bQKbW8Tx}Thasyna" />
+      <name name="{=YVVCaQE5}Thera" />
+      <name name="{=CvVJyKYA}Thelea" />
+      <name name="{=jJV5Tn09}Tethyclesa" />
+      <name name="{=e4jAHUX0}Tymata" />
+      <name name="{=z2KE7glc}Thylea" />
+      <name name="{=3bIc2X2l}Vaminesa" />
+      <name name="{=VzhbUL60}Vendelia" />
+      <name name="{=a2ajWcI3}Viria" />
+      <name name="{=5VZ0GF6Y}Zalisa" />
+      <name name="{=wbLqHvjE}Zerosica" />
+      <name name="{=zxZH2WbD}Zimena" />
+      <name name="{=AccBcEIt}Zoana" />
+    </female_names>
+    <clan_names>
+      <name name="{=pRA9EzNv}Acapanos" />
+      <name name="{=vdOWVAoz}Altesios" />
+      <name name="{=ogq9oxDn}Angarys" />
+      <name name="{=TNI6qRbQ}Astrethides" />
+      <name name="{=NTRPMben}Atragorys" />
+      <name name="{=MgDUudOx}Balastisos" />
+      <name name="{=t36SVqzP}Bustamys" />
+      <name name="{=xyKumbJI}Calastides" />
+      <name name="{=Rvww4Kxi}Corstases" />
+      <name name="{=jhlwsyqq}Chromasos" />
+      <name name="{=kWiQaFLM}Delicos" />
+      <name name="{=aaOSBHrI}Dinamontes" />
+      <name name="{=DiB4ukeK}Elysos" />
+      <name name="{=7lixVdYb}Erchisasos" />
+      <name name="{=FakFqJf1}Eurtimides" />
+      <name name="{=pUvrTrHT}Gessios" />
+      <name name="{=sgIlIqrI}Goronos" />
+      <name name="{=fsOUhzLv}Jalos" />
+      <name name="{=GcgpbmWB}Jintasos" />
+      <name name="{=IK7uQU2p}Lasirys" />
+      <name name="{=CuocGtTq}Lestharos" />
+      <name name="{=w4u0LxQb}Lovanides" />
+      <name name="{=lsOtNjxl}Manitesos" />
+      <name name="{=FVl3D2qT}Meones" />
+      <name name="{=8CQuY3RO}Munitides" />
+      <name name="{=fAKa9JfU}Nathanys" />
+      <name name="{=HSpdZCr5}Nebranos" />
+      <name name="{=024kHRwG}Nomanides" />
+      <name name="{=RhwPmahK}Opynates" />
+      <name name="{=E1NB09bP}Otsamides" />
+      <name name="{=PbxaX8F5}Othalotos" />
+      <name name="{=OL6fbZRY}Paltos" />
+      <name name="{=ild3wLKb}Pylitax" />
+      <name name="{=eRg4Ngl1}Pharchasys" />
+      <name name="{=HPrHkie6}Phenigos" />
+      <name name="{=XWqBgFzc}Phorides" />
+      <name name="{=Yl3c9WaM}Salastrys" />
+      <name name="{=DYdI0faN}Stracanasthes" />
+      <name name="{=g7etVhSO}Sumessos" />
+      <name name="{=U9kQ2sTU}Tasyx" />
+      <name name="{=lMxYCQYF}Teminides" />
+      <name name="{=oGf1fUpP}Therycos" />
+      <name name="{=AeNqteUX}Zebales" />
+      <name name="{=63ZZltcm}Zalastros" />
+    </clan_names>
+    <cultural_feats>
+      <feat id="empire_decreased_garrison_wage" />
+      <feat id="empire_army_influence" />
+      <feat id="empire_slower_hearth_production" />
+    </cultural_feats>
+    <possible_clan_banner_icon_ids>
+      <icon id="100" />
+      <icon id="101" />
+      <icon id="102" />
+      <icon id="103" />
+      <icon id="104" />
+      <icon id="105" />
+      <icon id="106" />
+      <icon id="107" />
+      <icon id="108" />
+      <icon id="109" />
+      <icon id="110" />
+      <icon id="119" />
+      <icon id="147" />
+      <icon id="148" />
+      <icon id="152" />
+      <icon id="200" />
+      <icon id="201" />
+      <icon id="202" />
+      <icon id="203" />
+      <icon id="204" />
+      <icon id="205" />
+      <icon id="206" />
+      <icon id="207" />
+      <icon id="208" />
+      <icon id="209" />
+      <icon id="210" />
+      <icon id="211" />
+      <icon id="212" />
+      <icon id="213" />
+      <icon id="214" />
+      <icon id="215" />
+      <icon id="216" />
+      <icon id="217" />
+      <icon id="218" />
+      <icon id="219" />
+      <icon id="220" />
+      <icon id="221" />
+      <icon id="222" />
+      <icon id="223" />
+      <icon id="400" />
+    </possible_clan_banner_icon_ids>
+    <notable_templates>
+      <template name="NPCCharacter.spc_notable_empire_0" />
+      <template name="NPCCharacter.spc_notable_empire_0b" />
+      <template name="NPCCharacter.spc_notable_empire_1" />
+      <template name="NPCCharacter.spc_notable_empire_1b" />
+      <template name="NPCCharacter.spc_notable_empire_2" />
+      <template name="NPCCharacter.spc_notable_empire_2b" />
+      <template name="NPCCharacter.spc_notable_empire_3" />
+      <template name="NPCCharacter.spc_notable_empire_3b" />
+      <template name="NPCCharacter.spc_notable_empire_4" />
+      <template name="NPCCharacter.spc_notable_empire_4b" />
+      <template name="NPCCharacter.spc_notable_empire_5" />
+      <template name="NPCCharacter.spc_notable_empire_6" />
+      <template name="NPCCharacter.spc_notable_empire_7" />
+      <template name="NPCCharacter.spc_notable_empire_8" />
+      <template name="NPCCharacter.spc_notable_empire_9" />
+      <template name="NPCCharacter.spc_notable_empire_10" />
+      <template name="NPCCharacter.spc_notable_empire_11" />
+      <template name="NPCCharacter.spc_notable_empire_12" />
+      <template name="NPCCharacter.spc_notable_empire_13" />
+      <template name="NPCCharacter.spc_notable_empire_21" />
+      <template name="NPCCharacter.spc_notable_empire_22" />
+      <template name="NPCCharacter.spc_notable_empire_gl1" />
+      <template name="NPCCharacter.spc_notable_empire_gl4" />
+      <template name="NPCCharacter.spc_empire_headman_1" />
+      <template name="NPCCharacter.spc_empire_headman_2" />
+      <template name="NPCCharacter.spc_empire_headman_3" />
+    </notable_templates>
+    <lord_templates>
+      <template name="NPCCharacter.spc_legion_of_the_betrayed_leader_0" />
+      <template name="NPCCharacter.spc_legion_of_the_betrayed_leader_1" />
+      <template name="NPCCharacter.spc_legion_of_the_betrayed_leader_2" />
+      <template name="NPCCharacter.spc_legion_of_the_betrayed_leader_3" />
+      <template name="NPCCharacter.spc_hidden_hand_leader_0" />
+      <template name="NPCCharacter.spc_hidden_hand_leader_1" />
+      <template name="NPCCharacter.spc_hidden_hand_leader_2" />
+      <template name="NPCCharacter.spc_hidden_hand_leader_3" />
+      <template name="NPCCharacter.spc_embers_of_flame_leader_0" />
+      <template name="NPCCharacter.spc_embers_of_flame_leader_1" />
+      <template name="NPCCharacter.spc_embers_of_flame_leader_2" />
+      <template name="NPCCharacter.spc_embers_of_flame_leader_3" />
+      <template name="NPCCharacter.spc_eleftheroi_leader_0" />
+      <template name="NPCCharacter.spc_eleftheroi_leader_1" />
+      <template name="NPCCharacter.spc_eleftheroi_leader_2" />
+      <template name="NPCCharacter.spc_eleftheroi_leader_3" />
+    </lord_templates>
+    <rebellion_hero_templates>
+      <template name="NPCCharacter.spc_legion_of_the_betrayed_leader_0" />
+      <template name="NPCCharacter.spc_legion_of_the_betrayed_leader_1" />
+      <template name="NPCCharacter.spc_legion_of_the_betrayed_leader_2" />
+      <template name="NPCCharacter.spc_legion_of_the_betrayed_leader_3" />
+      <template name="NPCCharacter.spc_hidden_hand_leader_0" />
+      <template name="NPCCharacter.spc_hidden_hand_leader_1" />
+      <template name="NPCCharacter.spc_hidden_hand_leader_2" />
+      <template name="NPCCharacter.spc_hidden_hand_leader_3" />
+      <template name="NPCCharacter.spc_embers_of_flame_leader_0" />
+      <template name="NPCCharacter.spc_embers_of_flame_leader_1" />
+      <template name="NPCCharacter.spc_embers_of_flame_leader_2" />
+      <template name="NPCCharacter.spc_embers_of_flame_leader_3" />
+      <template name="NPCCharacter.spc_eleftheroi_leader_0" />
+      <template name="NPCCharacter.spc_eleftheroi_leader_1" />
+      <template name="NPCCharacter.spc_eleftheroi_leader_2" />
+      <template name="NPCCharacter.spc_eleftheroi_leader_3" />
+    </rebellion_hero_templates>
+    <tournament_team_templates_one_participant>
+      <template name="NPCCharacter.tournament_template_empire_one_participant_set_v1" />
+    </tournament_team_templates_one_participant>
+    <tournament_team_templates_two_participant>
+      <template name="NPCCharacter.tournament_template_empire_two_participant_set_v1" />
+      <template name="NPCCharacter.tournament_template_empire_two_participant_set_v2" />
+      <template name="NPCCharacter.tournament_template_empire_two_participant_set_v3" />
+    </tournament_team_templates_two_participant>
+    <tournament_team_templates_four_participant>
+      <template name="NPCCharacter.tournament_template_empire_four_participant_set_v1" />
+      <template name="NPCCharacter.tournament_template_empire_four_participant_set_v2" />
+      <template name="NPCCharacter.tournament_template_empire_four_participant_set_v3" />
+    </tournament_team_templates_four_participant>
+    <basic_mercenary_troops>
+      <template name="NPCCharacter.eastern_mercenary" />
+      <template name="NPCCharacter.western_mercenary" />
+      <template name="NPCCharacter.sword_sisters_sister_t3" />
+    </basic_mercenary_troops>
+  </Culture>
+  <!--Existing Cultures-->
+  <Culture id="sturgia" name="{=shadowfaction}The Dark One's Forces" is_main_culture="true" color="0xff1C2A50" color2="0xff949CCC" 
+		   elite_basic_troop="NPCCharacter.Darkfriend" basic_troop="NPCCharacter.Trollocla" 
+		   melee_militia_troop="NPCCharacter.Trollocla" ranged_militia_troop="NPCCharacter.Trolloc2a" 
+		   melee_elite_militia_troop="NPCCharacter.Trolloclc" ranged_elite_militia_troop="NPCCharacter.Dreadlord1" 
+		   can_have_settlement="true" villager_party_template="PartyTemplate.villager_shadow_template" 
+		   default_party_template="PartyTemplate.kingdom_hero_party_shadow_template" 
+		   settlement_patrol_template_level_1="PartyTemplate.patrol_party_sturgia_template_level_1" 
+		   settlement_patrol_template_level_2="PartyTemplate.patrol_party_sturgia_template_level_2" 
+		   settlement_patrol_template_level_3="PartyTemplate.patrol_party_sturgia_template_level_3" 
+		   encounter_background_mesh="encounter_sturgia" faction_banner_key="11.12.12.4345.4345.764.764.1.0.0.462.13.13.512.512.764.764.1.0.0" 
+		   militia_party_template="PartyTemplate.militia_shadow_template" rebels_party_template="PartyTemplate.rebels_shadow_template" 
+		   vassal_reward_party_template="PartyTemplate.vassal_reward_troops_shadow" 
+		   text="{=Shadowculture}Shadowspawn is a generic term for creatures of the Dark One. The Aiel use the term Shadowwrought instead.  Different varieties often have very little in common with each other except that nearly all of them will instantly die if they attempt to pass through a gateway.    Most are a form of artificially created life which were known as constructs in the Age of Legends, and virtually all were created by the Forsaken known as Aginor.    Others were created later by Dreadlords." 
+		   tournament_master="NPCCharacter.tournament_master_sturgia" villager="NPCCharacter.villager_shadow" caravan_master="NPCCharacter.caravan_master_sturgia" 
+		   armed_trader="NPCCharacter.armed_trader_sturgia" caravan_guard="NPCCharacter.caravan_guard_sturgia" veteran_caravan_guard="NPCCharacter.veteran_caravan_guard_sturgia" 
+		   prison_guard="NPCCharacter.prison_guard_sturgia" guard="NPCCharacter.guard_sturgia" blacksmith="NPCCharacter.blacksmith_sturgia" weaponsmith="NPCCharacter.weaponsmith_sturgia" 
+		   townswoman="NPCCharacter.townswoman_sturgia" townswoman_infant="NPCCharacter.townswoman_infant_sturgia" townswoman_child="NPCCharacter.townswoman_child_sturgia" 
+		   townswoman_teenager="NPCCharacter.townswoman_teenager_sturgia" townsman="NPCCharacter.townsman_sturgia" townsman_infant="NPCCharacter.townsman_infant_sturgia" 
+		   townsman_child="NPCCharacter.townsman_child_sturgia" townsman_teenager="NPCCharacter.townsman_teenager_sturgia" village_woman="NPCCharacter.village_woman_sturgia" 
+		   villager_male_child="NPCCharacter.villager_child_sturgia" villager_male_teenager="NPCCharacter.villager_teenager_sturgia" villager_female_child="NPCCharacter.village_woman_child_sturgia" 
+		   villager_female_teenager="NPCCharacter.village_woman_teenager_sturgia" ransom_broker="NPCCharacter.ransom_broker_sturgia" gangleader_bodyguard="NPCCharacter.gangleader_bodyguard_sturgia" 
+		   merchant_notary="NPCCharacter.merchant_notary_sturgia" artisan_notary="NPCCharacter.artisan_notary_sturgia" preacher_notary="NPCCharacter.preacher_notary_sturgia" 
+		   rural_notable_notary="NPCCharacter.rural_notable_notary_sturgia" shop_worker="NPCCharacter.shop_worker_sturgia" tavernkeeper="NPCCharacter.tavernkeeper_sturgia" 
+		   taverngamehost="NPCCharacter.taverngamehost_sturgia" musician="NPCCharacter.musician_sturgia" tavern_wench="NPCCharacter.tavern_wench_sturgia" armorer="NPCCharacter.armorer_sturgia" 
+		   horseMerchant="NPCCharacter.horseMerchant_sturgia" barber="NPCCharacter.barber_sturgia" merchant="NPCCharacter.merchant_sturgia" beggar="NPCCharacter.beggar_sturgia" 
+		   female_beggar="NPCCharacter.female_beggar_sturgia" female_dancer="NPCCharacter.female_dancer_sturgia" 
+		   default_stealth_equipment_roster="EquipmentRoster.default_stealth_equipment_roster" 
+		   default_battle_equipment_roster="EquipmentRoster.stu_civ_template_default" 
+		   default_civilian_equipment_roster="EquipmentRoster.stu_civ_template_default" 
+		   duel_preset_equipment_roster="EquipmentRoster.stu_duel_preset_template" board_game_type="Konane" 
+		   marriage_bride_equipment_roster="EquipmentRoster.marriage_female_stu_cutscene_template" 
+		   default_character_creation_body_property="BodyProperty.default_character_creation_body_property_sturgia" 
+		   start_point_position_x="572.00" start_point_position_y="726.00">
+    <caravan_party_templates>
+      <caravan_party_template id="PartyTemplate.caravan_template_shadow" />
+    </caravan_party_templates>
+    <elite_caravan_party_templates>
+      <caravan_party_template id="PartyTemplate.elite_caravan_template_shadow" />
+    </elite_caravan_party_templates>
+    <available_ship_hulls></available_ship_hulls>
+    <vassal_reward_items>
+      <item id="Item.Myrddraalblade1" />
+    </vassal_reward_items>
+    <banner_bearer_replacement_weapons>
+      <item id="Item.sturgia_sword_1_t2" />
+      <item id="Item.sturgia_sword_2_t3" />
+      <item id="Item.sturgia_sword_4_t4" />
+      <item id="Item.sturgia_sword_5_t5" />
+    </banner_bearer_replacement_weapons>
+    <default_policies>
+      <policy id="policy_lawspeakers" />
+      <policy id="policy_precarial_land_tenure" />
+    </default_policies>
+    <male_names>
+      <name name="{=WOTMN001Mixs}Archard" />
+      <name name="{=WOTMN002Mixs}Aengus" />
+      <name name="{=WOTMN003Mixs}Arlotto" />
+      <name name="{=WOTMN004Mixs}Bate" />
+      <name name="{=WOTMN005Mixs}Bogumir" />
+      <name name="{=WOTMN006Mixs}Bradan" />
+      <name name="{=WOTMN007Mixs}Col" />
+      <name name="{=WOTMN008Mixs}Cunmin" />
+      <name name="{=WOTMN009Mixs}Daw" />
+      <name name="{=WOTMN010Mixs}Dmitrii" />
+      <name name="{=WOTMN011Mixs}Elric" />
+      <name name="{=WOTMN012Mixs}Eudes" />
+      <name name="{=WOTMN013Mixs}Firmin" />
+      <name name="{=WOTMN014Mixs}Garsea" />
+      <name name="{=WOTMN015Mixs}Gjurd" />
+      <name name="{=WOTMN016Mixs}Gomes" />
+      <name name="{=WOTMN017Mixs}Hamo" />
+      <name name="{=WOTMN018Mixs}Hann" />
+      <name name="{=WOTMN019Mixs}Hob" />
+      <name name="{=WOTMN020Mixs}Igori" />
+      <name name="{=WOTMN021Mixs}Jan" />
+      <name name="{=WOTMN022Mixs}Jehan" />
+      <name name="{=WOTMN023Mixs}Kirilu" />
+      <name name="{=WOTMN024Mixs}Larkin" />
+      <name name="{=WOTMN025Mixs}Lorenico" />
+      <name name="{=WOTMN026Mixs}Mack" />
+      <name name="{=WOTMN027Mixs}Mojmir" />
+      <name name="{=WOTMN028Mixs}Nicol" />
+      <name name="{=WOTMN029Mixs}Nuno" />
+      <name name="{=WOTMN030Mixs}Ode" />
+      <name name="{=WOTMN031Mixs}Onfroi" />
+      <name name="{=WOTMN032Mixs}Piers" />
+      <name name="{=WOTMN033Mixs}Priboslav" />
+      <name name="{=WOTMN034Mixs}Ragnall" />
+      <name name="{=WOTMN035Mixs}Roul" />
+      <name name="{=WOTMN036Mixs}Sanjar" />
+      <name name="{=WOTMN037Mixs}Stanislaus" />
+      <name name="{=WOTMN038Mixs}Tancred" />
+      <name name="{=WOTMN039Mixs}Temur" />
+      <name name="{=WOTMN040Mixs}Trahern" />
+      <name name="{=WOTMN041Mixs}Tudur" />
+      <name name="{=WOTMN042Mixs}Vasilii" />
+      <name name="{=WOTMN043Mixs}Velasco" />
+      <name name="{=WOTMN044Mixs}Vitislav" />
+      <name name="{=WOTMN045Mixs}Wace" />
+      <name name="{=WOTMN046Mixs}Wilmot" />
+      <name name="{=WOTMN047Mixs}Yrian" />
+      <name name="{=WOTMN048Mixs}Zuan" />
+      <name name="{=WOTMN049Mixs}Sans" />
+      <name name="{=WOTMN050Mixs}Ranulf" />
+      <name name="{=WOTMN051Mixs}Pate" />
+      <name name="{=WOTMN052Mixs}Nascimbene" />
+      <name name="{=WOTMN053Mixs}Maelgwn" />
+      <name name="{=WOTMN054Mixs}Khubilai" />
+      <name name="{=WOTMN055Mixs}Jurian" />
+      <name name="{=WOTMN056Mixs}Jankin" />
+      <name name="{=WOTMN057Mixs}Hudde" />
+      <name name="{=WOTMN058Mixs}Gwenhael" />
+      <name name="{=WOTMN059Mixs}Geoffroi" />
+      <name name="{=WOTMN060Mixs}Elis" />
+    </male_names>
+    <female_names>
+      <name name="{=WOTFN001Mixs}Aalis" />
+      <name name="{=WOTFN002Mixs}Aithbhreac" />
+      <name name="{=WOTFN003Mixs}Aldith" />
+      <name name="{=WOTFN004Mixs}Aldreda" />
+      <name name="{=WOTFN005Mixs}Aldus" />
+      <name name="{=WOTFN006Mixs}Amee" />
+      <name name="{=WOTFN007Mixs}Amelia" />
+      <name name="{=WOTFN008Mixs}Amice" />
+      <name name="{=WOTFN009Mixs}Cateline" />
+      <name name="{=WOTFN010Mixs}Diot" />
+      <name name="{=WOTFN011Mixs}Dye" />
+      <name name="{=WOTFN012Mixs}Eda" />
+      <name name="{=WOTFN013Mixs}Etheldred" />
+      <name name="{=WOTFN014Mixs}Ethelfleda" />
+      <name name="{=WOTFN015Mixs}Hawise" />
+      <name name="{=WOTFN016Mixs}Ibb" />
+      <name name="{=WOTFN017Mixs}Isabeau" />
+      <name name="{=WOTFN018Mixs}Jehanne" />
+      <name name="{=WOTFN019Mixs}Jocosa" />
+      <name name="{=WOTFN020Mixs}Johanne" />
+      <name name="{=WOTFN021Mixs}Malle" />
+      <name name="{=WOTFN022Mixs}Matty" />
+      <name name="{=WOTFN023Mixs}Melisende" />
+      <name name="{=WOTFN024Mixs}Rohesia" />
+      <name name="{=WOTFN025Mixs}Oliga" />
+      <name name="{=WOTFN026Mixs}Tatjana" />
+      <name name="{=WOTFN027Mixs}Terese" />
+      <name name="{=WOTFN028Mixs}Sens" />
+      <name name="{=WOTFN029Mixs}Sunnifa" />
+      <name name="{=WOTFN030Mixs}Una" />
+      <name name="{=WOTFN031Mixs}Justina" />
+      <name name="{=WOTFN032Mixs}Katre" />
+      <name name="{=WOTFN033Mixs}Larisa" />
+      <name name="{=WOTFN034Mixs}Marina" />
+      <name name="{=WOTFN035Mixs}Nina" />
+      <name name="{=WOTFN036Mixs}Ona" />
+      <name name="{=WOTFN037Mixs}Rasa" />
+      <name name="{=WOTFN038Mixs}Rusne" />
+      <name name="{=WOTFN039Mixs}Ozlem" />
+      <name name="{=WOTFN040Mixs}Peri" />
+    </female_names>
+    <clan_names>
+      <name name="{=WOTCN001Mixs}Batraz" />
+      <name name="{=WOTCN002Mixs}Sosruko" />
+      <name name="{=WOTCN003Mixs}Herlequin" />
+      <name name="{=WOTCN004Mixs}Yeruslan" />
+      <name name="{=WOTCN005Mixs}Mael Coluim" />
+      <name name="{=WOTCN006Mixs}Mael Isu" />
+      <name name="{=WOTCN007Mixs}Pridbjorn" />
+      <name name="{=WOTCN008Mixs}Suero" />
+      <name name="{=WOTCN009Mixs}Tsagadai" />
+      <name name="{=WOTCN010Mixs}Uaithne" />
+      <name name="{=WOTCN011Mixs}Amphelise" />
+      <name name="{=WOTCN012Mixs}Kinborough" />
+      <name name="{=WOTCN013Mixs}Mahaut" />
+      <name name="{=WOTCN014Mixs}Tangwystl" />
+      <name name="{=WOTCN015Mixs}Saelaith" />
+      <name name="{=WOTCN016Mixs}Mesud" />
+      <name name="{=WOTCN017Mixs}Arzhang" />
+      <name name="{=WOTCN018Mixs}Sohrab" />
+      <name name="{=WOTCN019Mixs}Cefiro" />
+      <name name="{=WOTCN020Mixs}Endymion" />
+    </clan_names>
+    <cultural_feats>
+      <feat id="sturgian_increased_grain_production" />
+      <feat id="sturgian_decreased_army_influence_cost" />
+      <feat id="sturgian_increased_decision_penalty" />
+    </cultural_feats>
+    <possible_clan_banner_icon_ids>
+      <icon id="112" />
+      <icon id="113" />
+      <icon id="114" />
+      <icon id="115" />
+      <icon id="116" />
+      <icon id="117" />
+      <icon id="118" />
+      <icon id="132" />
+      <icon id="138" />
+      <icon id="139" />
+      <icon id="307" />
+      <icon id="331" />
+      <icon id="407" />
+      <icon id="408" />
+      <icon id="409" />
+      <icon id="410" />
+      <icon id="439" />
+      <icon id="440" />
+      <icon id="441" />
+      <icon id="442" />
+      <icon id="443" />
+      <icon id="444" />
+      <icon id="445" />
+    </possible_clan_banner_icon_ids>
+    <notable_templates>
+      <template name="NPCCharacter.spc_notable_sturgia_0" />
+      <template name="NPCCharacter.spc_notable_sturgia_0b" />
+      <template name="NPCCharacter.spc_notable_sturgia_1" />
+      <template name="NPCCharacter.spc_notable_sturgia_2" />
+      <template name="NPCCharacter.spc_notable_sturgia_2b" />
+      <template name="NPCCharacter.spc_notable_sturgia_3" />
+      <template name="NPCCharacter.spc_notable_sturgia_3b" />
+      <template name="NPCCharacter.spc_notable_sturgia_3c" />
+      <template name="NPCCharacter.spc_notable_sturgia_4" />
+      <template name="NPCCharacter.spc_notable_sturgia_5" />
+      <template name="NPCCharacter.spc_notable_sturgia_6" />
+      <template name="NPCCharacter.spc_notable_sturgia_7" />
+      <template name="NPCCharacter.spc_notable_sturgia_8" />
+      <template name="NPCCharacter.spc_notable_sturgia_9" />
+      <template name="NPCCharacter.spc_notable_sturgia_10" />
+      <template name="NPCCharacter.spc_sturgia_headman_1" />
+      <template name="NPCCharacter.spc_sturgia_headman_2" />
+      <template name="NPCCharacter.spc_sturgia_headman_3" />
+    </notable_templates>
+    <lord_templates>
+      <template name="NPCCharacter.spc_skolderbrotva_leader_0" />
+      <template name="NPCCharacter.spc_skolderbrotva_leader_1" />
+      <template name="NPCCharacter.spc_skolderbrotva_leader_2" />
+      <template name="NPCCharacter.spc_skolderbrotva_leader_3" />
+      <template name="NPCCharacter.spc_lakepike_leader_0" />
+      <template name="NPCCharacter.spc_lakepike_leader_1" />
+      <template name="NPCCharacter.spc_lakepike_leader_2" />
+      <template name="NPCCharacter.spc_lakepike_leader_3" />
+      <template name="NPCCharacter.spc_forest_people_leader_0" />
+      <template name="NPCCharacter.spc_forest_people_leader_1" />
+      <template name="NPCCharacter.spc_forest_people_leader_2" />
+      <template name="NPCCharacter.spc_forest_people_leader_3" />
+    </lord_templates>
+    <rebellion_hero_templates>
+      <template name="NPCCharacter.spc_skolderbrotva_leader_0" />
+      <template name="NPCCharacter.spc_skolderbrotva_leader_1" />
+      <template name="NPCCharacter.spc_skolderbrotva_leader_2" />
+      <template name="NPCCharacter.spc_skolderbrotva_leader_3" />
+      <template name="NPCCharacter.spc_lakepike_leader_0" />
+      <template name="NPCCharacter.spc_lakepike_leader_1" />
+      <template name="NPCCharacter.spc_lakepike_leader_2" />
+      <template name="NPCCharacter.spc_lakepike_leader_3" />
+      <template name="NPCCharacter.spc_forest_people_leader_0" />
+      <template name="NPCCharacter.spc_forest_people_leader_1" />
+      <template name="NPCCharacter.spc_forest_people_leader_2" />
+      <template name="NPCCharacter.spc_forest_people_leader_3" />
+    </rebellion_hero_templates>
+    <tournament_team_templates_one_participant>
+      <template name="NPCCharacter.tournament_template_sturgia_one_participant_set_v1" />
+      <template name="NPCCharacter.tournament_template_sturgia_one_participant_set_v2" />
+    </tournament_team_templates_one_participant>
+    <tournament_team_templates_two_participant>
+      <template name="NPCCharacter.tournament_template_sturgia_two_participant_set_v1" />
+      <template name="NPCCharacter.tournament_template_sturgia_two_participant_set_v2" />
+      <template name="NPCCharacter.tournament_template_sturgia_two_participant_set_v3" />
+    </tournament_team_templates_two_participant>
+    <tournament_team_templates_four_participant>
+      <template name="NPCCharacter.tournament_template_sturgia_four_participant_set_v1" />
+      <template name="NPCCharacter.tournament_template_sturgia_four_participant_set_v2" />
+      <template name="NPCCharacter.tournament_template_sturgia_four_participant_set_v3" />
+    </tournament_team_templates_four_participant>
+    <basic_mercenary_troops>
+      <template name="NPCCharacter.eastern_mercenary" />
+      <template name="NPCCharacter.western_mercenary" />
+      <template name="NPCCharacter.sword_sisters_sister_t3" />
+    </basic_mercenary_troops>
+  </Culture>
+  <Culture id="khuzait" name="{=borderlandsfaction}Borderlands" is_main_culture="true" color="0xff429081" color2="0xffEFC990" elite_basic_troop="NPCCharacter.noble_borderlands" basic_troop="NPCCharacter.Nomad1" melee_militia_troop="NPCCharacter.Nomad2" ranged_militia_troop="NPCCharacter.NomadBow1" melee_elite_militia_troop="NPCCharacter.Nomad4a" ranged_elite_militia_troop="NPCCharacter.NomadBow3a" can_have_settlement="true" villager_party_template="PartyTemplate.villager_borderlands_template" default_party_template="PartyTemplate.kingdom_hero_party_borderlands_template" settlement_patrol_template_level_1="PartyTemplate.patrol_party_khuzait_template_level_1" settlement_patrol_template_level_2="PartyTemplate.patrol_party_khuzait_template_level_2" settlement_patrol_template_level_3="PartyTemplate.patrol_party_khuzait_template_level_3" encounter_background_mesh="encounter_khuzait" faction_banner_key="11.10.10.1536.1536.764.764.1.0.0.461.11.11.497.497.764.764.1.0.0" militia_party_template="PartyTemplate.militia_borderlands_template" rebels_party_template="PartyTemplate.rebels_borderlands_template" vassal_reward_party_template="PartyTemplate.vassal_reward_troops_borderlands" text="{=v5bWtXj1}The Borderlands are the Westland nations which lie furthest to the north and directly border the Great Blight. For 3,000 years the nations of the Borderlands have guarded the Westlands against Shadowspawn from the Blight. The culture of the Borderlands is the most martial of all Westlands and many of the best soldiers hail from the Borderlands. Due to the Borderlanders' view that all humankind must stand together if the shadow is to be held back, as well as their widespread respect for combat prowess, Aes Sedai will find more appreciation in these lands than elsewhere." tournament_master="NPCCharacter.tournament_master_khuzait" villager="NPCCharacter.villager_borderlands" caravan_master="NPCCharacter.caravan_master_khuzait" armed_trader="NPCCharacter.armed_trader_khuzait" caravan_guard="NPCCharacter.caravan_guard_khuzait" veteran_caravan_guard="NPCCharacter.veteran_caravan_guard_khuzait" prison_guard="NPCCharacter.prison_guard_khuzait" guard="NPCCharacter.guard_khuzait" blacksmith="NPCCharacter.blacksmith_khuzait" weaponsmith="NPCCharacter.weaponsmith_khuzait" townswoman="NPCCharacter.townswoman_khuzait" townswoman_infant="NPCCharacter.townswoman_infant_khuzait" townswoman_child="NPCCharacter.townswoman_child_khuzait" townswoman_teenager="NPCCharacter.townswoman_teenager_khuzait" townsman="NPCCharacter.townsman_khuzait" townsman_infant="NPCCharacter.townsman_infant_khuzait" townsman_child="NPCCharacter.townsman_child_khuzait" townsman_teenager="NPCCharacter.townsman_teenager_khuzait" village_woman="NPCCharacter.village_woman_khuzait" villager_male_child="NPCCharacter.villager_child_khuzait" villager_male_teenager="NPCCharacter.villager_teenager_khuzait" villager_female_child="NPCCharacter.village_woman_child_khuzait" villager_female_teenager="NPCCharacter.village_woman_teenager_khuzait" ransom_broker="NPCCharacter.ransom_broker_khuzait" gangleader_bodyguard="NPCCharacter.gangleader_bodyguard_khuzait" merchant_notary="NPCCharacter.merchant_notary_khuzait" artisan_notary="NPCCharacter.artisan_notary_khuzait" preacher_notary="NPCCharacter.preacher_notary_khuzait" rural_notable_notary="NPCCharacter.rural_notable_notary_khuzait" shop_worker="NPCCharacter.shop_worker_khuzait" tavernkeeper="NPCCharacter.tavernkeeper_khuzait" taverngamehost="NPCCharacter.taverngamehost_khuzait" musician="NPCCharacter.musician_khuzait" tavern_wench="NPCCharacter.tavern_wench_khuzait" armorer="NPCCharacter.armorer_khuzait" horseMerchant="NPCCharacter.horseMerchant_khuzait" barber="NPCCharacter.barber_khuzait" merchant="NPCCharacter.merchant_khuzait" beggar="NPCCharacter.beggar_khuzait" female_beggar="NPCCharacter.female_beggar_khuzait" female_dancer="NPCCharacter.female_dancer_khuzait" default_battle_equipment_roster="EquipmentRoster.khu_civ_template_default" default_civilian_equipment_roster="EquipmentRoster.khu_civ_template_default" default_stealth_equipment_roster="EquipmentRoster.default_stealth_equipment_roster" duel_preset_equipment_roster="EquipmentRoster.khu_duel_preset_template" board_game_type="Puluc" marriage_bride_equipment_roster="EquipmentRoster.marriage_female_khu_cutscene_template" default_character_creation_body_property="BodyProperty.default_character_creation_body_property_khuzait" start_point_position_x="522.03" start_point_position_y="581.08">
+    <caravan_party_templates>
+      <caravan_party_template id="PartyTemplate.caravan_template_borderlands" />
+    </caravan_party_templates>
+    <elite_caravan_party_templates>
+      <caravan_party_template id="PartyTemplate.elite_caravan_template_borderlands" />
+    </elite_caravan_party_templates>
+    <available_ship_hulls></available_ship_hulls>
+    <vassal_reward_items>
+      <item id="Item.steppe_war_bow" />
+    </vassal_reward_items>
+    <banner_bearer_replacement_weapons>
+      <item id="Item.khuzait_sword_1_t2" />
+      <item id="Item.khuzait_sword_2_t3" />
+      <item id="Item.khuzait_sword_3_t3" />
+      <item id="Item.khuzait_sword_4_t4" />
+    </banner_bearer_replacement_weapons>
+    <default_policies>
+      <policy id="policy_grazing_rights" />
+      <policy id="policy_sacred_majesty" />
+    </default_policies>
+    <male_names>
+      <name name="{=AWM3jbaZ}Ajin" />
+      <name name="{=RMoQ7blK}Akadan" />
+      <name name="{=xg8habbc}Alagur" />
+      <name name="{=pDNlFlc0}Alcha" />
+      <name name="{=75Wlqr3W}Alpan" />
+      <name name="{=ESKeInbq}Aran" />
+      <name name="{=4ZhqF8EB}Arshul" />
+      <name name="{=RohgLdMp}Asugan" />
+      <name name="{=FIIZNV4F}Atzorig" />
+      <name name="{=4JfwP1T6}Badur" />
+      <name name="{=pKf56MdS}Bagai" />
+      <name name="{=jhQkgQci}Baichar" />
+      <name name="{=AAqB4QxB}Bortu" />
+      <name name="{=E1NWbOR8}Buchul" />
+      <name name="{=uducgNbf}Chaghan" />
+      <name name="{=gsY9oKND}Chusuntai" />
+      <name name="{=TjvbLQRT}Dachan" />
+      <name name="{=ynsUwp1h}Denek" />
+      <name name="{=0DgWpr8b}Dengul" />
+      <name name="{=ZP7ONkec}Egen" />
+      <name name="{=OqOnfdYv}Erigai" />
+      <name name="{=au6vdzxN}Gan" />
+      <name name="{=oT8cTkjz}Gavan" />
+      <name name="{=PhdzZKu0}Ger" />
+      <name name="{=8IcnIQdq}Gusur" />
+      <name name="{=7MpWM3y3}Himil" />
+      <name name="{=cdmrCQfC}Hurunag" />
+      <name name="{=I0ZfrCml}Huskur" />
+      <name name="{=ed3sErKY}Ilgai" />
+      <name name="{=4xnag9e8}Itsul" />
+      <name name="{=PisfwOUb}Jagutai" />
+      <name name="{=5ntTjanU}Junjad" />
+      <name name="{=8jwqNls9}Khomar" />
+      <name name="{=A0Qwy1ag}Khakhun" />
+      <name name="{=mQStUNPe}Kazam" />
+      <name name="{=AcUEb8zX}Korot" />
+      <name name="{=SDSbjMSj}Kuruntai" />
+      <name name="{=YeQlI2Yj}Mizam" />
+      <name name="{=sn3JPGJA}Natu" />
+      <name name="{=z5llJ2C0}Norogur" />
+      <name name="{=0VZ5sROI}Okhon" />
+      <name name="{=CiJB8ISH}Olorun" />
+      <name name="{=2OqAomZy}Oragur" />
+      <name name="{=OgY3fQKL}Sasal" />
+      <name name="{=yhLbBk1D}Soroch" />
+      <name name="{=vN0cSBD3}Shakhor" />
+      <name name="{=D4Ea4QaV}Shulun" />
+      <name name="{=zTEnQULc}Targai" />
+      <name name="{=aSNUtnbH}Temun" />
+      <name name="{=8CZvFqH7}Tochi" />
+      <name name="{=XjMsnpgS}Tulag" />
+      <name name="{=NqhPOiMQ}Ulusumai" />
+      <name name="{=vl2tgsKa}Urkhun" />
+      <name name="{=4zoraJq7}Yanagur" />
+      <name name="{=QEw6q3OR}Yildrim" />
+      <name name="{=yCfxqfdA}Bakhar" />
+      <name name="{=MwPMFIz0}Baghbayar" />
+      <name name="{=JUPUxuoe}Chanbadar" />
+      <name name="{=aRiVb65B}Daju" />
+      <name name="{=KmAOMxqy}Davalan" />
+      <name name="{=Bo5Xkd3e}Erban" />
+      <name name="{=BUbf73N2}Gongke" />
+      <name name="{=FVDbGQXF}Hamindar" />
+      <name name="{=AKhO9Y9c}Jolugkhu" />
+      <name name="{=LbCcOORX}Ongker" />
+      <name name="{=HXEoaiFU}Sorji" />
+      <name name="{=UgA0uoFA}Tabur" />
+      <name name="{=N7CGgRs5}Tsuban" />
+      <name name="{=aqx7Txyy}Tuvul" />
+      <name name="{=mqkSkCBX}Uluvi" />
+      <name name="{=NIcee06W}Vangvayag" />
+    </male_names>
+    <female_names>
+      <name name="{=m9ZgghCo}Abagai" />
+      <name name="{=26v27bu7}Aika" />
+      <name name="{=5vo7WX5W}Amul" />
+      <name name="{=FLrdHzSf}Anat" />
+      <name name="{=7uBgKkLK}Anjikhin" />
+      <name name="{=UcteBSP6}Asi" />
+      <name name="{=SIJpKiGq}Ayla" />
+      <name name="{=RwMtFwWt}Bilik" />
+      <name name="{=RoKwj5XN}Chagun" />
+      <name name="{=ulBMajMY}Chechek" />
+      <name name="{=7UU9TwUC}Dalai" />
+      <name name="{=HwCJfTC2}Deni" />
+      <name name="{=lB7b7N1b}Deven" />
+      <name name="{=1mhbWay3}Dinin" />
+      <name name="{=kFYtFka8}Echa" />
+      <name name="{=UJTCzvOt}Elin" />
+      <name name="{=MEtblzaV}Gunefer" />
+      <name name="{=tCy0qwXp}Hikhara" />
+      <name name="{=SFDdq8GH}Holujin" />
+      <name name="{=bwabyQPy}Ikren" />
+      <name name="{=W1yur1cf}Khachin" />
+      <name name="{=QJq4VAU7}Mesui" />
+      <name name="{=7No7syyO}Penek" />
+      <name name="{=2mWC6b8D}Sacha" />
+      <name name="{=hdwBL8kp}Soregun" />
+      <name name="{=DO1lhJIo}Tala" />
+      <name name="{=zDhuJw7r}Taralun" />
+      <name name="{=Ml5KBonI}Tosui" />
+      <name name="{=Se7U6BSK}Uluen" />
+      <name name="{=YUoydtNS}Yana" />
+      <name name="{=3NRUkzaV}Yasugan" />
+      <name name="{=xft6bgja}Asha" />
+      <name name="{=yckGOfLB}Islena" />
+      <name name="{=J5i4h7JC}Kela" />
+      <name name="{=k37KKJkw}Kun" />
+      <name name="{=NeFDHnOS}Mirim" />
+      <name name="{=29Ti1C0R}Selun" />
+      <name name="{=6fENuhfZ}Sibuga" />
+      <name name="{=bdH1JEma}Yachim" />
+      <name name="{=PdK2pGIb}Yesha" />
+    </female_names>
+    <clan_names>
+      <name name="{=qJprzW1N}Airit" />
+      <name name="{=4833ZS9c}Aldusunit" />
+      <name name="{=R6kwhkGk}Anegis" />
+      <name name="{=tPG5uf4C}Bochit" />
+      <name name="{=J1s05Ovk}Charait" />
+      <name name="{=f0NUMdNu}Demerkhen" />
+      <name name="{=3apHdqU7}Ingchit" />
+      <name name="{=u154THZL}Jalsyut" />
+      <name name="{=CSDne5ja}Khurdyut" />
+      <name name="{=5zxaCgd6}Maranjit" />
+      <name name="{=ptXbItT1}Nangkhut" />
+      <name name="{=aXwDg9VT}Olokhai" />
+      <name name="{=tDaWbJlY}Oranarit" />
+      <name name="{=aaXaxmii}Sajyut" />
+      <name name="{=lhiAWoFw}Sunit" />
+      <name name="{=ZNUooJ48}Tebegun" />
+      <name name="{=MjZumz0j}Tokhit" />
+      <name name="{=LipFTLvz}Ubchit" />
+      <name name="{=jcUgdBEo}Unggun" />
+      <name name="{=ZwOT9J49}Yujit" />
+    </clan_names>
+    <cultural_feats>
+      <feat id="khuzait_cheaper_recruits_mounted" />
+      <feat id="khuzait_increased_animal_production" />
+      <feat id="khuzait_decreased_town_tax" />
+    </cultural_feats>
+    <possible_clan_banner_icon_ids>
+      <icon id="121" />
+      <icon id="122" />
+      <icon id="123" />
+      <icon id="124" />
+      <icon id="125" />
+      <icon id="126" />
+      <icon id="127" />
+      <icon id="128" />
+      <icon id="129" />
+      <icon id="130" />
+      <icon id="311" />
+      <icon id="312" />
+      <icon id="313" />
+      <icon id="314" />
+    </possible_clan_banner_icon_ids>
+    <notable_templates>
+      <template name="NPCCharacter.spc_notable_khuzait_merchant_1" />
+      <template name="NPCCharacter.spc_notable_khuzait_0b" />
+      <template name="NPCCharacter.spc_notable_khuzait_1" />
+      <template name="NPCCharacter.spc_notable_khuzait_1b" />
+      <template name="NPCCharacter.spc_notable_khuzait_1c" />
+      <template name="NPCCharacter.spc_notable_khuzait_2" />
+      <template name="NPCCharacter.spc_notable_khuzait_2b" />
+      <template name="NPCCharacter.spc_notable_khuzait_3" />
+      <template name="NPCCharacter.spc_notable_khuzait_4" />
+      <template name="NPCCharacter.spc_khuzait_gangleader_1" />
+      <template name="NPCCharacter.spc_khuzait_gangleader_2" />
+      <template name="NPCCharacter.spc_khuzait_gangleader_3" />
+      <template name="NPCCharacter.spc_khuzait_artisan_1" />
+      <template name="NPCCharacter.spc_khuzait_artisan_2" />
+      <template name="NPCCharacter.spc_khuzait_artisan_3" />
+      <template name="NPCCharacter.spc_khuzait_rural_notable_1" />
+      <template name="NPCCharacter.spc_khuzait_rural_notable_2" />
+      <template name="NPCCharacter.spc_khuzait_headman_1" />
+      <template name="NPCCharacter.spc_khuzait_headman_2" />
+      <template name="NPCCharacter.spc_khuzait_headman_3" />
+    </notable_templates>
+    <lord_templates>
+      <template name="NPCCharacter.spc_karakhuzaits_leader_0" />
+      <template name="NPCCharacter.spc_karakhuzaits_leader_1" />
+      <template name="NPCCharacter.spc_karakhuzaits_leader_2" />
+      <template name="NPCCharacter.spc_karakhuzaits_leader_3" />
+    </lord_templates>
+    <rebellion_hero_templates>
+      <template name="NPCCharacter.spc_karakhuzaits_leader_0" />
+      <template name="NPCCharacter.spc_karakhuzaits_leader_1" />
+      <template name="NPCCharacter.spc_karakhuzaits_leader_2" />
+      <template name="NPCCharacter.spc_karakhuzaits_leader_3" />
+    </rebellion_hero_templates>
+    <tournament_team_templates_one_participant>
+      <template name="NPCCharacter.tournament_template_khuzait_one_participant_set_v1" />
+      <template name="NPCCharacter.tournament_template_khuzait_one_participant_set_v2" />
+    </tournament_team_templates_one_participant>
+    <tournament_team_templates_two_participant>
+      <template name="NPCCharacter.tournament_template_khuzait_two_participant_set_v1" />
+      <template name="NPCCharacter.tournament_template_khuzait_two_participant_set_v2" />
+      <template name="NPCCharacter.tournament_template_khuzait_two_participant_set_v3" />
+    </tournament_team_templates_two_participant>
+    <tournament_team_templates_four_participant>
+      <template name="NPCCharacter.tournament_template_khuzait_four_participant_set_v1" />
+      <template name="NPCCharacter.tournament_template_khuzait_four_participant_set_v2" />
+      <template name="NPCCharacter.tournament_template_khuzait_four_participant_set_v3" />
+    </tournament_team_templates_four_participant>
+    <basic_mercenary_troops>
+      <template name="NPCCharacter.eastern_mercenary" />
+      <template name="NPCCharacter.sword_sisters_sister_t3" />
+    </basic_mercenary_troops>
+  </Culture>
+  <Culture id="aserai" name="{=aielfaction}Aiel" is_main_culture="true" color="0xFF58888B" color2="0xFFCCBB89" elite_basic_troop="NPCCharacter.AielMaiden1" basic_troop="NPCCharacter.AielWarrior1" melee_militia_troop="NPCCharacter.AielWarrior1" ranged_militia_troop="NPCCharacter.AielArcher1" melee_elite_militia_troop="NPCCharacter.AielWarrior3" ranged_elite_militia_troop="NPCCharacter.AielArcher2" can_have_settlement="true" villager_party_template="PartyTemplate.villager_aiel_template" default_party_template="PartyTemplate.kingdom_hero_party_aiel_template" settlement_patrol_template_level_1="PartyTemplate.patrol_party_aserai_template_level_1" settlement_patrol_template_level_2="PartyTemplate.patrol_party_aserai_template_level_2" settlement_patrol_template_level_3="PartyTemplate.patrol_party_aserai_template_level_3" encounter_background_mesh="encounter_aserai" faction_banner_key="11.0.0.4345.4345.764.764.1.0.0.463.1.1.466.466.764.764.1.0.0" militia_party_template="PartyTemplate.militia_aiel_template" rebels_party_template="PartyTemplate.rebels_aiel_template" vassal_reward_party_template="PartyTemplate.vassal_reward_troops_aiel" text="{=AielCulture}There are twelve Aiel clans, each of which has a clan chief; clans are further divided into septs, and septs subdivide into holdings (which are individual settlements; each clan and sept also has a central hold). Aiel warriors also affiliate themselves with various warrior societies, of which there are twelve: Mountain Dancers, Thunder Walkers, Stone Dogs, Brothers of the Eagle, etc. The only society to accept women is the Far Dareis Mai, the Maidens of the Spear; their members 'marry' their spears and are forbidden to take men into their lives on a permanent basis without forfeiting membership." tournament_master="NPCCharacter.tournament_master_aserai" villager="NPCCharacter.villager_aiel" caravan_master="NPCCharacter.caravan_master_aserai" armed_trader="NPCCharacter.armed_trader_aserai" caravan_guard="NPCCharacter.caravan_guard_aserai" veteran_caravan_guard="NPCCharacter.veteran_caravan_guard_aserai" prison_guard="NPCCharacter.prison_guard_aserai" guard="NPCCharacter.guard_aserai" blacksmith="NPCCharacter.blacksmith_aserai" weaponsmith="NPCCharacter.weaponsmith_aserai" townswoman="NPCCharacter.townswoman_aserai" townswoman_infant="NPCCharacter.townswoman_infant_aserai" townswoman_child="NPCCharacter.townswoman_child_aserai" townswoman_teenager="NPCCharacter.townswoman_teenager_aserai" townsman="NPCCharacter.townsman_aserai" townsman_infant="NPCCharacter.townsman_infant_aserai" townsman_child="NPCCharacter.townsman_child_aserai" townsman_teenager="NPCCharacter.townsman_teenager_aserai" village_woman="NPCCharacter.village_woman_aserai" villager_male_child="NPCCharacter.villager_child_aserai" villager_male_teenager="NPCCharacter.villager_teenager_aserai" villager_female_child="NPCCharacter.village_woman_child_aserai" villager_female_teenager="NPCCharacter.village_woman_teenager_aserai" ransom_broker="NPCCharacter.ransom_broker_aserai" gangleader_bodyguard="NPCCharacter.gangleader_bodyguard_aserai" merchant_notary="NPCCharacter.merchant_notary_aserai" artisan_notary="NPCCharacter.artisan_notary_aserai" preacher_notary="NPCCharacter.preacher_notary_aserai" rural_notable_notary="NPCCharacter.rural_notable_notary_aserai" shop_worker="NPCCharacter.shop_worker_aserai" tavernkeeper="NPCCharacter.tavernkeeper_aserai" taverngamehost="NPCCharacter.taverngamehost_aserai" musician="NPCCharacter.musician_aserai" tavern_wench="NPCCharacter.tavern_wench_aserai" armorer="NPCCharacter.armorer_aserai" horseMerchant="NPCCharacter.horseMerchant_aserai" barber="NPCCharacter.barber_aserai" merchant="NPCCharacter.merchant_aserai" beggar="NPCCharacter.beggar_aserai" female_beggar="NPCCharacter.female_beggar_aserai" female_dancer="NPCCharacter.female_dancer_aserai" default_stealth_equipment_roster="EquipmentRoster.default_stealth_equipment_roster" default_battle_equipment_roster="EquipmentRoster.ase_civ_template_default" default_civilian_equipment_roster="EquipmentRoster.ase_civ_template_default" duel_preset_equipment_roster="EquipmentRoster.ase_duel_preset_template" board_game_type="Seega" marriage_bride_equipment_roster="EquipmentRoster.marriage_female_ase_cutscene_template" default_character_creation_body_property="BodyProperty.default_character_creation_body_property_aserai" start_point_position_x="771.08" start_point_position_y="522.99">
+    <caravan_party_templates>
+      <caravan_party_template id="PartyTemplate.caravan_template_aiel" />
+    </caravan_party_templates>
+    <elite_caravan_party_templates>
+      <caravan_party_template id="PartyTemplate.elite_caravan_template_aiel" />
+    </elite_caravan_party_templates>
+    <available_ship_hulls></available_ship_hulls>
+    <vassal_reward_items>
+      <item id="Item.AielSpeargrade3" />
+    </vassal_reward_items>
+    <banner_bearer_replacement_weapons>
+      <item id="Item.AielSpeargrade1" />
+      <item id="Item.AielSpeargrade2" />
+      <item id="Item.AielSpeargrade3" />
+    </banner_bearer_replacement_weapons>
+    <default_policies>
+      <policy id="policy_council_of_the_commons" />
+      <policy id="policy_senate" />
+    </default_policies>
+    <male_names>
+      <name name="{=WOTMN001Aiel}Aamir" />
+      <name name="{=WOTMN002Aiel}Baishan" />
+      <name name="{=WOTMN003Aiel}Cochise" />
+      <name name="{=WOTMN004Aiel}Dana" />
+      <name name="{=WOTMN005Aiel}Dumi" />
+      <name name="{=WOTMN006Aiel}Fatin" />
+      <name name="{=WOTMN007Aiel}Gian" />
+      <name name="{=WOTMN008Aiel}Haider" />
+      <name name="{=WOTMN009Aiel}Ihsan" />
+      <name name="{=WOTMN010Aiel}Jad" />
+      <name name="{=WOTMN011Aiel}Mahir" />
+      <name name="{=WOTMN012Aiel}Na’im" />
+      <name name="{=WOTMN013Aiel}Qamar" />
+      <name name="{=WOTMN014Aiel}Ra’d" />
+      <name name="{=WOTMN015Aiel}Sa’d" />
+      <name name="{=WOTMN016Aiel}Thamir" />
+      <name name="{=WOTMN017Aiel}Usama" />
+      <name name="{=WOTMN018Aiel}Wael" />
+      <name name="{=WOTMN019Aiel}Xolani" />
+      <name name="{=WOTMN020Aiel}Yahya" />
+      <name name="{=WOTMN021Aiel}Zaid" />
+      <name name="{=WOTMN022Aiel}Ayanda" />
+      <name name="{=WOTMN023Aiel}Bongani" />
+      <name name="{=WOTMN024Aiel}Sifiso" />
+      <name name="{=WOTMN025Aiel}Thando" />
+      <name name="{=WOTMN026Aiel}Naiche" />
+      <name name="{=WOTMN027Aiel}Dasoda" />
+      <name name="{=WOTMN028Aiel}Adei" />
+      <name name="{=WOTMN029Aiel}Amets" />
+      <name name="{=WOTMN030Aiel}Argi" />
+      <name name="{=WOTMN031Aiel}Bakar" />
+      <name name="{=WOTMN032Aiel}Danel" />
+      <name name="{=WOTMN033Aiel}Bittor" />
+      <name name="{=WOTMN034Aiel}Eder" />
+      <name name="{=WOTMN035Aiel}Eki" />
+      <name name="{=WOTMN036Aiel}Endika" />
+      <name name="{=WOTMN037Aiel}Gaizka" />
+      <name name="{=WOTMN038Aiel}Ganix" />
+      <name name="{=WOTMN039Aiel}Gorka" />
+      <name name="{=WOTMN040Aiel}Hodei" />
+      <name name="{=WOTMN041Aiel}Ibai" />
+      <name name="{=WOTMN042Aiel}Igon" />
+      <name name="{=WOTMN043Aiel}Inaki" />
+      <name name="{=WOTMN044Aiel}Jakes" />
+      <name name="{=WOTMN045Aiel}Joseba" />
+      <name name="{=WOTMN046Aiel}Kemen" />
+      <name name="{=WOTMN047Aiel}Kepa" />
+      <name name="{=WOTMN048Aiel}Koldo" />
+      <name name="{=WOTMN049Aiel}Lur" />
+      <name name="{=WOTMN050Aiel}Mintxo" />
+      <name name="{=WOTMN051Aiel}Ortzi" />
+      <name name="{=WOTMN052Aiel}Peio" />
+      <name name="{=WOTMN053Aiel}Peru" />
+      <name name="{=WOTMN054Aiel}Unai" />
+      <name name="{=WOTMN055Aiel}Urki" />
+      <name name="{=WOTMN056Aiel}Xabi" />
+      <name name="{=WOTMN057Aiel}Ximun" />
+      <name name="{=WOTMN058Aiel}Zeru" />
+      <name name="{=WOTMN059Aiel}Zigor" />
+      <name name="{=WOTMN060Aiel}Sendoa" />
+    </male_names>
+    <female_names>
+      <name name="{=WOTFN001Aiel}Aamina" />
+      <name name="{=WOTFN002Aiel}Basma" />
+      <name name="{=WOTFN003Aiel}Bandile" />
+      <name name="{=WOTFN004Aiel}Dima" />
+      <name name="{=WOTFN005Aiel}Esraa" />
+      <name name="{=WOTFN006Aiel}Fajr" />
+      <name name="{=WOTFN007Aiel}Gouyen" />
+      <name name="{=WOTFN008Aiel}Hana" />
+      <name name="{=WOTFN009Aiel}Inas" />
+      <name name="{=WOTFN010Aiel}Jinan" />
+      <name name="{=WOTFN011Aiel}Karima" />
+      <name name="{=WOTFN012Aiel}Laila" />
+      <name name="{=WOTFN013Aiel}Mai" />
+      <name name="{=WOTFN014Aiel}Nadra" />
+      <name name="{=WOTFN015Aiel}Raabi’a" />
+      <name name="{=WOTFN016Aiel}Sadia" />
+      <name name="{=WOTFN017Aiel}Thandi" />
+      <name name="{=WOTFN018Aiel}Uzma" />
+      <name name="{=WOTFN019Aiel}Warda" />
+      <name name="{=WOTFN020Aiel}Yara" />
+      <name name="{=WOTFN021Aiel}Zaina" />
+      <name name="{=WOTFN022Aiel}Amahle" />
+      <name name="{=WOTFN023Aiel}Banele" />
+      <name name="{=WOTFN024Aiel}Mbali" />
+      <name name="{=WOTFN025Aiel}Ntombi" />
+      <name name="{=WOTFN026Aiel}Zodwa" />
+      <name name="{=WOTFN027Aiel}Hauzini" />
+      <name name="{=WOTFN028Aiel}Goyan" />
+      <name name="{=WOTFN029Aiel}Dostehseh" />
+      <name name="{=WOTFN030Aiel}Haozinne" />
+      <name name="{=WOTFN031Aiel}Hauzini" />
+      <name name="{=WOTFN032Aiel}Sonseeahray" />
+      <name name="{=WOTFN033Aiel}Aviendha" />
+      <name name="{=WOTFN034Aiel}Amys" />
+      <name name="{=WOTFN035Aiel}Ainara" />
+      <name name="{=WOTFN036Aiel}Alaia" />
+      <name name="{=WOTFN037Aiel}Amaya" />
+      <name name="{=WOTFN038Aiel}Aroa" />
+      <name name="{=WOTFN039Aiel}Berezi" />
+      <name name="{=WOTFN040Aiel}Elaia" />
+      <name name="{=WOTFN041Aiel}Enara" />
+      <name name="{=WOTFN042Aiel}Esti" />
+      <name name="{=WOTFN043Aiel}Goizane" />
+      <name name="{=WOTFN044Aiel}Haizea" />
+      <name name="{=WOTFN045Aiel}Idoya" />
+      <name name="{=WOTFN046Aiel}Irune" />
+      <name name="{=WOTFN047Aiel}Josune" />
+      <name name="{=WOTFN048Aiel}Leire" />
+      <name name="{=WOTFN049Aiel}Lore" />
+      <name name="{=WOTFN050Aiel}Maia" />
+      <name name="{=WOTFN051Aiel}Maddi" />
+      <name name="{=WOTFN052Aiel}Naiara" />
+      <name name="{=WOTFN053Aiel}Osane" />
+      <name name="{=WOTFN054Aiel}Sua" />
+      <name name="{=WOTFN055Aiel}Usoa" />
+      <name name="{=WOTFN056Aiel}Zurine" />
+      <name name="{=WOTFN057Aiel}Terese" />
+      <name name="{=WOTFN058Aiel}Uxue" />
+    </female_names>
+    <clan_names>
+      <name name="{=WOTCN001Aiel}Jarra" />
+      <name name="{=WOTCN002Aiel}Jaern Rift" />
+      <name name="{=WOTCN003Aiel}Shelan" />
+      <name name="{=WOTCN004Aiel}Red Salt" />
+      <name name="{=WOTCN005Aiel}Smoke Water" />
+      <name name="{=WOTCN006Aiel}Black Cliffs" />
+      <name name="{=WOTCN007Aiel}Musara" />
+      <name name="{=WOTCN008Aiel}Imran" />
+      <name name="{=WOTCN009Aiel}Jumai" />
+      <name name="{=WOTCN010Aiel}Neder" />
+      <name name="{=WOTCN011Aiel}Four Stones" />
+      <name name="{=WOTCN012Aiel}Shorara" />
+      <name name="{=WOTCN013Aiel}Jenn" />
+    </clan_names>
+    <cultural_feats>
+      <feat id="battanian_militia_production" />
+      <feat id="aserai_desert_speed" />
+      <feat id="battanian_slower_construction" />
+    </cultural_feats>
+    <possible_clan_banner_icon_ids>
+      <icon id="110" />
+      <icon id="155" />
+      <icon id="156" />
+      <icon id="200" />
+      <icon id="201" />
+      <icon id="204" />
+      <icon id="212" />
+      <icon id="218" />
+      <icon id="219" />
+      <icon id="220" />
+      <icon id="221" />
+      <icon id="222" />
+      <icon id="223" />
+      <icon id="321" />
+      <icon id="400" />
+      <icon id="401" />
+      <icon id="403" />
+      <icon id="404" />
+      <icon id="405" />
+      <icon id="425" />
+      <icon id="426" />
+      <icon id="427" />
+      <icon id="428" />
+      <icon id="430" />
+      <icon id="309" />
+    </possible_clan_banner_icon_ids>
+    <notable_templates>
+      <template name="NPCCharacter.spc_notable_aserai_0" />
+      <template name="NPCCharacter.spc_notable_aserai_0b" />
+      <template name="NPCCharacter.spc_notable_aserai_1" />
+      <template name="NPCCharacter.spc_notable_aserai_1b" />
+      <template name="NPCCharacter.spc_notable_aserai_2" />
+      <template name="NPCCharacter.spc_notable_aserai_2b" />
+      <template name="NPCCharacter.spc_notable_aserai_3" />
+      <template name="NPCCharacter.spc_notable_aserai_3b" />
+      <template name="NPCCharacter.spc_notable_aserai_4" />
+      <template name="NPCCharacter.spc_notable_aserai_5" />
+      <template name="NPCCharacter.spc_notable_aserai_6" />
+      <template name="NPCCharacter.spc_notable_aserai_7" />
+      <template name="NPCCharacter.spc_notable_aserai_8" />
+      <template name="NPCCharacter.spc_notable_aserai_9" />
+      <template name="NPCCharacter.spc_notable_aserai_10" />
+      <template name="NPCCharacter.spc_notable_aserai_11" />
+      <template name="NPCCharacter.spc_notable_aserai_12" />
+      <template name="NPCCharacter.spc_aserai_headman_1" />
+      <template name="NPCCharacter.spc_aserai_headman_2" />
+      <template name="NPCCharacter.spc_aserai_headman_3" />
+    </notable_templates>
+    <lord_templates>
+      <template name="NPCCharacter.spc_beni_zilal_leader_0" />
+      <template name="NPCCharacter.spc_beni_zilal_leader_1" />
+      <template name="NPCCharacter.spc_beni_zilal_leader_2" />
+      <template name="NPCCharacter.spc_beni_zilal_leader_3" />
+      <template name="NPCCharacter.spc_jawwal_leader_0" />
+      <template name="NPCCharacter.spc_jawwal_leader_1" />
+      <template name="NPCCharacter.spc_jawwal_leader_2" />
+      <template name="NPCCharacter.spc_jawwal_leader_3" />
+    </lord_templates>
+    <rebellion_hero_templates>
+      <template name="NPCCharacter.spc_beni_zilal_leader_0" />
+      <template name="NPCCharacter.spc_beni_zilal_leader_1" />
+      <template name="NPCCharacter.spc_beni_zilal_leader_2" />
+      <template name="NPCCharacter.spc_beni_zilal_leader_3" />
+      <template name="NPCCharacter.spc_jawwal_leader_0" />
+      <template name="NPCCharacter.spc_jawwal_leader_1" />
+      <template name="NPCCharacter.spc_jawwal_leader_2" />
+      <template name="NPCCharacter.spc_jawwal_leader_3" />
+    </rebellion_hero_templates>
+    <tournament_team_templates_one_participant>
+      <template name="NPCCharacter.tournament_template_aserai_one_participant_set_v1" />
+    </tournament_team_templates_one_participant>
+    <tournament_team_templates_two_participant>
+      <template name="NPCCharacter.tournament_template_aserai_two_participant_set_v1" />
+      <template name="NPCCharacter.tournament_template_aserai_two_participant_set_v2" />
+      <template name="NPCCharacter.tournament_template_aserai_two_participant_set_v3" />
+    </tournament_team_templates_two_participant>
+    <tournament_team_templates_four_participant>
+      <template name="NPCCharacter.tournament_template_aserai_four_participant_set_v1" />
+      <template name="NPCCharacter.tournament_template_aserai_four_participant_set_v2" />
+      <template name="NPCCharacter.tournament_template_aserai_four_participant_set_v3" />
+      <template name="NPCCharacter.tournament_template_aserai_four_participant_set_v4" />
+    </tournament_team_templates_four_participant>
+    <basic_mercenary_troops>
+      <template name="NPCCharacter.eastern_mercenary" />
+      <template name="NPCCharacter.sword_sisters_sister_t3" />
+    </basic_mercenary_troops>
+  </Culture>
+  <Culture id="battania" name="{=coastlandsfaction}Coastlands" is_main_culture="true" color="0xff284E19" color2="0xffB4F0F1" elite_basic_troop="NPCCharacter.noble_coastlands" basic_troop="NPCCharacter.Levy1" melee_militia_troop="NPCCharacter.Levy1" ranged_militia_troop="NPCCharacter.LevyBow1" melee_elite_militia_troop="NPCCharacter.Levy3" ranged_elite_militia_troop="NPCCharacter.LevyBow2b" can_have_settlement="true" militia_bonus="1" villager_party_template="PartyTemplate.villager_coastlands_template" default_party_template="PartyTemplate.kingdom_hero_party_coastlands_template" settlement_patrol_template_level_1="PartyTemplate.patrol_party_battania_template_level_1" settlement_patrol_template_level_2="PartyTemplate.patrol_party_battania_template_level_2" settlement_patrol_template_level_3="PartyTemplate.patrol_party_battania_template_level_3" encounter_background_mesh="encounter_battania" faction_banner_key="11.2.2.6296.6296.764.764.1.0.0.460.3.3.457.457.764.764.1.0.0" militia_party_template="PartyTemplate.militia_coastlands_template" rebels_party_template="PartyTemplate.rebels_coastlands_template" vassal_reward_party_template="PartyTemplate.vassal_reward_troops_coastlands" text="{=Ax9OkgL5}The Southern Coastland region of what is refered to as the Westlands finds an very fierce and independant peoples.  A people who specialise in something rather than being jack of all trades, be it peace, trade or war.  A people who have been tasked with defending the relics that the world requires to defeat the Shadow." tournament_master="NPCCharacter.tournament_master_battania" villager="NPCCharacter.villager_coastlands" caravan_master="NPCCharacter.caravan_master_battania" armed_trader="NPCCharacter.armed_trader_battania" caravan_guard="NPCCharacter.caravan_guard_battania" veteran_caravan_guard="NPCCharacter.veteran_caravan_guard_battania" prison_guard="NPCCharacter.prison_guard_battania" guard="NPCCharacter.guard_battania" blacksmith="NPCCharacter.blacksmith_battania" weaponsmith="NPCCharacter.weaponsmith_battania" townswoman="NPCCharacter.townswoman_battania" townswoman_infant="NPCCharacter.townswoman_infant_battania" townswoman_child="NPCCharacter.townswoman_child_battania" townswoman_teenager="NPCCharacter.townswoman_teenager_battania" townsman="NPCCharacter.townsman_battania" townsman_infant="NPCCharacter.townsman_infant_battania" townsman_child="NPCCharacter.townsman_child_battania" townsman_teenager="NPCCharacter.townsman_teenager_battania" village_woman="NPCCharacter.village_woman_battania" villager_male_child="NPCCharacter.villager_child_battania" villager_male_teenager="NPCCharacter.villager_teenager_battania" villager_female_child="NPCCharacter.village_woman_child_battania" villager_female_teenager="NPCCharacter.village_woman_teenager_battania" ransom_broker="NPCCharacter.ransom_broker_battania" gangleader_bodyguard="NPCCharacter.gangleader_bodyguard_battania" merchant_notary="NPCCharacter.merchant_notary_battania" artisan_notary="NPCCharacter.artisan_notary_battania" preacher_notary="NPCCharacter.preacher_notary_battania" rural_notable_notary="NPCCharacter.rural_notable_notary_battania" shop_worker="NPCCharacter.shop_worker_battania" tavernkeeper="NPCCharacter.tavernkeeper_battania" taverngamehost="NPCCharacter.taverngamehost_battania" musician="NPCCharacter.musician_battania" tavern_wench="NPCCharacter.tavern_wench_battania" armorer="NPCCharacter.armorer_battania" horseMerchant="NPCCharacter.horseMerchant_battania" barber="NPCCharacter.barber_battania" merchant="NPCCharacter.merchant_battania" beggar="NPCCharacter.beggar_battania" female_beggar="NPCCharacter.female_beggar_battania" female_dancer="NPCCharacter.female_dancer_battania" default_stealth_equipment_roster="EquipmentRoster.default_stealth_equipment_roster" default_battle_equipment_roster="EquipmentRoster.bat_civ_template_default" default_civilian_equipment_roster="EquipmentRoster.bat_civ_template_default" duel_preset_equipment_roster="EquipmentRoster.bat_duel_preset_template" board_game_type="BaghChal" marriage_bride_equipment_roster="EquipmentRoster.marriage_female_bat_cutscene_template" default_character_creation_body_property="BodyProperty.default_character_creation_body_property_battania" start_point_position_x="370.04" start_point_position_y="179.09">
+    <caravan_party_templates>
+      <caravan_party_template id="PartyTemplate.caravan_template_coastlands" />
+    </caravan_party_templates>
+    <elite_caravan_party_templates>
+      <caravan_party_template id="PartyTemplate.elite_caravan_template_coastlands" />
+    </elite_caravan_party_templates>
+    <available_ship_hulls></available_ship_hulls>
+    <vassal_reward_items>
+      <item id="Item.reaper_falx" />
+    </vassal_reward_items>
+    <banner_bearer_replacement_weapons>
+      <item id="Item.battania_sword_1_t2" />
+      <item id="Item.battania_sword_2_t3" />
+      <item id="Item.battania_sword_4_t4" />
+      <item id="Item.battania_sword_5_t5" />
+    </banner_bearer_replacement_weapons>
+    <default_policies>
+      <policy id="policy_cantons" />
+      <policy id="policy_lawspeakers" />
+    </default_policies>
+    <male_names>
+      <name name="{=VP9hqkxO}Aedid" />
+      <name name="{=5oRDaemv}Aeric" />
+      <name name="{=LpLL0m3O}Arlech" />
+      <name name="{=Z7GxyIaC}Borun" />
+      <name name="{=MpZCQ0z1}Breadan" />
+      <name name="{=RfxXnZ8Z}Cadugan" />
+      <name name="{=StJ9aR91}Cadfin" />
+      <name name="{=IkTCwsB8}Col" />
+      <name name="{=0CQgia2a}Culharn" />
+      <name name="{=T9bXZA0W}Cynac" />
+      <name name="{=vDGYMAmm}Dermot" />
+      <name name="{=9vBp5E0Q}Derngil" />
+      <name name="{=FNHFzVCU}Edwain" />
+      <name name="{=TLZKQSb1}Egan" />
+      <name name="{=cL1lO5iP}Ergeon" />
+      <name name="{=fydMDGtL}Fercread" />
+      <name name="{=6bBj5HgU}Garain" />
+      <name name="{=68JEMvYl}Griff" />
+      <name name="{=lMrP68Ba}Grynad" />
+      <name name="{=rTGmgm4b}Ioren" />
+      <name name="{=074bIPbm}Llum" />
+      <name name="{=bDMmX9YI}Luichan" />
+      <name name="{=K4UdL65N}Lyd" />
+      <name name="{=MNFMqV3n}Lyfris" />
+      <name name="{=d8D98oFG}Melidir" />
+      <name name="{=SFybYZNK}Mengus" />
+      <name name="{=tCTzsaIu}Muinser" />
+      <name name="{=6AwXDgIK}Mych" />
+      <name name="{=qhanbPZ9}Nal" />
+      <name name="{=bbJLOMhl}Pelisor" />
+      <name name="{=tHtt3HCn}Pryndor" />
+      <name name="{=rgskh3ve}Rhagyd" />
+      <name name="{=iTRV8m4Y}Rhylan" />
+      <name name="{=fG19XSVm}Rugan" />
+      <name name="{=Xnngcfg9}Sein" />
+      <name name="{=e52LPp57}Udris" />
+      <name name="{=TxKnmzwT}Urien" />
+      <name name="{=uAS832LM}Ydwin" />
+    </male_names>
+    <female_names>
+      <name name="{=6pAsFGvw}Abeil" />
+      <name name="{=WuMGWUJ7}Addien" />
+      <name name="{=4Vd1TXpN}Anwyn" />
+      <name name="{=86L9ayRV}Athlian" />
+      <name name="{=ZgGnqkki}Beniseth" />
+      <name name="{=Wuiog2eu}Brigis" />
+      <name name="{=9WMeUGTy}Caelis" />
+      <name name="{=AYdwWae6}Ceatra" />
+      <name name="{=xqC8yfah}Cidre" />
+      <name name="{=gqJUdECJ}Daellian" />
+      <name name="{=Gwfb6O5O}Eira" />
+      <name name="{=jwcpnm8K}Eidenor" />
+      <name name="{=7uj8QoPA}Fetheir" />
+      <name name="{=w1a9E7a9}Fiasyn" />
+      <name name="{=2s7Tb4NC}Fionara" />
+      <name name="{=TWykLiFB}Gweth" />
+      <name name="{=VWSA8EVV}Gwennein" />
+      <name name="{=p4BMhcsQ}Iara" />
+      <name name="{=tTmqewol}Ifrain" />
+      <name name="{=6LRFHHqT}Imulir" />
+      <name name="{=Ma855h44}Iona" />
+      <name name="{=pVGKlS3W}Istiona" />
+      <name name="{=ODSf45wh}Leadh" />
+      <name name="{=RZ5bYYmX}Lisaradh" />
+      <name name="{=WNu6dKHe}Lliari" />
+      <name name="{=jMPWSzAi}Loen" />
+      <name name="{=rtljufhM}Mariwyn" />
+      <name name="{=eCCuztOS}Moera" />
+      <name name="{=iNFahwv3}Nia" />
+      <name name="{=gU5cMdTT}Norena" />
+      <name name="{=YEqDIbir}Oana" />
+      <name name="{=jCrbe08Y}Olawyn" />
+      <name name="{=h6dabKXz}Reissen" />
+      <name name="{=aYr6ovxb}Rhagin" />
+      <name name="{=ncEWiljT}Rhia" />
+      <name name="{=SVruYnYb}Selag" />
+      <name name="{=Y49TwXg4}Sionna" />
+      <name name="{=Fe90zVYF}Soeras" />
+      <name name="{=W4VYqLYc}Veraghid" />
+      <name name="{=UtfVuNN0}Vivein" />
+      <name name="{=vb2rv3OK}Una" />
+      <name name="{=PlGiSfwr}Ylen" />
+    </female_names>
+    <clan_names>
+      <name name="{=ppQbB9BH}fen Aertus" />
+      <name name="{=pK5nYd3m}fen Ailath" />
+      <name name="{=4BXAmC6W}fen Beannis" />
+      <name name="{=T1xNyk3H}fen Brachar" />
+      <name name="{=skIyo33b}fen Calrain" />
+      <name name="{=3jXYDAIo}fen Cearthad" />
+      <name name="{=CYxjotI2}fen Crusac" />
+      <name name="{=AaoxZ4pn}fen Diall" />
+      <name name="{=begCei6W}fen Domus" />
+      <name name="{=iQbFDpKT}fen Earach" />
+      <name name="{=SQji7Ek8}fen Fiachan" />
+      <name name="{=aCFsI8g6}fen Galonin" />
+      <name name="{=txEVb6TR}fen Gwaithor" />
+      <name name="{=M2CFIsZU}fen Lanor" />
+      <name name="{=qlqeOSSi}fen Leduin" />
+      <name name="{=GBfFp7bW}fen Loen" />
+      <name name="{=T1mpRVib}fen Morain" />
+      <name name="{=JMiahwuO}fen Niabar" />
+      <name name="{=IlwK5VaT}fen Parrac" />
+      <name name="{=K3fAPP5V}fen Rhamennon" />
+      <name name="{=2bNvfQny}fen Ruamor" />
+      <name name="{=VVpv4El5}fen Sachta" />
+      <name name="{=rjew3J8a}fen Seanel" />
+      <name name="{=UlQWfDsU}fen Teicolar" />
+      <name name="{=MHT9jCqB}fen Tuil" />
+      <name name="{=QXaSPsyi}fen Uimach" />
+    </clan_names>
+    <cultural_feats>
+      <feat id="battanian_forest_speed" />
+      <feat id="battanian_militia_production" />
+      <feat id="battanian_slower_construction" />
+    </cultural_feats>
+    <possible_clan_banner_icon_ids>
+      <icon id="131" />
+      <icon id="132" />
+      <icon id="133" />
+      <icon id="134" />
+      <icon id="135" />
+      <icon id="136" />
+      <icon id="137" />
+      <icon id="145" />
+      <icon id="149" />
+      <icon id="151" />
+      <icon id="203" />
+      <icon id="406" />
+      <icon id="407" />
+      <icon id="408" />
+      <icon id="412" />
+      <icon id="413" />
+      <icon id="414" />
+      <icon id="415" />
+    </possible_clan_banner_icon_ids>
+    <notable_templates>
+      <template name="NPCCharacter.spc_notable_battania_merchant_1" />
+      <template name="NPCCharacter.spc_notable_battania_0b" />
+      <template name="NPCCharacter.spc_notable_battania_0c" />
+      <template name="NPCCharacter.spc_notable_battania_0d" />
+      <template name="NPCCharacter.spc_notable_battania_0e" />
+      <template name="NPCCharacter.spc_notable_battania_1" />
+      <template name="NPCCharacter.spc_notable_battania_1b" />
+      <template name="NPCCharacter.spc_notable_battania_2" />
+      <template name="NPCCharacter.spc_notable_battania_3" />
+      <template name="NPCCharacter.spc_notable_battania_4" />
+      <template name="NPCCharacter.spc_notable_battania_5" />
+      <template name="NPCCharacter.spc_battania_artisan_1" />
+      <template name="NPCCharacter.spc_battania_artisan_2" />
+      <template name="NPCCharacter.spc_battania_artisan_3" />
+      <template name="NPCCharacter.spc_notable_rural_notable_1" />
+      <template name="NPCCharacter.spc_battania_rural_notable_2" />
+      <template name="NPCCharacter.spc_battania_headman_1" />
+      <template name="NPCCharacter.spc_battania_headman_2" />
+      <template name="NPCCharacter.spc_battania_headman_3" />
+    </notable_templates>
+    <lord_templates>
+      <template name="NPCCharacter.spc_wolfskins_leader_0" />
+      <template name="NPCCharacter.spc_wolfskins_leader_1" />
+      <template name="NPCCharacter.spc_wolfskins_leader_2" />
+      <template name="NPCCharacter.spc_wolfskins_leader_3" />
+      <template name="NPCCharacter.spc_ghilman_leader_0" />
+      <template name="NPCCharacter.spc_ghilman_leader_1" />
+      <template name="NPCCharacter.spc_ghilman_leader_2" />
+      <template name="NPCCharacter.spc_ghilman_leader_3" />
+    </lord_templates>
+    <rebellion_hero_templates>
+      <template name="NPCCharacter.spc_wolfskins_leader_0" />
+      <template name="NPCCharacter.spc_wolfskins_leader_1" />
+      <template name="NPCCharacter.spc_wolfskins_leader_2" />
+      <template name="NPCCharacter.spc_wolfskins_leader_3" />
+      <template name="NPCCharacter.spc_ghilman_leader_0" />
+      <template name="NPCCharacter.spc_ghilman_leader_1" />
+      <template name="NPCCharacter.spc_ghilman_leader_2" />
+      <template name="NPCCharacter.spc_ghilman_leader_3" />
+    </rebellion_hero_templates>
+    <tournament_team_templates_one_participant>
+      <template name="NPCCharacter.tournament_template_battania_one_participant_set_v1" />
+      <template name="NPCCharacter.tournament_template_battania_one_participant_set_v2" />
+    </tournament_team_templates_one_participant>
+    <tournament_team_templates_two_participant>
+      <template name="NPCCharacter.tournament_template_battania_two_participant_set_v1" />
+      <template name="NPCCharacter.tournament_template_battania_two_participant_set_v2" />
+      <template name="NPCCharacter.tournament_template_battania_two_participant_set_v3" />
+      <template name="NPCCharacter.tournament_template_battania_two_participant_set_v4" />
+      <template name="NPCCharacter.tournament_template_battania_two_participant_set_v5" />
+    </tournament_team_templates_two_participant>
+    <tournament_team_templates_four_participant>
+      <template name="NPCCharacter.tournament_template_battania_four_participant_set_v1" />
+      <template name="NPCCharacter.tournament_template_battania_four_participant_set_v2" />
+      <template name="NPCCharacter.tournament_template_battania_four_participant_set_v3" />
+    </tournament_team_templates_four_participant>
+    <basic_mercenary_troops>
+      <template name="NPCCharacter.western_mercenary" />
+      <template name="NPCCharacter.sword_sisters_sister_t3" />
+    </basic_mercenary_troops>
+  </Culture>
+  <Culture id="empire" name="{=wetlandsfaction}Wetlands" is_main_culture="true" color="0xff793191" color2="0xffFCDE90" elite_basic_troop="NPCCharacter.noble_wetlands" basic_troop="NPCCharacter.Militia1" melee_militia_troop="NPCCharacter.Militia1" ranged_militia_troop="NPCCharacter.MilitiaBow1" melee_elite_militia_troop="NPCCharacter.Militia3" ranged_elite_militia_troop="NPCCharacter.MilitiaBow2" can_have_settlement="true" villager_party_template="PartyTemplate.villager_wetlands_template" default_party_template="PartyTemplate.kingdom_hero_party_wetlands_template" settlement_patrol_template_level_1="PartyTemplate.patrol_party_empire_template_level_1" settlement_patrol_template_level_2="PartyTemplate.patrol_party_empire_template_level_2" settlement_patrol_template_level_3="PartyTemplate.patrol_party_empire_template_level_3" militia_party_template="PartyTemplate.militia_wetlands_template" rebels_party_template="PartyTemplate.rebels_wetlands_template" vassal_reward_party_template="PartyTemplate.vassal_reward_troops_wetlands" prosperity_bonus="1" encounter_background_mesh="encounter_empire" faction_banner_key="11.4.124.4345.4345.764.764.1.0.0.163.0.5.512.512.764.764.1.0.0" text="{=X0kKBzsW}The Wetlands refers to the inland area of the Westlands, a phrase the Aiel use to describe the people to the west of the Aiel Wastes.  From Cairhien to the Two Rivers, East and West.  From Tar Valon to Amadicia, North and South.  A stalwart people steeped in a history of battles against the Shadow." tournament_master="NPCCharacter.tournament_master_empire" villager="NPCCharacter.villager_wetlands" caravan_master="NPCCharacter.caravan_master_empire" armed_trader="NPCCharacter.armed_trader_empire" caravan_guard="NPCCharacter.caravan_guard_empire" veteran_caravan_guard="NPCCharacter.veteran_caravan_guard_empire" prison_guard="NPCCharacter.prison_guard_empire" guard="NPCCharacter.guard_empire" blacksmith="NPCCharacter.blacksmith_empire" weaponsmith="NPCCharacter.weaponsmith_empire" townswoman="NPCCharacter.townswoman_empire" townswoman_infant="NPCCharacter.townswoman_infant_empire" townswoman_child="NPCCharacter.townswoman_child_empire" townswoman_teenager="NPCCharacter.townswoman_teenager_empire" townsman="NPCCharacter.townsman_empire" townsman_infant="NPCCharacter.townsman_infant_empire" townsman_child="NPCCharacter.townsman_child_empire" village_woman="NPCCharacter.village_woman_empire" villager_male_child="NPCCharacter.villager_child_empire" villager_male_teenager="NPCCharacter.villager_teenager_empire" villager_female_child="NPCCharacter.village_woman_child_empire" villager_female_teenager="NPCCharacter.village_woman_teenager_empire" townsman_teenager="NPCCharacter.townsman_teenager_empire" ransom_broker="NPCCharacter.ransom_broker_empire" gangleader_bodyguard="NPCCharacter.gangleader_bodyguard_empire" merchant_notary="NPCCharacter.merchant_notary_empire" artisan_notary="NPCCharacter.artisan_notary_empire" preacher_notary="NPCCharacter.preacher_notary_empire" rural_notable_notary="NPCCharacter.rural_notable_notary_empire" shop_worker="NPCCharacter.shop_worker_empire" tavernkeeper="NPCCharacter.tavernkeeper_empire" taverngamehost="NPCCharacter.taverngamehost_empire" musician="NPCCharacter.musician_empire" tavern_wench="NPCCharacter.tavern_wench_empire" armorer="NPCCharacter.armorer_empire" horseMerchant="NPCCharacter.horseMerchant_empire" barber="NPCCharacter.barber_empire" merchant="NPCCharacter.merchant_empire" beggar="NPCCharacter.beggar_empire" female_beggar="NPCCharacter.female_beggar_empire" female_dancer="NPCCharacter.female_dancer_empire" default_stealth_equipment_roster="EquipmentRoster.default_stealth_equipment_roster" default_battle_equipment_roster="EquipmentRoster.emp_civ_template_default" default_civilian_equipment_roster="EquipmentRoster.emp_civ_template_default" duel_preset_equipment_roster="EquipmentRoster.emp_duel_preset_template" board_game_type="Tablut" marriage_bride_equipment_roster="EquipmentRoster.marriage_female_emp_cutscene_template" default_character_creation_body_property="BodyProperty.default_character_creation_body_property_empire" start_point_position_x="377.95" start_point_position_y="402.08">
+    <caravan_party_templates>
+      <caravan_party_template id="PartyTemplate.caravan_template_wetlands" />
+    </caravan_party_templates>
+    <elite_caravan_party_templates>
+      <caravan_party_template id="PartyTemplate.elite_caravan_template_wetlands" />
+    </elite_caravan_party_templates>
+    <available_ship_hulls></available_ship_hulls>
+    <vassal_reward_items>
+      <item id="Item.justicier_2hsword" />
+    </vassal_reward_items>
+    <banner_bearer_replacement_weapons>
+      <item id="Item.iron_spatha_sword_t2" />
+      <item id="Item.empire_sword_1_t2" />
+      <item id="Item.empire_sword_2_t3" />
+      <item id="Item.empire_sword_6_t5" />
+    </banner_bearer_replacement_weapons>
+    <default_policies>
+      <policy id="policy_senate" />
+    </default_policies>
+    <male_names>
+      <name name="{=v9B50R0Q}Acarion" />
+      <name name="{=aeLgc0cU}Acthon" />
+      <name name="{=tWDyWroN}Amnon" />
+      <name name="{=uTFjknE2}Andros" />
+      <name name="{=fXgftgNv}Aphanys" />
+      <name name="{=QjJAbaoT}Apys" />
+      <name name="{=zInIqBD0}Arenicos" />
+      <name name="{=W1uwgvAQ}Arion" />
+      <name name="{=5VzWRMTn}Artimendros" />
+      <name name="{=rGuYLmez}Ascyron" />
+      <name name="{=J1nh9YiN}Atilon" />
+      <name name="{=NBAGX54b}Avigos" />
+      <name name="{=9cDw6vPF}Cadomenos" />
+      <name name="{=R11i2uVl}Calytos" />
+      <name name="{=lD1sl2XC}Camnon" />
+      <name name="{=LP7yYoGQ}Caribos" />
+      <name name="{=VhbasI9J}Castor" />
+      <name name="{=VG9ng2n2}Chandion" />
+      <name name="{=aezwJGvY}Chenon" />
+      <name name="{=acp2IcMs}Crotor" />
+      <name name="{=XKxeaF0I}Dalidos" />
+      <name name="{=pCBkH35Q}Danos" />
+      <name name="{=2OJEyP0d}Dasys" />
+      <name name="{=SoTUisL3}Deltisos" />
+      <name name="{=2uKoNaSG}Denos" />
+      <name name="{=HfuAdGQX}Destor" />
+      <name name="{=lEHtUGed}Diocosos" />
+      <name name="{=5EiKEdi5}Dorion" />
+      <name name="{=yAZC6F7P}Ecsorios" />
+      <name name="{=hyOgAehG}Emarys" />
+      <name name="{=rUvnbDi2}Encurion" />
+      <name name="{=KjzJjj5n}Eronys" />
+      <name name="{=gYit4RTe}Euchor" />
+      <name name="{=oQCZp9qv}Eumenys" />
+      <name name="{=uW38UtSH}Eupitor" />
+      <name name="{=WfAuSpJq}Eutos" />
+      <name name="{=RyorjCXF}Galon" />
+      <name name="{=ZFlIT1tH}Ganimynos" />
+      <name name="{=f3hTGKIP}Garitops" />
+      <name name="{=nqxxr9We}Gavalon" />
+      <name name="{=iDxygnVF}Gerotheon" />
+      <name name="{=rFbAjSWM}Gorigos" />
+      <name name="{=NxDJcR2c}Haratheos" />
+      <name name="{=tgVJZ1Uc}Hecaron" />
+      <name name="{=wQJGxBJI}Hophtalamos" />
+      <name name="{=4lEEqyCg}Jacorios" />
+      <name name="{=DwzrsJxS}Jamanys" />
+      <name name="{=IU63oxWD}Jemynon" />
+      <name name="{=t1OpnZph}Jeremos" />
+      <name name="{=katzUyMI}Joron" />
+      <name name="{=GWaJ7Ksq}Joculos" />
+      <name name="{=iJvIH6NP}Jutheros" />
+      <name name="{=BCy1KpvR}Lacalion" />
+      <name name="{=6LMiTKZz}Lamenon" />
+      <name name="{=F13aYbuk}Lavalios" />
+      <name name="{=NFIQZOPQ}Leosios" />
+      <name name="{=lbTMVAcI}Lerosion" />
+      <name name="{=bHbR5Mgy}Losys" />
+      <name name="{=CbxLZdVg}Lycos" />
+      <name name="{=HCXHcBzT}Mattis" />
+      <name name="{=X21PahQn}Menaclys" />
+      <name name="{=am2UnbAK}Menor" />
+      <name name="{=tTuaiLS6}Meritor" />
+      <name name="{=qqW5n5Ox}Milos" />
+      <name name="{=5yFy4U4i}Morynon" />
+      <name name="{=ud6rhXbn}Mostiros" />
+      <name name="{=04zSjaRe}Nartiros" />
+      <name name="{=FF3dQKc1}Nethor" />
+      <name name="{=u1lTJoPO}Nemos" />
+      <name name="{=sDFb1PRI}Nortos" />
+      <name name="{=QGIAbglw}Obron" />
+      <name name="{=AEaRpupL}Ocheros" />
+      <name name="{=ZmQx4gT3}Olichor" />
+      <name name="{=pq0w8kry}Orachos" />
+      <name name="{=JFVseSa3}Oros" />
+      <name name="{=7UkzXWTQ}Osarios" />
+      <name name="{=cZIhxH9e}Pacarios" />
+      <name name="{=9sokmYMZ}Padmos" />
+      <name name="{=NXOOJs2X}Patrys" />
+      <name name="{=plx8kkxa}Pelicos" />
+      <name name="{=1cKxsHSh}Penton" />
+      <name name="{=vgBRa2BE}Poraclys" />
+      <name name="{=q186AQHt}Phadon" />
+      <name name="{=yhfJVEe0}Phelenos" />
+      <name name="{=LMWiJi6V}Phirentos" />
+      <name name="{=XZxIpCQH}Phorys" />
+      <name name="{=VJbAdJe4}Purios" />
+      <name name="{=M9CWBbMe}Rhanos" />
+      <name name="{=P1zsoSPN}Rhovarion" />
+      <name name="{=Ho6zsGTI}Sachanion" />
+      <name name="{=5eTb2xr7}Sanion" />
+      <name name="{=Zm4a2xsf}Salusios" />
+      <name name="{=egCbjHDT}Semnon" />
+      <name name="{=GeJobcre}Sinor" />
+      <name name="{=E4WhEvu7}Sotherys" />
+      <name name="{=FClEZIkT}Sovos" />
+      <name name="{=rVUhYuvE}Suterios" />
+      <name name="{=PDK4FHAx}Suvys" />
+      <name name="{=Axe5FkET}Talison" />
+      <name name="{=PR4IqkTW}Temeon" />
+      <name name="{=9xyXdX4I}Tharos" />
+      <name name="{=zfUhnG7y}Themestios" />
+      <name name="{=9mQuSI3c}Thucasys" />
+      <name name="{=P7iNhhPl}Turiados" />
+      <name name="{=kfNW01y5}Tynops" />
+      <name name="{=amlzciqP}Ucasios" />
+      <name name="{=wbJzSg3X}Ulbesos" />
+      <name name="{=SRncaw79}Urios" />
+      <name name="{=pRbKbPK3}Vadrios" />
+      <name name="{=TiJOjUi5}Valaos" />
+      <name name="{=5nEh20ju}Vasylops" />
+      <name name="{=VN1D1Qps}Velanor" />
+      <name name="{=QNtdUfis}Vemioros" />
+      <name name="{=bWb245zO}Voleos" />
+      <name name="{=aH2ncPbK}Zalasos" />
+      <name name="{=WTePYMNF}Zaraclys" />
+      <name name="{=p0hcyZdp}Zenon" />
+      <name name="{=3RBVn5yi}Zoros" />
+      <name name="{=uCyAnus4}Zostios" />
+      <name name="{=7hYr7jQ7}Leutros" />
+      <name name="{=e7dayl1i}Mavinon" />
+      <name name="{=3EZMoUlp}Narmys" />
+      <name name="{=PvoTcJHa}Naselos" />
+      <name name="{=QumqvLnP}Ochivos" />
+      <name name="{=gxHrt6bC}Phamynor" />
+      <name name="{=6IDmRZ5k}Phestos" />
+      <name name="{=ek1Q2TJz}Polon" />
+    </male_names>
+    <female_names>
+      <name name="{=h8DsXm7X}Achena" />
+      <name name="{=BNnLbOkN}Adinea" />
+      <name name="{=EGatdCLg}Alena" />
+      <name name="{=UPaP0B2L}Alchyla" />
+      <name name="{=QyXwJXIV}Andrasa" />
+      <name name="{=NM5f1Q6I}Ariada" />
+      <name name="{=3RbayfTG}Ascytala" />
+      <name name="{=bmHAYBwX}Catila" />
+      <name name="{=AdK4Ilzw}Chalia" />
+      <name name="{=xVSOKf0p}Chara" />
+      <name name="{=915frsPd}Corena" />
+      <name name="{=KPQqENbd}Carinila" />
+      <name name="{=BNuZ6nvd}Daniria" />
+      <name name="{=sEgUB3jW}Deasora" />
+      <name name="{=YBGCXSEx}Debana" />
+      <name name="{=93hivVp6}Donysa" />
+      <name name="{=0dHy2430}Echalera" />
+      <name name="{=Oy5dH7gZ}Elea" />
+      <name name="{=2YbgWjTK}Emyna" />
+      <name name="{=rA3KybBX}Ethirea" />
+      <name name="{=qiTtJyHE}Gala" />
+      <name name="{=fGmpS0Dr}Gandarina" />
+      <name name="{=ecJRFHyY}Gisetha" />
+      <name name="{=a6qaFH7L}Herena" />
+      <name name="{=LE9mRhSs}Hespedia" />
+      <name name="{=tGhrpQ0D}Hyradia" />
+      <name name="{=0MJi7mre}Hyscasia" />
+      <name name="{=JQdqGaaB}Isibala" />
+      <name name="{=RHXdqjQY}Ilina" />
+      <name name="{=HSlPLC4m}Ira" />
+      <name name="{=PNR2CvvX}Ithicala" />
+      <name name="{=eOHeCKxn}Jespara" />
+      <name name="{=6vtmYjTW}Jolanna" />
+      <name name="{=Ew69yN84}Juthys" />
+      <name name="{=028iCb8B}Jythea" />
+      <name name="{=Jif1C3X3}Laria" />
+      <name name="{=LX1YS9DW}Lasilea" />
+      <name name="{=2oy7atk6}Lundana" />
+      <name name="{=dwFZFQ6V}Lysica" />
+      <name name="{=2fYYfHUI}Martira" />
+      <name name="{=cqSaKXzl}Matha" />
+      <name name="{=Vxt0xTvV}Mavea" />
+      <name name="{=lgvtLEDA}Melchea" />
+      <name name="{=QvfUqzpF}Mina" />
+      <name name="{=11KckWau}Mitara" />
+      <name name="{=IJlw8V5D}Mystesa" />
+      <name name="{=uLjRHv9p}Nadea" />
+      <name name="{=hreO0wwb}Nerhea" />
+      <name name="{=04dAbdjM}Nyvia" />
+      <name name="{=dLOlnl8m}Palysira" />
+      <name name="{=pXBvPxHI}Penestea" />
+      <name name="{=FUT6eXfw}Phaea" />
+      <name name="{=WrAMfIG1}Phenoria" />
+      <name name="{=uYbmhjI6}Rhamira" />
+      <name name="{=BIAEZaVx}Rhandana" />
+      <name name="{=H7oJaxqM}Rhelasa" />
+      <name name="{=XMTD2clw}Rhoe" />
+      <name name="{=0XEaaoah}Rosazia" />
+      <name name="{=L9weGfoX}Salea" />
+      <name name="{=nSoJkeBI}Sittacea" />
+      <name name="{=V1QLbhRl}Sora" />
+      <name name="{=qMJ7UZvk}Surena" />
+      <name name="{=gmD9mgR1}Synira" />
+      <name name="{=Cxazvjr3}Tamarea" />
+      <name name="{=b2aRoXsb}Tessa" />
+      <name name="{=bQKbW8Tx}Thasyna" />
+      <name name="{=YVVCaQE5}Thera" />
+      <name name="{=CvVJyKYA}Thelea" />
+      <name name="{=jJV5Tn09}Tethyclesa" />
+      <name name="{=e4jAHUX0}Tymata" />
+      <name name="{=z2KE7glc}Thylea" />
+      <name name="{=3bIc2X2l}Vaminesa" />
+      <name name="{=VzhbUL60}Vendelia" />
+      <name name="{=a2ajWcI3}Viria" />
+      <name name="{=5VZ0GF6Y}Zalisa" />
+      <name name="{=wbLqHvjE}Zerosica" />
+      <name name="{=zxZH2WbD}Zimena" />
+      <name name="{=AccBcEIt}Zoana" />
+    </female_names>
+    <clan_names>
+      <name name="{=pRA9EzNv}Acapanos" />
+      <name name="{=vdOWVAoz}Altesios" />
+      <name name="{=ogq9oxDn}Angarys" />
+      <name name="{=TNI6qRbQ}Astrethides" />
+      <name name="{=NTRPMben}Atragorys" />
+      <name name="{=MgDUudOx}Balastisos" />
+      <name name="{=t36SVqzP}Bustamys" />
+      <name name="{=xyKumbJI}Calastides" />
+      <name name="{=Rvww4Kxi}Corstases" />
+      <name name="{=jhlwsyqq}Chromasos" />
+      <name name="{=kWiQaFLM}Delicos" />
+      <name name="{=aaOSBHrI}Dinamontes" />
+      <name name="{=DiB4ukeK}Elysos" />
+      <name name="{=7lixVdYb}Erchisasos" />
+      <name name="{=FakFqJf1}Eurtimides" />
+      <name name="{=pUvrTrHT}Gessios" />
+      <name name="{=sgIlIqrI}Goronos" />
+      <name name="{=fsOUhzLv}Jalos" />
+      <name name="{=GcgpbmWB}Jintasos" />
+      <name name="{=IK7uQU2p}Lasirys" />
+      <name name="{=CuocGtTq}Lestharos" />
+      <name name="{=w4u0LxQb}Lovanides" />
+      <name name="{=lsOtNjxl}Manitesos" />
+      <name name="{=FVl3D2qT}Meones" />
+      <name name="{=8CQuY3RO}Munitides" />
+      <name name="{=fAKa9JfU}Nathanys" />
+      <name name="{=HSpdZCr5}Nebranos" />
+      <name name="{=024kHRwG}Nomanides" />
+      <name name="{=RhwPmahK}Opynates" />
+      <name name="{=E1NB09bP}Otsamides" />
+      <name name="{=PbxaX8F5}Othalotos" />
+      <name name="{=OL6fbZRY}Paltos" />
+      <name name="{=ild3wLKb}Pylitax" />
+      <name name="{=eRg4Ngl1}Pharchasys" />
+      <name name="{=HPrHkie6}Phenigos" />
+      <name name="{=XWqBgFzc}Phorides" />
+      <name name="{=Yl3c9WaM}Salastrys" />
+      <name name="{=DYdI0faN}Stracanasthes" />
+      <name name="{=g7etVhSO}Sumessos" />
+      <name name="{=U9kQ2sTU}Tasyx" />
+      <name name="{=lMxYCQYF}Teminides" />
+      <name name="{=oGf1fUpP}Therycos" />
+      <name name="{=AeNqteUX}Zebales" />
+      <name name="{=63ZZltcm}Zalastros" />
+    </clan_names>
+    <cultural_feats>
+      <feat id="empire_decreased_garrison_wage" />
+      <feat id="empire_army_influence" />
+      <feat id="empire_slower_hearth_production" />
+    </cultural_feats>
+    <possible_clan_banner_icon_ids>
+      <icon id="100" />
+      <icon id="101" />
+      <icon id="102" />
+      <icon id="103" />
+      <icon id="104" />
+      <icon id="105" />
+      <icon id="106" />
+      <icon id="107" />
+      <icon id="108" />
+      <icon id="109" />
+      <icon id="110" />
+      <icon id="119" />
+      <icon id="147" />
+      <icon id="148" />
+      <icon id="152" />
+      <icon id="200" />
+      <icon id="201" />
+      <icon id="202" />
+      <icon id="203" />
+      <icon id="204" />
+      <icon id="205" />
+      <icon id="206" />
+      <icon id="207" />
+      <icon id="208" />
+      <icon id="209" />
+      <icon id="210" />
+      <icon id="211" />
+      <icon id="212" />
+      <icon id="213" />
+      <icon id="214" />
+      <icon id="215" />
+      <icon id="216" />
+      <icon id="217" />
+      <icon id="218" />
+      <icon id="219" />
+      <icon id="220" />
+      <icon id="221" />
+      <icon id="222" />
+      <icon id="223" />
+      <icon id="400" />
+    </possible_clan_banner_icon_ids>
+    <notable_templates>
+      <template name="NPCCharacter.spc_notable_empire_0" />
+      <template name="NPCCharacter.spc_notable_empire_0b" />
+      <template name="NPCCharacter.spc_notable_empire_1" />
+      <template name="NPCCharacter.spc_notable_empire_1b" />
+      <template name="NPCCharacter.spc_notable_empire_2" />
+      <template name="NPCCharacter.spc_notable_empire_2b" />
+      <template name="NPCCharacter.spc_notable_empire_3" />
+      <template name="NPCCharacter.spc_notable_empire_3b" />
+      <template name="NPCCharacter.spc_notable_empire_4" />
+      <template name="NPCCharacter.spc_notable_empire_4b" />
+      <template name="NPCCharacter.spc_notable_empire_5" />
+      <template name="NPCCharacter.spc_notable_empire_6" />
+      <template name="NPCCharacter.spc_notable_empire_7" />
+      <template name="NPCCharacter.spc_notable_empire_8" />
+      <template name="NPCCharacter.spc_notable_empire_9" />
+      <template name="NPCCharacter.spc_notable_empire_10" />
+      <template name="NPCCharacter.spc_notable_empire_11" />
+      <template name="NPCCharacter.spc_notable_empire_12" />
+      <template name="NPCCharacter.spc_notable_empire_13" />
+      <template name="NPCCharacter.spc_notable_empire_21" />
+      <template name="NPCCharacter.spc_notable_empire_22" />
+      <template name="NPCCharacter.spc_notable_empire_gl1" />
+      <template name="NPCCharacter.spc_notable_empire_gl4" />
+      <template name="NPCCharacter.spc_empire_headman_1" />
+      <template name="NPCCharacter.spc_empire_headman_2" />
+      <template name="NPCCharacter.spc_empire_headman_3" />
+    </notable_templates>
+    <lord_templates>
+      <template name="NPCCharacter.spc_legion_of_the_betrayed_leader_0" />
+      <template name="NPCCharacter.spc_legion_of_the_betrayed_leader_1" />
+      <template name="NPCCharacter.spc_legion_of_the_betrayed_leader_2" />
+      <template name="NPCCharacter.spc_legion_of_the_betrayed_leader_3" />
+      <template name="NPCCharacter.spc_hidden_hand_leader_0" />
+      <template name="NPCCharacter.spc_hidden_hand_leader_1" />
+      <template name="NPCCharacter.spc_hidden_hand_leader_2" />
+      <template name="NPCCharacter.spc_hidden_hand_leader_3" />
+      <template name="NPCCharacter.spc_embers_of_flame_leader_0" />
+      <template name="NPCCharacter.spc_embers_of_flame_leader_1" />
+      <template name="NPCCharacter.spc_embers_of_flame_leader_2" />
+      <template name="NPCCharacter.spc_embers_of_flame_leader_3" />
+      <template name="NPCCharacter.spc_eleftheroi_leader_0" />
+      <template name="NPCCharacter.spc_eleftheroi_leader_1" />
+      <template name="NPCCharacter.spc_eleftheroi_leader_2" />
+      <template name="NPCCharacter.spc_eleftheroi_leader_3" />
+    </lord_templates>
+    <rebellion_hero_templates>
+      <template name="NPCCharacter.spc_legion_of_the_betrayed_leader_0" />
+      <template name="NPCCharacter.spc_legion_of_the_betrayed_leader_1" />
+      <template name="NPCCharacter.spc_legion_of_the_betrayed_leader_2" />
+      <template name="NPCCharacter.spc_legion_of_the_betrayed_leader_3" />
+      <template name="NPCCharacter.spc_hidden_hand_leader_0" />
+      <template name="NPCCharacter.spc_hidden_hand_leader_1" />
+      <template name="NPCCharacter.spc_hidden_hand_leader_2" />
+      <template name="NPCCharacter.spc_hidden_hand_leader_3" />
+      <template name="NPCCharacter.spc_embers_of_flame_leader_0" />
+      <template name="NPCCharacter.spc_embers_of_flame_leader_1" />
+      <template name="NPCCharacter.spc_embers_of_flame_leader_2" />
+      <template name="NPCCharacter.spc_embers_of_flame_leader_3" />
+      <template name="NPCCharacter.spc_eleftheroi_leader_0" />
+      <template name="NPCCharacter.spc_eleftheroi_leader_1" />
+      <template name="NPCCharacter.spc_eleftheroi_leader_2" />
+      <template name="NPCCharacter.spc_eleftheroi_leader_3" />
+    </rebellion_hero_templates>
+    <tournament_team_templates_one_participant>
+      <template name="NPCCharacter.tournament_template_empire_one_participant_set_v1" />
+    </tournament_team_templates_one_participant>
+    <tournament_team_templates_two_participant>
+      <template name="NPCCharacter.tournament_template_empire_two_participant_set_v1" />
+      <template name="NPCCharacter.tournament_template_empire_two_participant_set_v2" />
+      <template name="NPCCharacter.tournament_template_empire_two_participant_set_v3" />
+    </tournament_team_templates_two_participant>
+    <tournament_team_templates_four_participant>
+      <template name="NPCCharacter.tournament_template_empire_four_participant_set_v1" />
+      <template name="NPCCharacter.tournament_template_empire_four_participant_set_v2" />
+      <template name="NPCCharacter.tournament_template_empire_four_participant_set_v3" />
+    </tournament_team_templates_four_participant>
+    <basic_mercenary_troops>
+      <template name="NPCCharacter.eastern_mercenary" />
+      <template name="NPCCharacter.western_mercenary" />
+      <template name="NPCCharacter.sword_sisters_sister_t3" />
+    </basic_mercenary_troops>
+  </Culture>
+  <Culture id="vlandia" name="{=seanchanfaction}Seanchan" is_main_culture="true" color="0xff387146" color2="0xff274f31" elite_basic_troop="NPCCharacter.Damane1" basic_troop="NPCCharacter.Seanchan1" melee_militia_troop="NPCCharacter.Seanchan1" ranged_militia_troop="NPCCharacter.SeanchanBow1" melee_elite_militia_troop="NPCCharacter.Seanchan3" ranged_elite_militia_troop="NPCCharacter.Damane1" can_have_settlement="true" villager_party_template="PartyTemplate.villager_seanchan_template" default_party_template="PartyTemplate.kingdom_hero_party_wetlands_template" settlement_patrol_template_level_1="PartyTemplate.patrol_party_vlandia_template_level_1" settlement_patrol_template_level_2="PartyTemplate.patrol_party_vlandia_template_level_2" settlement_patrol_template_level_3="PartyTemplate.patrol_party_vlandia_template_level_3" encounter_background_mesh="encounter_vlandia" faction_banner_key="11.14.14.1536.1536.764.764.1.0.0.160.15.15.497.497.764.764.1.0.0" militia_party_template="PartyTemplate.militia_seanchan_template" rebels_party_template="PartyTemplate.rebels_seanchan_template" vassal_reward_party_template="PartyTemplate.vassal_reward_troops_seanchan" text="{=SeanchanCulture}The Seanchan empire has a rigid class structure. At the highest level are the Blood who trace their lineage back to Artur Hawkwing by way of his son Luthair. Below them are the free men and women. Lower still are slaves. There are a number of sub-classes within these three groups.&#xD;&#xA;The interactions of members of different classes are extremely regimented. For instance, it is forbidden to look someone of a higher class directly in the eye. Also, someone of high rank will generally not speak to someone of significantly lower rank; instead they will communicate with the inferior by using a slave, called a Voice to relay their message." tournament_master="NPCCharacter.tournament_master_vlandia" villager="NPCCharacter.villager_seanchan" caravan_master="NPCCharacter.caravan_master_vlandia" armed_trader="NPCCharacter.armed_trader_vlandia" caravan_guard="NPCCharacter.caravan_guard_vlandia" veteran_caravan_guard="NPCCharacter.veteran_caravan_guard_vlandia" prison_guard="NPCCharacter.prison_guard_vlandia" guard="NPCCharacter.guard_vlandia" blacksmith="NPCCharacter.blacksmith_vlandia" weaponsmith="NPCCharacter.weaponsmith_vlandia" townswoman="NPCCharacter.townswoman_vlandia" townswoman_infant="NPCCharacter.townswoman_infant_vlandia" townswoman_child="NPCCharacter.townswoman_child_vlandia" townswoman_teenager="NPCCharacter.townswoman_teenager_vlandia" townsman="NPCCharacter.townsman_vlandia" townsman_infant="NPCCharacter.townsman_infant_vlandia" townsman_child="NPCCharacter.townsman_child_vlandia" townsman_teenager="NPCCharacter.townsman_teenager_vlandia" village_woman="NPCCharacter.village_woman_vlandia" villager_male_child="NPCCharacter.villager_child_vlandia" villager_male_teenager="NPCCharacter.villager_teenager_vlandia" villager_female_child="NPCCharacter.village_woman_child_vlandia" villager_female_teenager="NPCCharacter.village_woman_teenager_vlandia" ransom_broker="NPCCharacter.ransom_broker_vlandia" gangleader_bodyguard="NPCCharacter.gangleader_bodyguard_vlandia" merchant_notary="NPCCharacter.merchant_notary_vlandia" artisan_notary="NPCCharacter.artisan_notary_vlandia" preacher_notary="NPCCharacter.preacher_notary_vlandia" rural_notable_notary="NPCCharacter.rural_notable_notary_vlandia" shop_worker="NPCCharacter.shop_worker_vlandia" tavernkeeper="NPCCharacter.tavernkeeper_vlandia" taverngamehost="NPCCharacter.taverngamehost_vlandia" musician="NPCCharacter.musician_vlandia" tavern_wench="NPCCharacter.tavern_wench_vlandia" armorer="NPCCharacter.armorer_vlandia" horseMerchant="NPCCharacter.horseMerchant_vlandia" barber="NPCCharacter.barber_vlandia" merchant="NPCCharacter.merchant_vlandia" beggar="NPCCharacter.beggar_vlandia" female_beggar="NPCCharacter.female_beggar_vlandia" female_dancer="NPCCharacter.female_dancer_vlandia" default_stealth_equipment_roster="EquipmentRoster.default_stealth_equipment_roster" default_battle_equipment_roster="EquipmentRoster.vla_civ_template_default" default_civilian_equipment_roster="EquipmentRoster.vla_civ_template_default" duel_preset_equipment_roster="EquipmentRoster.vla_duel_preset_template" board_game_type="MuTorere" marriage_bride_equipment_roster="EquipmentRoster.marriage_female_vla_cutscene_template" default_character_creation_body_property="BodyProperty.default_character_creation_body_property_vlandia" start_point_position_x="173.19" start_point_position_y="397.66">
+    <caravan_party_templates>
+      <caravan_party_template id="PartyTemplate.caravan_template_seanchan" />
+    </caravan_party_templates>
+    <elite_caravan_party_templates>
+      <caravan_party_template id="PartyTemplate.elite_caravan_template_seanchan" />
+    </elite_caravan_party_templates>
+    <available_ship_hulls></available_ship_hulls>
+    <vassal_reward_items>
+      <item id="Item.sentinel_2hsword" />
+    </vassal_reward_items>
+    <banner_bearer_replacement_weapons>
+      <item id="Item.vlandia_sword_1_t2" />
+      <item id="Item.vlandia_sword_2_t3" />
+      <item id="Item.vlandia_sword_3_t4" />
+      <item id="Item.vlandia_sword_5_t5" />
+    </banner_bearer_replacement_weapons>
+    <default_policies>
+      <policy id="policy_feudal_inheritance" />
+      <policy id="policy_castle_charters" />
+      <policy id="policy_senate" />
+    </default_policies>
+    <male_names>
+      <name name="{=WOTMN001Sean}Kara" />
+      <name name="{=WOTMN002Sean}Mehmed" />
+      <name name="{=WOTMN003Sean}Mesud" />
+      <name name="{=WOTMN004Sean}Ardashir" />
+      <name name="{=WOTMN005Sean}Hormisdas" />
+      <name name="{=WOTMN006Sean}Narseh" />
+      <name name="{=WOTMN007Sean}Narses" />
+      <name name="{=WOTMN008Sean}Papak" />
+      <name name="{=WOTMN009Sean}Shahpuhr" />
+      <name name="{=WOTMN010Sean}Warahran" />
+      <name name="{=WOTMN011Sean}Alborz" />
+      <name name="{=WOTMN012Sean}Alireza" />
+      <name name="{=WOTMN013Sean}Arash" />
+      <name name="{=WOTMN014Sean}Aref" />
+      <name name="{=WOTMN015Sean}Asghar" />
+      <name name="{=WOTMN016Sean}Babak" />
+      <name name="{=WOTMN017Sean}Baraz" />
+      <name name="{=WOTMN018Sean}Behnam" />
+      <name name="{=WOTMN019Sean}Daniyal" />
+      <name name="{=WOTMN020Sean}Dara" />
+      <name name="{=WOTMN021Sean}Ehsan" />
+      <name name="{=WOTMN022Sean}Eskandar" />
+      <name name="{=WOTMN023Sean}Esmaeil" />
+      <name name="{=WOTMN024Sean}Ghorban" />
+      <name name="{=WOTMN025Sean}Golzar" />
+      <name name="{=WOTMN026Sean}Ghasem" />
+      <name name="{=WOTMN027Sean}Hasan" />
+      <name name="{=WOTMN028Sean}Heydar" />
+      <name name="{=WOTMN029Sean}Isa" />
+      <name name="{=WOTMN030Sean}Jahan" />
+      <name name="{=WOTMN031Sean}Jalal" />
+      <name name="{=WOTMN032Sean}Javad" />
+      <name name="{=WOTMN033Sean}Kamran" />
+      <name name="{=WOTMN034Sean}Kaveh" />
+      <name name="{=WOTMN035Sean}Khalil" />
+      <name name="{=WOTMN036Sean}Kian" />
+      <name name="{=WOTMN037Sean}Mahdi" />
+      <name name="{=WOTMN038Sean}Mas’ud" />
+      <name name="{=WOTMN039Sean}Meysam" />
+      <name name="{=WOTMN040Sean}Morteza" />
+      <name name="{=WOTMN041Sean}Nima" />
+      <name name="{=WOTMN042Sean}Nasir" />
+      <name name="{=WOTMN043Sean}Piruz" />
+      <name name="{=WOTMN044Sean}Rahman" />
+      <name name="{=WOTMN045Sean}Reza" />
+      <name name="{=WOTMN046Sean}Rostam" />
+      <name name="{=WOTMN047Sean}Saam" />
+      <name name="{=WOTMN048Sean}Sam" />
+      <name name="{=WOTMN049Sean}Shad" />
+      <name name="{=WOTMN050Sean}Shapur" />
+      <name name="{=WOTMN051Sean}Shir" />
+      <name name="{=WOTMN052Sean}Siavash" />
+      <name name="{=WOTMN053Sean}Taher" />
+      <name name="{=WOTMN054Sean}Vahid" />
+      <name name="{=WOTMN055Sean}Yahya" />
+      <name name="{=WOTMN056Sean}Yasin" />
+      <name name="{=WOTMN057Sean}Zahir" />
+      <name name="{=WOTMN058Sean}Zartosht" />
+      <name name="{=WOTMN059Sean}Zhubin" />
+      <name name="{=WOTMN060Sean}Ziaeddin" />
+    </male_names>
+    <female_names>
+      <name name="{=WOTFN001Sean}Hurrem" />
+      <name name="{=WOTFN002Sean}Afina" />
+      <name name="{=WOTFN003Sean}Denag" />
+      <name name="{=WOTFN004Sean}Arya" />
+      <name name="{=WOTFN005Sean}Dana" />
+      <name name="{=WOTFN006Sean}Delshad" />
+      <name name="{=WOTFN007Sean}Iman" />
+      <name name="{=WOTFN008Sean}Mehr" />
+      <name name="{=WOTFN009Sean}Omid" />
+      <name name="{=WOTFN010Sean}Safa" />
+      <name name="{=WOTFN011Sean}Afsun" />
+      <name name="{=WOTFN012Sean}Anahita" />
+      <name name="{=WOTFN013Sean}Arezu" />
+      <name name="{=WOTFN014Sean}Asal" />
+      <name name="{=WOTFN015Sean}Ava" />
+      <name name="{=WOTFN016Sean}Azra" />
+      <name name="{=WOTFN017Sean}Baran" />
+      <name name="{=WOTFN018Sean}Darya" />
+      <name name="{=WOTFN019Sean}Delara" />
+      <name name="{=WOTFN020Sean}Elham" />
+      <name name="{=WOTFN021Sean}Esmat" />
+      <name name="{=WOTFN022Sean}Fariba" />
+      <name name="{=WOTFN023Sean}Firuzeh" />
+      <name name="{=WOTFN024Sean}Gol" />
+      <name name="{=WOTFN025Sean}Gohar" />
+      <name name="{=WOTFN026Sean}Hajar" />
+      <name name="{=WOTFN027Sean}Hayat" />
+      <name name="{=WOTFN028Sean}Jaleh" />
+      <name name="{=WOTFN029Sean}Katayun" />
+      <name name="{=WOTFN030Sean}Laleh" />
+      <name name="{=WOTFN031Sean}Leila" />
+      <name name="{=WOTFN032Sean}Leili" />
+      <name name="{=WOTFN033Sean}Mahine" />
+      <name name="{=WOTFN034Sean}Mahsa" />
+      <name name="{=WOTFN035Sean}Mina" />
+      <name name="{=WOTFN036Sean}Mitra" />
+      <name name="{=WOTFN037Sean}Mozhdeh" />
+      <name name="{=WOTFN038Sean}Nahid" />
+      <name name="{=WOTFN039Sean}Nazli" />
+      <name name="{=WOTFN040Sean}Neda" />
+      <name name="{=WOTFN041Sean}Paniz" />
+      <name name="{=WOTFN042Sean}Pari" />
+      <name name="{=WOTFN043Sean}Ra’na" />
+      <name name="{=WOTFN044Sean}Roshanara" />
+      <name name="{=WOTFN045Sean}Saba" />
+      <name name="{=WOTFN046Sean}Samira" />
+      <name name="{=WOTFN047Sean}Shadi" />
+      <name name="{=WOTFN048Sean}Sima" />
+      <name name="{=WOTFN049Sean}Vida" />
+      <name name="{=WOTFN050Sean}Zinat" />
+    </female_names>
+    <clan_names>
+      <name name="{=WOTCN001Sean}Ahriman" />
+      <name name="{=WOTCN002Sean}Amordad" />
+      <name name="{=WOTCN003Sean}Anaitis" />
+      <name name="{=WOTCN004Sean}Arzhang" />
+      <name name="{=WOTCN005Sean}Bahman" />
+      <name name="{=WOTCN006Sean}Fereydoun" />
+      <name name="{=WOTCN007Sean}Gowad" />
+      <name name="{=WOTCN008Sean}Haurvatat" />
+      <name name="{=WOTCN009Sean}Hordad" />
+      <name name="{=WOTCN010Sean}Khshaeta" />
+      <name name="{=WOTCN011Sean}Xshaeta" />
+      <name name="{=WOTCN012Sean}Katayoun" />
+      <name name="{=WOTCN013Sean}Kaveh" />
+      <name name="{=WOTCN014Sean}Khorshid" />
+      <name name="{=WOTCN015Sean}Mehr" />
+      <name name="{=WOTCN016Sean}Mithra" />
+      <name name="{=WOTCN017Sean}Nahid" />
+      <name name="{=WOTCN018Sean}Ormazd" />
+      <name name="{=WOTCN019Sean}Rashnu" />
+      <name name="{=WOTCN020Sean}Saam" />
+      <name name="{=WOTCN021Sean}Siavash" />
+      <name name="{=WOTCN022Sean}Tahmuras" />
+      <name name="{=WOTCN023Sean}Tahmina" />
+      <name name="{=WOTCN024Sean}Vata" />
+      <name name="{=WOTCN025Sean}Vairya" />
+      <name name="{=WOTCN026Sean}Zal" />
+    </clan_names>
+    <cultural_feats>
+      <feat id="empire_decreased_garrison_wage" />
+      <feat id="empire_army_influence" />
+      <feat id="empire_slower_hearth_production" />
+    </cultural_feats>
+    <possible_clan_banner_icon_ids>
+      <icon id="140" />
+      <icon id="141" />
+      <icon id="142" />
+      <icon id="143" />
+      <icon id="144" />
+      <icon id="145" />
+      <icon id="146" />
+      <icon id="159" />
+      <icon id="205" />
+      <icon id="206" />
+      <icon id="207" />
+      <icon id="417" />
+      <icon id="418" />
+      <icon id="419" />
+      <icon id="300" />
+      <icon id="301" />
+      <icon id="302" />
+      <icon id="303" />
+      <icon id="315" />
+    </possible_clan_banner_icon_ids>
+    <notable_templates>
+      <template name="NPCCharacter.spc_notable_vlandia_merch1" />
+      <template name="NPCCharacter.spc_notable_vlandia_merch2" />
+      <template name="NPCCharacter.spc_notable_vlandia_merch3" />
+      <template name="NPCCharacter.spc_notable_vlandia_merch4" />
+      <template name="NPCCharacter.spc_notable_vlandia_merch5" />
+      <template name="NPCCharacter.spc_notable_vlandia_1" />
+      <template name="NPCCharacter.spc_notable_vlandia_1b" />
+      <template name="NPCCharacter.spc_notable_vlandia_2" />
+      <template name="NPCCharacter.spc_notable_vlandia_3" />
+      <template name="NPCCharacter.spc_vlandia_gangleader_1" />
+      <template name="NPCCharacter.spc_vlandia_gangleader_2" />
+      <template name="NPCCharacter.spc_vlandia_gangleader_3" />
+      <template name="NPCCharacter.spc_notable_vlandia_artisan_1" />
+      <template name="NPCCharacter.spc_notable_vlandia_artisan_2" />
+      <template name="NPCCharacter.spc_notable_vlandia_rural_1" />
+      <template name="NPCCharacter.spc_notable_vlandia_rural_2" />
+      <template name="NPCCharacter.spc_vlandia_headman_1" />
+      <template name="NPCCharacter.spc_vlandia_headman_2" />
+      <template name="NPCCharacter.spc_vlandia_headman_3" />
+    </notable_templates>
+    <lord_templates>
+      <template name="NPCCharacter.spc_company_of_the_boar_leader_0" />
+      <template name="NPCCharacter.spc_company_of_the_boar_leader_1" />
+      <template name="NPCCharacter.spc_company_of_the_boar_leader_2" />
+      <template name="NPCCharacter.spc_company_of_the_boar_leader_3" />
+      <template name="NPCCharacter.spc_brotherhood_of_woods_leader_0" />
+      <template name="NPCCharacter.spc_brotherhood_of_woods_leader_1" />
+      <template name="NPCCharacter.spc_brotherhood_of_woods_leader_2" />
+      <template name="NPCCharacter.spc_brotherhood_of_woods_leader_3" />
+    </lord_templates>
+    <rebellion_hero_templates>
+      <template name="NPCCharacter.spc_company_of_the_boar_leader_0" />
+      <template name="NPCCharacter.spc_company_of_the_boar_leader_1" />
+      <template name="NPCCharacter.spc_company_of_the_boar_leader_2" />
+      <template name="NPCCharacter.spc_company_of_the_boar_leader_3" />
+      <template name="NPCCharacter.spc_brotherhood_of_woods_leader_0" />
+      <template name="NPCCharacter.spc_brotherhood_of_woods_leader_1" />
+      <template name="NPCCharacter.spc_brotherhood_of_woods_leader_2" />
+      <template name="NPCCharacter.spc_brotherhood_of_woods_leader_3" />
+    </rebellion_hero_templates>
+    <tournament_team_templates_one_participant>
+      <template name="NPCCharacter.tournament_template_vlandia_one_participant_set_v1" />
+      <template name="NPCCharacter.tournament_template_vlandia_one_participant_set_v2" />
+      <template name="NPCCharacter.tournament_template_vlandia_one_participant_set_v3" />
+    </tournament_team_templates_one_participant>
+    <tournament_team_templates_two_participant>
+      <template name="NPCCharacter.tournament_template_vlandia_two_participant_set_v1" />
+      <template name="NPCCharacter.tournament_template_vlandia_two_participant_set_v2" />
+      <template name="NPCCharacter.tournament_template_vlandia_two_participant_set_v3" />
+      <template name="NPCCharacter.tournament_template_vlandia_two_participant_set_v4" />
+    </tournament_team_templates_two_participant>
+    <tournament_team_templates_four_participant>
+      <template name="NPCCharacter.tournament_template_vlandia_four_participant_set_v1" />
+      <template name="NPCCharacter.tournament_template_vlandia_four_participant_set_v2" />
+      <template name="NPCCharacter.tournament_template_vlandia_four_participant_set_v3" />
+      <template name="NPCCharacter.tournament_template_vlandia_four_participant_set_v4" />
+    </tournament_team_templates_four_participant>
+    <basic_mercenary_troops>
+      <template name="NPCCharacter.western_mercenary" />
+      <template name="NPCCharacter.sword_sisters_sister_t3" />
+    </basic_mercenary_troops>
+  </Culture>
+  <Culture id="nord" name="{=malkierfaction}Malkier" is_main_culture="false" elite_basic_troop="NPCCharacter.MalkierRemenant3cav1" basic_troop="NPCCharacter.MalkierRemenant1" can_have_settlement="true" villager_party_template="PartyTemplate.villager_borderlands_template" encounter_background_mesh="encounter_khuzait" militia_party_template="PartyTemplate.militia_borderlands_template" settlement_patrol_template_level_1="PartyTemplate.patrol_party_sturgia_template_level_1" settlement_patrol_template_level_2="PartyTemplate.patrol_party_sturgia_template_level_2" settlement_patrol_template_level_3="PartyTemplate.patrol_party_sturgia_template_level_3" default_battle_equipment_roster="EquipmentRoster.default_battle_equipment_roster_neutral" default_civilian_equipment_roster="EquipmentRoster.default_civilian_equipment_roster_neutral" default_stealth_equipment_roster="EquipmentRoster.default_stealth_equipment_roster">
+    <caravan_party_templates>
+      <caravan_party_template id="PartyTemplate.caravan_template_borderlands" />
+    </caravan_party_templates>
+    <elite_caravan_party_templates>
+      <caravan_party_template id="PartyTemplate.elite_caravan_template_borderlands" />
+    </elite_caravan_party_templates>
+    <available_ship_hulls></available_ship_hulls>
+    <banner_bearer_replacement_weapons>
+      <item id="Item.sturgia_sword_1_t2" />
+      <item id="Item.sturgia_sword_2_t3" />
+      <item id="Item.sturgia_sword_4_t4" />
+      <item id="Item.sturgia_sword_5_t5" />
+    </banner_bearer_replacement_weapons>
+    <male_names>
+      <name name="{=ig8zAo8f}Ori" />
+    </male_names>
+    <female_names>
+      <name name="{=L0fuYckc}Friga" />
+    </female_names>
+  </Culture>
+  <Culture id="vakken" name="{=sharafaction}Sharan" is_main_culture="false" 
+		   elite_basic_troop="NPCCharacter.sharamercarchermount1" basic_troop="NPCCharacter.sharamerc1" 
+		   can_have_settlement="true" villager_party_template="PartyTemplate.villager_aserai_template" encounter_background_mesh="encounter_aserai" 
+		   militia_party_template="PartyTemplate.militia_aserai_template" settlement_patrol_template_level_1="PartyTemplate.patrol_party_sturgia_template_level_1" 
+		   settlement_patrol_template_level_2="PartyTemplate.patrol_party_sturgia_template_level_2" settlement_patrol_template_level_3="PartyTemplate.patrol_party_sturgia_template_level_3" 
+		   default_battle_equipment_roster="EquipmentRoster.default_battle_equipment_roster_neutral" 
+		   default_civilian_equipment_roster="EquipmentRoster.default_civilian_equipment_roster_neutral" 
+		   default_stealth_equipment_roster="EquipmentRoster.default_stealth_equipment_roster">
+    <caravan_party_templates>
+      <caravan_party_template id="PartyTemplate.caravan_template_aserai" />
+    </caravan_party_templates>
+    <available_ship_hulls></available_ship_hulls>
+    <banner_bearer_replacement_weapons>
+      <item id="Item.sturgia_sword_1_t2" />
+      <item id="Item.sturgia_sword_2_t3" />
+      <item id="Item.sturgia_sword_4_t4" />
+      <item id="Item.sturgia_sword_5_t5" />
+    </banner_bearer_replacement_weapons>
+    <male_names>
+      <name name="{=jhT7CfhM}Aivar" />
+      <name name="{=GaMUU2Pf}Kaupi" />
+      <name name="{=3ipKaDWU}Natti" />
+      <name name="{=kL0ldFLG}Pekko" />
+      <name name="{=W1ZpjgQO}Rauko" />
+      <name name="{=WpTXwQw1}Vuoni" />
+    </male_names>
+    <female_names>
+      <name name="{=FlexUfSP}Alivar" />
+      <name name="{=4bQbv3oN}Arha" />
+      <name name="{=rDPExYMQ}Eitar" />
+      <name name="{=jFdZ7mlB}Ilikki" />
+      <name name="{=ELpRLYQt}Jalin" />
+      <name name="{=hBuBpxjb}Kaidi" />
+      <name name="{=j8IOY5Cy}Luona" />
+      <name name="{=iiGXfCWd}Menar" />
+      <name name="{=gG1O5V1n}Olianar" />
+      <name name="{=XAF12HV0}Vikka" />
+    </female_names>
+  </Culture>
+  <Culture id="darshi" name="{=seafolkfaction}Atha'an Miere" is_main_culture="false" 
+		   elite_basic_troop="NPCCharacter.seafolkwind2" basic_troop="NPCCharacter.Seafolk1" 
+		   can_have_settlement="true" villager_party_template="PartyTemplate.villager_aserai_template" encounter_background_mesh="encounter_aserai" 
+		   militia_party_template="PartyTemplate.militia_aserai_template" settlement_patrol_template_level_1="PartyTemplate.patrol_party_aserai_template_level_1" 
+		   settlement_patrol_template_level_2="PartyTemplate.patrol_party_aserai_template_level_2" settlement_patrol_template_level_3="PartyTemplate.patrol_party_aserai_template_level_3" 
+		   default_battle_equipment_roster="EquipmentRoster.default_battle_equipment_roster_neutral" 
+		   default_civilian_equipment_roster="EquipmentRoster.Seafolk_troop_civilian_template_t1" 
+		   default_stealth_equipment_roster="EquipmentRoster.default_stealth_equipment_roster" 
+		   default_character_creation_body_property="BodyProperty.spc_jawwal_leader_0">
+    <caravan_party_templates>
+      <caravan_party_template id="PartyTemplate.caravan_template_aserai" />
+    </caravan_party_templates>
+    <available_ship_hulls></available_ship_hulls>
+    <banner_bearer_replacement_weapons>
+      <item id="Item.aserai_sword_1_t2" />
+      <item id="Item.aserai_sword_3_t3" />
+      <item id="Item.aserai_sword_4_t4" />
+      <item id="Item.aserai_sword_5_t4" />
+    </banner_bearer_replacement_weapons>
+    <male_names>
+      <name name="{=JJtww9pt}Aryush" />
+      <name name="{=Zm0Ee6sp}Azadun" />
+      <name name="{=nisA6W98}Baheshtur" />
+      <name name="{=pEvpjIa9}Bunduk" />
+      <name name="{=Z261F0mj}Hamezan" />
+      <name name="{=KmzQabkH}Hivan" />
+      <name name="{=QR3aNalC}Imirza" />
+      <name name="{=mDZqpa9Z}Sanjar" />
+    </male_names>
+    <female_names>
+      <name name="{=lGRde77R}Anahita" />
+      <name name="{=sa0YrXiv}Azareh" />
+      <name name="{=epxmhQav}Daria" />
+      <name name="{=zSL3MgNQ}Ilzar" />
+      <name name="{=R7avnODK}Nasmeen" />
+      <name name="{=ZPHdPglH}Raksana" />
+      <name name="{=SHXt3kC5}Roshaneh" />
+      <name name="{=wERVdmjj}Sulnaz" />
+      <name name="{=Btb7NzFM}Shima" />
+      <name name="{=GqEEIYay}Tilzad" />
+    </female_names>
+  </Culture>
+  <Culture id="looters" name="{=lootersfaction}Rogue Trollocs" elite_basic_troop="NPCCharacter.rogue_trolloc" basic_troop="NPCCharacter.rogue_trolloc" is_bandit="true" can_have_settlement="false" encounter_background_mesh="encounter_looter">
+    <banner_bearer_replacement_weapons>
+      <item id="Item.Trollocweapon4" />
+      <item id="Item.Trollocweapon1" />
+      <item id="Item.Trollocweapon5" />
+      <item id="Item.Trollocweapon6" />
+    </banner_bearer_replacement_weapons>
+  </Culture>
+  <Culture id="sea_raiders" name="{=pBUc2pL8}Coastland Pirates" bandit_chief="NPCCharacter.sea_raiders_chief" bandit_raider="NPCCharacter.sea_raiders_raider" bandit_bandit="NPCCharacter.sea_raiders_bandit" bandit_boss="NPCCharacter.sea_raiders_boss" elite_basic_troop="NPCCharacter.sea_raiders_raider" basic_troop="NPCCharacter.sea_raiders_bandit" is_bandit="true" can_have_settlement="true" encounter_background_mesh="encounter_shore_bandit" bandit_boss_party_template="PartyTemplate.sea_raiders_boss_party_template">
+    <banner_bearer_replacement_weapons>
+      <item id="Item.sturgia_sword_1_t2" />
+      <item id="Item.sturgia_sword_2_t3" />
+      <item id="Item.sturgia_sword_4_t4" />
+      <item id="Item.sturgia_sword_5_t5" />
+    </banner_bearer_replacement_weapons>
+  </Culture>
+  <Culture id="mountain_bandits" name="{=mOa9CX13}False Dragon Followers" bandit_chief="NPCCharacter.mountain_bandits_chief" bandit_raider="NPCCharacter.mountain_bandits_raider" bandit_bandit="NPCCharacter.mountain_bandits_bandit" bandit_boss="NPCCharacter.mountain_bandits_boss" elite_basic_troop="NPCCharacter.mountain_bandits_raider" basic_troop="NPCCharacter.mountain_bandits_bandit" is_bandit="true" can_have_settlement="true" encounter_background_mesh="encounter_mountain_bandit" bandit_boss_party_template="PartyTemplate.mountain_bandits_boss_party_template">
+    <banner_bearer_replacement_weapons>
+      <item id="Item.vlandia_sword_1_t2" />
+      <item id="Item.vlandia_sword_2_t3" />
+      <item id="Item.vlandia_sword_3_t4" />
+      <item id="Item.vlandia_sword_5_t5" />
+    </banner_bearer_replacement_weapons>
+  </Culture>
+  <Culture id="forest_bandits" name="{=sAbjtZbB}Forest Bandits" bandit_chief="NPCCharacter.forest_bandits_chief" bandit_raider="NPCCharacter.forest_bandits_raider" bandit_bandit="NPCCharacter.forest_bandits_bandit" bandit_boss="NPCCharacter.forest_bandits_boss" elite_basic_troop="NPCCharacter.forest_bandits_raider" basic_troop="NPCCharacter.forest_bandits_bandit" is_bandit="true" can_have_settlement="true" encounter_background_mesh="encounter_forest_bandit" bandit_boss_party_template="PartyTemplate.forest_bandits_boss_party_template">
+    <banner_bearer_replacement_weapons>
+      <item id="Item.battania_sword_1_t2" />
+      <item id="Item.battania_sword_2_t3" />
+      <item id="Item.battania_sword_4_t4" />
+      <item id="Item.battania_sword_5_t5" />
+    </banner_bearer_replacement_weapons>
+  </Culture>
+  <Culture id="desert_bandits" name="{=kkUQObZn}Sharan Raiders" bandit_chief="NPCCharacter.desert_bandits_chief" bandit_raider="NPCCharacter.desert_bandits_raider" bandit_bandit="NPCCharacter.desert_bandits_bandit" bandit_boss="NPCCharacter.desert_bandits_boss" elite_basic_troop="NPCCharacter.desert_bandits_raider" basic_troop="NPCCharacter.desert_bandits_bandit" is_bandit="true" can_have_settlement="true" encounter_background_mesh="encounter_desert_bandits" bandit_boss_party_template="PartyTemplate.desert_bandits_boss_party_template">
+    <banner_bearer_replacement_weapons>
+      <item id="Item.aserai_sword_1_t2" />
+      <item id="Item.aserai_sword_3_t3" />
+      <item id="Item.aserai_sword_4_t4" />
+      <item id="Item.aserai_sword_5_t4" />
+    </banner_bearer_replacement_weapons>
+  </Culture>
+  <Culture id="steppe_bandits" name="{=e6csp4ha}Steppe Bandits" bandit_chief="NPCCharacter.steppe_bandits_chief" bandit_raider="NPCCharacter.steppe_bandits_raider" bandit_bandit="NPCCharacter.steppe_bandits_bandit" bandit_boss="NPCCharacter.steppe_bandits_boss" elite_basic_troop="NPCCharacter.steppe_bandits_raider" basic_troop="NPCCharacter.steppe_bandits_bandit" is_bandit="true" can_have_settlement="true" encounter_background_mesh="encounter_desert_bandits" bandit_boss_party_template="PartyTemplate.steppe_bandits_boss_party_template">
+    <banner_bearer_replacement_weapons>
+      <item id="Item.khuzait_sword_1_t2" />
+      <item id="Item.khuzait_sword_2_t3" />
+      <item id="Item.khuzait_sword_3_t3" />
+      <item id="Item.khuzait_sword_4_t4" />
+    </banner_bearer_replacement_weapons>
+  </Culture>
+  <Culture id="neutral_culture" name="{=jKviMpbP}Calradian" elite_basic_troop="NPCCharacter.guard" basic_troop="NPCCharacter.guard" encounter_background_mesh="encounter_empire" default_battle_equipment_roster="EquipmentRoster.default_battle_equipment_roster_neutral" default_civilian_equipment_roster="EquipmentRoster.default_civilian_equipment_roster_neutral" default_stealth_equipment_roster="EquipmentRoster.default_stealth_equipment_roster">
+    <banner_bearer_replacement_weapons>
+      <item id="Item.iron_spatha_sword_t2" />
+      <item id="Item.empire_sword_1_t2" />
+      <item id="Item.empire_sword_2_t3" />
+      <item id="Item.empire_sword_6_t5" />
+    </banner_bearer_replacement_weapons>
+  </Culture>
+</SPCultures>

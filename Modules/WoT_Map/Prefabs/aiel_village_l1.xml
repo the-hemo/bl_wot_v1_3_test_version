@@ -1,0 +1,47 @@
+<prefabs>
+	<game_entity name="aiel_village_l1" old_prefab_name="">
+		<transform position="13.818, 15.411, 1.091" rotation_euler="0.000, 0.000, 0.664" scale="0.100, 0.100, 0.100"/>
+		<components>
+			<meta_mesh_component name="aieltent01"/>
+		</components>
+		<children>
+			<game_entity name="aiel_tent" old_prefab_name="">
+				<transform position="5.984, -7.456, -0.109" rotation_euler="0.029, -0.006, -1.556"/>
+				<components>
+					<meta_mesh_component name="aieltent01"/>
+				</components>
+			</game_entity>
+			<game_entity name="aiel_tent" old_prefab_name="">
+				<transform position="-5.172, -3.086, 0.010" rotation_euler="0.000, 0.000, -2.384"/>
+				<components>
+					<meta_mesh_component name="aieltent01"/>
+				</components>
+			</game_entity>
+			<game_entity name="cooking_pot" old_prefab_name="">
+				<transform position="-0.044, -6.881, -1.039" rotation_euler="0.000, 0.000, -0.664"/>
+				<components>
+					<meta_mesh_component name="cooking_pot_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="food" old_prefab_name="">
+				<transform position="2.609, -3.636, -0.897" rotation_euler="0.000, 0.000, -0.664"/>
+				<components>
+					<meta_mesh_component name="foods_orange_basket"/>
+				</components>
+			</game_entity>
+			<game_entity name="food" old_prefab_name="">
+				<transform position="2.494, -4.579, -0.897" rotation_euler="0.000, 0.000, -0.664"/>
+				<components>
+					<meta_mesh_component name="foods_basket_olive_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="mat" old_prefab_name="">
+				<transform position="2.608, -4.113, -0.897" rotation_euler="0.000, 0.000, -0.664"/>
+				<components>
+					<meta_mesh_component name="bd_carpet_khuzait_round_a"/>
+				</components>
+			</game_entity>
+		</children>
+	</game_entity>
+</prefabs>
+

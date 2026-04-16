@@ -1,0 +1,71 @@
+<prefabs>
+	<game_entity name="aiel_village_l2" old_prefab_name="">
+		<transform position="9.772, 15.207, 1.071" rotation_euler="0.000, 0.000, 0.664" scale="0.100, 0.100, 0.100"/>
+		<components>
+			<meta_mesh_component name="aieltent01"/>
+		</components>
+		<children>
+			<game_entity name="mat" old_prefab_name="">
+				<transform position="-4.531, -6.781, -0.709" rotation_euler="0.000, 0.000, -0.664"/>
+				<components>
+					<meta_mesh_component name="bd_carpet_khuzait_round_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="mat" old_prefab_name="">
+				<transform position="-0.751, -4.473, -0.709" rotation_euler="0.000, 0.000, -0.664"/>
+				<components>
+					<meta_mesh_component name="bd_carpet_khuzait_round_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="food" old_prefab_name="">
+				<transform position="-0.865, -4.939, -0.709" rotation_euler="0.000, 0.000, -0.664"/>
+				<components>
+					<meta_mesh_component name="foods_basket_olive_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="food" old_prefab_name="">
+				<transform position="-4.949, -6.896, -0.709" rotation_euler="0.000, 0.000, -0.664"/>
+				<components>
+					<meta_mesh_component name="foods_basket_d"/>
+				</components>
+			</game_entity>
+			<game_entity name="food" old_prefab_name="">
+				<transform position="-0.750, -3.996, -0.709" rotation_euler="0.000, 0.000, -0.664"/>
+				<components>
+					<meta_mesh_component name="foods_orange_basket"/>
+				</components>
+			</game_entity>
+			<game_entity name="cooking_pot" old_prefab_name="">
+				<transform position="-0.820, -8.950, -1.042" rotation_euler="0.000, 0.000, -0.664"/>
+				<components>
+					<meta_mesh_component name="cooking_pot_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="cooking_pot" old_prefab_name="">
+				<transform position="-0.478, -7.749, -0.709" rotation_euler="0.000, 0.000, -0.664"/>
+				<components>
+					<meta_mesh_component name="kitchen_pot_b"/>
+				</components>
+			</game_entity>
+			<game_entity name="aiel_tent" old_prefab_name="">
+				<transform position="-6.235, -2.370, -0.037" rotation_euler="0.000, 0.000, -2.384"/>
+				<components>
+					<meta_mesh_component name="aieltent01"/>
+				</components>
+			</game_entity>
+			<game_entity name="aiel_tent" old_prefab_name="">
+				<transform position="-5.660, -11.417, 0.046" rotation_euler="0.000, 0.000, -0.664"/>
+				<components>
+					<meta_mesh_component name="aieltent01"/>
+				</components>
+			</game_entity>
+			<game_entity name="aiel_tent" old_prefab_name="">
+				<transform position="4.504, -6.279, 0.015" rotation_euler="0.000, 0.000, -1.275"/>
+				<components>
+					<meta_mesh_component name="aieltent01"/>
+				</components>
+			</game_entity>
+		</children>
+	</game_entity>
+</prefabs>
+
