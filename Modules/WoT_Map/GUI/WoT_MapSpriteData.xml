@@ -2,12 +2,12 @@
 <SpriteData>
   <SpriteCategories>
     <SpriteCategory>
-      <Name>ui_WOT_cc</Name>
+      <Name>ui_wot_cultures</Name>
       <SpriteSheetCount>1</SpriteSheetCount>
       <SpriteSheetSize ID="1" Width="4096" Height="4096" />
     </SpriteCategory>
     <SpriteCategory>
-      <Name>wot_logo</Name>
+      <Name>ui_wot_logo</Name>
       <SpriteSheetCount>1</SpriteSheetCount>
       <SpriteSheetSize ID="1" Width="2048" Height="512" />
     </SpriteCategory>
@@ -20,7 +20,7 @@
       <Height>665</Height>
       <SheetX>2305</SheetX>
       <SheetY>888</SheetY>
-      <CategoryName>ui_WOT_cc</CategoryName>
+      <CategoryName>ui_wot_cultures</CategoryName>
     </SpritePart>
     <SpritePart>
       <SheetID>1</SheetID>
@@ -29,7 +29,7 @@
       <Height>665</Height>
       <SheetX>2305</SheetX>
       <SheetY>1561</SheetY>
-      <CategoryName>ui_WOT_cc</CategoryName>
+      <CategoryName>ui_wot_cultures</CategoryName>
     </SpritePart>
     <SpritePart>
       <SheetID>1</SheetID>
@@ -38,7 +38,7 @@
       <Height>683</Height>
       <SheetX>1924</SheetX>
       <SheetY>888</SheetY>
-      <CategoryName>ui_WOT_cc</CategoryName>
+      <CategoryName>ui_wot_cultures</CategoryName>
     </SpritePart>
     <SpritePart>
       <SheetID>1</SheetID>
@@ -47,7 +47,7 @@
       <Height>665</Height>
       <SheetX>3448</SheetX>
       <SheetY>888</SheetY>
-      <CategoryName>ui_WOT_cc</CategoryName>
+      <CategoryName>ui_wot_cultures</CategoryName>
     </SpritePart>
     <SpritePart>
       <SheetID>1</SheetID>
@@ -56,7 +56,7 @@
       <Height>665</Height>
       <SheetX>3067</SheetX>
       <SheetY>888</SheetY>
-      <CategoryName>ui_WOT_cc</CategoryName>
+      <CategoryName>ui_wot_cultures</CategoryName>
     </SpritePart>
     <SpritePart>
       <SheetID>1</SheetID>
@@ -65,7 +65,7 @@
       <Height>665</Height>
       <SheetX>2686</SheetX>
       <SheetY>888</SheetY>
-      <CategoryName>ui_WOT_cc</CategoryName>
+      <CategoryName>ui_wot_cultures</CategoryName>
     </SpritePart>
     <SpritePart>
       <SheetID>1</SheetID>
@@ -74,7 +74,7 @@
       <Height>876</Height>
       <SheetX>964</SheetX>
       <SheetY>888</SheetY>
-      <CategoryName>ui_WOT_cc</CategoryName>
+      <CategoryName>ui_wot_cultures</CategoryName>
     </SpritePart>
     <SpritePart>
       <SheetID>1</SheetID>
@@ -83,7 +83,7 @@
       <Height>94</Height>
       <SheetX>2686</SheetX>
       <SheetY>1765</SheetY>
-      <CategoryName>ui_WOT_cc</CategoryName>
+      <CategoryName>ui_wot_cultures</CategoryName>
     </SpritePart>
     <SpritePart>
       <SheetID>1</SheetID>
@@ -92,7 +92,7 @@
       <Height>94</Height>
       <SheetX>3235</SheetX>
       <SheetY>1765</SheetY>
-      <CategoryName>ui_WOT_cc</CategoryName>
+      <CategoryName>ui_wot_cultures</CategoryName>
     </SpritePart>
     <SpritePart>
       <SheetID>1</SheetID>
@@ -101,7 +101,7 @@
       <Height>876</Height>
       <SheetX>4</SheetX>
       <SheetY>888</SheetY>
-      <CategoryName>ui_WOT_cc</CategoryName>
+      <CategoryName>ui_wot_cultures</CategoryName>
     </SpritePart>
     <SpritePart>
       <SheetID>1</SheetID>
@@ -110,7 +110,7 @@
       <Height>876</Height>
       <SheetX>2884</SheetX>
       <SheetY>4</SheetY>
-      <CategoryName>ui_WOT_cc</CategoryName>
+      <CategoryName>ui_wot_cultures</CategoryName>
     </SpritePart>
     <SpritePart>
       <SheetID>1</SheetID>
@@ -119,7 +119,7 @@
       <Height>94</Height>
       <SheetX>3235</SheetX>
       <SheetY>1561</SheetY>
-      <CategoryName>ui_WOT_cc</CategoryName>
+      <CategoryName>ui_wot_cultures</CategoryName>
     </SpritePart>
     <SpritePart>
       <SheetID>1</SheetID>
@@ -128,7 +128,7 @@
       <Height>94</Height>
       <SheetX>2686</SheetX>
       <SheetY>1663</SheetY>
-      <CategoryName>ui_WOT_cc</CategoryName>
+      <CategoryName>ui_wot_cultures</CategoryName>
     </SpritePart>
     <SpritePart>
       <SheetID>1</SheetID>
@@ -137,7 +137,7 @@
       <Height>876</Height>
       <SheetX>1924</SheetX>
       <SheetY>4</SheetY>
-      <CategoryName>ui_WOT_cc</CategoryName>
+      <CategoryName>ui_wot_cultures</CategoryName>
     </SpritePart>
     <SpritePart>
       <SheetID>1</SheetID>
@@ -146,7 +146,7 @@
       <Height>876</Height>
       <SheetX>964</SheetX>
       <SheetY>4</SheetY>
-      <CategoryName>ui_WOT_cc</CategoryName>
+      <CategoryName>ui_wot_cultures</CategoryName>
     </SpritePart>
     <SpritePart>
       <SheetID>1</SheetID>
@@ -155,7 +155,7 @@
       <Height>94</Height>
       <SheetX>3235</SheetX>
       <SheetY>1663</SheetY>
-      <CategoryName>ui_WOT_cc</CategoryName>
+      <CategoryName>ui_wot_cultures</CategoryName>
     </SpritePart>
     <SpritePart>
       <SheetID>1</SheetID>
@@ -164,7 +164,7 @@
       <Height>94</Height>
       <SheetX>2686</SheetX>
       <SheetY>1561</SheetY>
-      <CategoryName>ui_WOT_cc</CategoryName>
+      <CategoryName>ui_wot_cultures</CategoryName>
     </SpritePart>
     <SpritePart>
       <SheetID>1</SheetID>
@@ -173,7 +173,7 @@
       <Height>876</Height>
       <SheetX>4</SheetX>
       <SheetY>4</SheetY>
-      <CategoryName>ui_WOT_cc</CategoryName>
+      <CategoryName>ui_wot_cultures</CategoryName>
     </SpritePart>
     <SpritePart>
       <SheetID>1</SheetID>
@@ -182,7 +182,7 @@
       <Height>132</Height>
       <SheetX>972</SheetX>
       <SheetY>4</SheetY>
-      <CategoryName>wot_logo</CategoryName>
+      <CategoryName>ui_wot_logo</CategoryName>
     </SpritePart>
     <SpritePart>
       <SheetID>1</SheetID>
@@ -191,7 +191,7 @@
       <Height>265</Height>
       <SheetX>4</SheetX>
       <SheetY>4</SheetY>
-      <CategoryName>wot_logo</CategoryName>
+      <CategoryName>ui_wot_logo</CategoryName>
     </SpritePart>
   </SpriteParts>
   <Sprites>

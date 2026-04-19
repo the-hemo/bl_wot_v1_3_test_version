@@ -755,7 +755,7 @@
     <Equipments>
       <EquipmentRoster />
       <EquipmentSet id="WOTWardercommander" />
-      <EquipmentSet id="emp_civ_template_default" civilian="true" />
+      <EquipmentSet id="WT_civ_template_stoic" civilian="true" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter id="lord_1_111" name="{=Anaiya}Anaiya" voice="softspoken" age="26" default_group="Infantry" is_hero="true" is_female="true" culture="Culture.white" occupation="Lord" face_mesh_cache="true" skill_template="SkillSet.spc_huntress_skills">
@@ -774,6 +774,7 @@
       <Trait id="Calculating" value="-1" />
     </Traits>
     <Equipments>
+      <EquipmentRoster />
       <EquipmentSet id="AesSedaiblue" />
       <EquipmentSet id="WT_civ_template_lady_normal" civilian="true" />
     </Equipments>

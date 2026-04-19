@@ -266,7 +266,7 @@
       <Equipment slot="Body" id="Item.Asharmor3" />
       <Equipment slot="Leg" id="Item.Asharmorboots" />
     </EquipmentSet>
-    <Flags IsNobleTemplate="true" IsFlamboyantTemplate="true" IsCombatantTemplate="true" />
+    <Flags IsNobleTemplate="true" IsFlamboyantTemplate="true" IsCombatantTemplate="true" IsMediumTemplate="true" />
   </EquipmentRoster>
   <EquipmentRoster id="WOTashamancharacter1" culture="Culture.black">
     <EquipmentSet>
@@ -900,6 +900,7 @@
       <Equipment slot="Cape" id="Item.empire_plate_armor_shoulder_b" />
       <Equipment slot="Horse" id="Item.t2_vlandia_horse" />
       <Equipment slot="HorseHarness" id="Item.mail_and_plate_barding" />
+      <Equipment slot="Item2" id="Item.battania_sword_5_t5" />
     </EquipmentSet>
     <EquipmentSet>
       <Equipment slot="Item0" id="Item.vlandia_lance_3_t5" />
@@ -911,6 +912,7 @@
       <Equipment slot="Cape" id="Item.empire_plate_armor_shoulder_b" />
       <Equipment slot="Horse" id="Item.t2_vlandia_horse" />
       <Equipment slot="HorseHarness" id="Item.mail_and_plate_barding" />
+      <Equipment slot="Item2" id="Item.battania_sword_5_t5" />
     </EquipmentSet>
     <EquipmentSet>
       <Equipment slot="Item0" id="Item.vlandia_lance_3_t5" />
@@ -922,6 +924,7 @@
       <Equipment slot="Cape" id="Item.empire_plate_armor_shoulder_b" />
       <Equipment slot="Horse" id="Item.t2_vlandia_horse" />
       <Equipment slot="HorseHarness" id="Item.mail_and_plate_barding" />
+      <Equipment slot="Item2" id="Item.battania_sword_5_t5" />
     </EquipmentSet>
     <Flags IsNobleTemplate="true" IsFlamboyantTemplate="true" IsCombatantTemplate="true" IsMediumTemplate="true" />
   </EquipmentRoster>
@@ -935,6 +938,7 @@
       <Equipment slot="Gloves" id="Item.AndorQueenguardglovesHeavy" />
       <Equipment slot="Horse" id="Item.t2_vlandia_horse" />
       <Equipment slot="HorseHarness" id="Item.imperial_scale_barding" />
+      <Equipment slot="Item2" id="Item.battania_sword_5_t5" />
     </EquipmentSet>
     <EquipmentSet>
       <Equipment slot="Item0" id="Item.vlandia_lance_3_t5" />
@@ -945,6 +949,7 @@
       <Equipment slot="Gloves" id="Item.AndorQueenguardglovesHeavy" />
       <Equipment slot="Horse" id="Item.t2_vlandia_horse" />
       <Equipment slot="HorseHarness" id="Item.imperial_scale_barding" />
+      <Equipment slot="Item2" id="Item.battania_sword_5_t5" />
     </EquipmentSet>
     <EquipmentSet>
       <Equipment slot="Item0" id="Item.vlandia_lance_3_t5" />
@@ -955,6 +960,7 @@
       <Equipment slot="Gloves" id="Item.AndorQueenguardglovesHeavy" />
       <Equipment slot="Horse" id="Item.t2_vlandia_horse" />
       <Equipment slot="HorseHarness" id="Item.imperial_scale_barding" />
+      <Equipment slot="Item2" id="Item.battania_sword_5_t5" />
     </EquipmentSet>
     <Flags IsNobleTemplate="true" IsFlamboyantTemplate="true" IsCombatantTemplate="true" IsHeavyTemplate="true" />
   </EquipmentRoster>
@@ -1137,6 +1143,7 @@
       <Equipment slot="Cape" id="Item.a_pauldron_cape_b" />
       <Equipment slot="Horse" id="Item.t2_vlandia_horse" />
       <Equipment slot="HorseHarness" id="Item.chain_barding" />
+      <Equipment slot="Item2" id="Item.empire_sword_4_t4" />
     </EquipmentSet>
     <EquipmentSet>
       <Equipment slot="Item0" id="Item.northern_spear_4_t5" />
@@ -1148,6 +1155,7 @@
       <Equipment slot="Cape" id="Item.a_pauldron_cape_b" />
       <Equipment slot="Horse" id="Item.t2_vlandia_horse" />
       <Equipment slot="HorseHarness" id="Item.chain_barding" />
+      <Equipment slot="Item2" id="Item.empire_sword_4_t4" />
     </EquipmentSet>
     <EquipmentSet>
       <Equipment slot="Item0" id="Item.northern_spear_4_t5" />
@@ -1159,6 +1167,7 @@
       <Equipment slot="Cape" id="Item.a_pauldron_cape_b" />
       <Equipment slot="Horse" id="Item.t2_vlandia_horse" />
       <Equipment slot="HorseHarness" id="Item.chain_barding" />
+      <Equipment slot="Item2" id="Item.empire_sword_4_t4" />
     </EquipmentSet>
     <Flags IsNobleTemplate="true" IsFlamboyantTemplate="true" IsCombatantTemplate="true" />
   </EquipmentRoster>
@@ -1173,6 +1182,7 @@
       <Equipment slot="Cape" id="Item.a_pauldron_cape_b" />
       <Equipment slot="Horse" id="Item.t2_vlandia_horse" />
       <Equipment slot="HorseHarness" id="Item.chain_barding" />
+      <Equipment slot="Item2" id="Item.empire_sword_4_t4" />
     </EquipmentSet>
     <EquipmentSet>
       <Equipment slot="Item0" id="Item.northern_spear_4_t5" />
@@ -1184,6 +1194,7 @@
       <Equipment slot="Cape" id="Item.a_pauldron_cape_b" />
       <Equipment slot="Horse" id="Item.t2_vlandia_horse" />
       <Equipment slot="HorseHarness" id="Item.chain_barding" />
+      <Equipment slot="Item2" id="Item.empire_sword_4_t4" />
     </EquipmentSet>
     <EquipmentSet>
       <Equipment slot="Item0" id="Item.northern_spear_4_t5" />
@@ -1195,6 +1206,7 @@
       <Equipment slot="Cape" id="Item.a_pauldron_cape_b" />
       <Equipment slot="Horse" id="Item.t2_vlandia_horse" />
       <Equipment slot="HorseHarness" id="Item.chain_barding" />
+      <Equipment slot="Item2" id="Item.empire_sword_4_t4" />
     </EquipmentSet>
     <Flags IsNobleTemplate="true" IsCombatantTemplate="true" IsMediumTemplate="true" />
   </EquipmentRoster>
@@ -1209,6 +1221,7 @@
       <Equipment slot="Cape" id="Item.a_pauldron_cape_b" />
       <Equipment slot="Horse" id="Item.t2_vlandia_horse" />
       <Equipment slot="HorseHarness" id="Item.chain_barding" />
+      <Equipment slot="Item2" id="Item.empire_sword_4_t4" />
     </EquipmentSet>
     <EquipmentSet>
       <Equipment slot="Item0" id="Item.northern_spear_4_t5" />
@@ -1220,6 +1233,7 @@
       <Equipment slot="Cape" id="Item.a_pauldron_cape_b" />
       <Equipment slot="Horse" id="Item.t2_vlandia_horse" />
       <Equipment slot="HorseHarness" id="Item.chain_barding" />
+      <Equipment slot="Item2" id="Item.empire_sword_4_t4" />
     </EquipmentSet>
     <EquipmentSet>
       <Equipment slot="Item0" id="Item.northern_spear_4_t5" />
@@ -1231,6 +1245,7 @@
       <Equipment slot="Cape" id="Item.a_pauldron_cape_b" />
       <Equipment slot="Horse" id="Item.t2_vlandia_horse" />
       <Equipment slot="HorseHarness" id="Item.chain_barding" />
+      <Equipment slot="Item2" id="Item.empire_sword_4_t4" />
     </EquipmentSet>
     <Flags IsNobleTemplate="true" IsCombatantTemplate="true" IsHeavyTemplate="true" />
   </EquipmentRoster>
@@ -1245,6 +1260,7 @@
       <Equipment slot="Cape" id="Item.a_pauldron_cape_b" />
       <Equipment slot="Horse" id="Item.t2_vlandia_horse" />
       <Equipment slot="HorseHarness" id="Item.chain_barding" />
+      <Equipment slot="Item2" id="Item.empire_sword_4_t4" />
     </EquipmentSet>
     <EquipmentSet>
       <Equipment slot="Item0" id="Item.northern_spear_4_t5" />
@@ -1256,6 +1272,7 @@
       <Equipment slot="Cape" id="Item.a_pauldron_cape_b" />
       <Equipment slot="Horse" id="Item.t2_vlandia_horse" />
       <Equipment slot="HorseHarness" id="Item.chain_barding" />
+      <Equipment slot="Item2" id="Item.empire_sword_4_t4" />
     </EquipmentSet>
     <EquipmentSet>
       <Equipment slot="Item0" id="Item.northern_spear_4_t5" />
@@ -1267,6 +1284,7 @@
       <Equipment slot="Cape" id="Item.a_pauldron_cape_b" />
       <Equipment slot="Horse" id="Item.t2_vlandia_horse" />
       <Equipment slot="HorseHarness" id="Item.chain_barding" />
+      <Equipment slot="Item2" id="Item.empire_sword_4_t4" />
     </EquipmentSet>
     <Flags IsNobleTemplate="true" IsFlamboyantTemplate="true" IsFemaleTemplate="true" IsCombatantTemplate="true" IsMediumTemplate="true" />
   </EquipmentRoster>
@@ -1545,6 +1563,7 @@
       <Equipment slot="Cape" id="Item.imperial_studded_strip_shoulders" />
       <Equipment slot="Horse" id="Item.t2_vlandia_horse" />
       <Equipment slot="HorseHarness" id="Item.Illianerharnessbase" />
+      <Equipment slot="Item2" id="Item.pointed_falchion_sword_t4" />
     </EquipmentSet>
     <EquipmentSet>
       <Equipment slot="Item0" id="Item.vlandia_lance_3_t5" />
@@ -1556,6 +1575,7 @@
       <Equipment slot="Cape" id="Item.IllianerShoulders" />
       <Equipment slot="Horse" id="Item.t2_vlandia_horse" />
       <Equipment slot="HorseHarness" id="Item.imperial_scale_barding" />
+      <Equipment slot="Item2" id="Item.pointed_falchion_sword_t4" />
     </EquipmentSet>
     <EquipmentSet>
       <Equipment slot="Item0" id="Item.vlandia_lance_3_t5" />
@@ -1567,6 +1587,7 @@
       <Equipment slot="Cape" id="Item.IllianerShoulders" />
       <Equipment slot="Horse" id="Item.t2_vlandia_horse" />
       <Equipment slot="HorseHarness" id="Item.imperial_scale_barding" />
+      <Equipment slot="Item2" id="Item.pointed_falchion_sword_t4" />
     </EquipmentSet>
     <Flags IsNobleTemplate="true" IsFlamboyantTemplate="true" IsCombatantTemplate="true" />
   </EquipmentRoster>
@@ -1763,6 +1784,7 @@
       <Equipment slot="Cape" id="Item.ShienerHeavyShoulders" />
       <Equipment slot="Horse" id="Item.t2_khuzait_horse" />
       <Equipment slot="HorseHarness" id="Item.steppe_half_barding" />
+      <Equipment slot="Item2" id="Item.aserai_sword_7_t5" />
     </EquipmentSet>
     <EquipmentSet>
       <Equipment slot="Item0" id="Item.khuzait_lance_3_t5" />
@@ -1774,6 +1796,7 @@
       <Equipment slot="Cape" id="Item.ShienerHeavyShoulders" />
       <Equipment slot="Horse" id="Item.t2_khuzait_horse" />
       <Equipment slot="HorseHarness" id="Item.steppe_half_barding" />
+      <Equipment slot="Item2" id="Item.aserai_sword_7_t5" />
     </EquipmentSet>
     <EquipmentSet>
       <Equipment slot="Item0" id="Item.khuzait_lance_3_t5" />
@@ -1785,6 +1808,7 @@
       <Equipment slot="Cape" id="Item.ShienerHeavyShoulders" />
       <Equipment slot="Horse" id="Item.t2_khuzait_horse" />
       <Equipment slot="HorseHarness" id="Item.steppe_half_barding" />
+      <Equipment slot="Item2" id="Item.aserai_sword_7_t5" />
     </EquipmentSet>
     <Flags IsNobleTemplate="true" IsCombatantTemplate="true" IsMediumTemplate="true" />
   </EquipmentRoster>
@@ -1799,6 +1823,7 @@
       <Equipment slot="Cape" id="Item.ShienerHeavyShoulders" />
       <Equipment slot="Horse" id="Item.t2_khuzait_horse" />
       <Equipment slot="HorseHarness" id="Item.steppe_half_barding" />
+      <Equipment slot="Item2" id="Item.aserai_sword_7_t5" />
     </EquipmentSet>
     <EquipmentSet>
       <Equipment slot="Item0" id="Item.khuzait_lance_3_t5" />
@@ -1810,6 +1835,7 @@
       <Equipment slot="Cape" id="Item.ShienerHeavyShoulders" />
       <Equipment slot="Horse" id="Item.t2_khuzait_horse" />
       <Equipment slot="HorseHarness" id="Item.steppe_half_barding" />
+      <Equipment slot="Item2" id="Item.aserai_sword_7_t5" />
     </EquipmentSet>
     <EquipmentSet>
       <Equipment slot="Item0" id="Item.khuzait_lance_3_t5" />
@@ -1821,6 +1847,7 @@
       <Equipment slot="Cape" id="Item.ShienerHeavyShoulders" />
       <Equipment slot="Horse" id="Item.t2_khuzait_horse" />
       <Equipment slot="HorseHarness" id="Item.steppe_half_barding" />
+      <Equipment slot="Item2" id="Item.aserai_sword_7_t5" />
     </EquipmentSet>
     <Flags IsNobleTemplate="true" IsCombatantTemplate="true" IsMediumTemplate="true" />
   </EquipmentRoster>
@@ -1835,6 +1862,7 @@
       <Equipment slot="Cape" id="Item.ShienerHeavyShoulders" />
       <Equipment slot="Horse" id="Item.t2_khuzait_horse" />
       <Equipment slot="HorseHarness" id="Item.steppe_half_barding" />
+      <Equipment slot="Item2" id="Item.aserai_sword_7_t5" />
     </EquipmentSet>
     <EquipmentSet>
       <Equipment slot="Item0" id="Item.khuzait_lance_3_t5" />
@@ -1846,6 +1874,7 @@
       <Equipment slot="Cape" id="Item.ShienerHeavyShoulders" />
       <Equipment slot="Horse" id="Item.t2_khuzait_horse" />
       <Equipment slot="HorseHarness" id="Item.steppe_half_barding" />
+      <Equipment slot="Item2" id="Item.aserai_sword_7_t5" />
     </EquipmentSet>
     <EquipmentSet>
       <Equipment slot="Item0" id="Item.khuzait_lance_3_t5" />
@@ -1857,6 +1886,7 @@
       <Equipment slot="Cape" id="Item.ShienerHeavyShoulders" />
       <Equipment slot="Horse" id="Item.t2_khuzait_horse" />
       <Equipment slot="HorseHarness" id="Item.steppe_half_barding" />
+      <Equipment slot="Item2" id="Item.aserai_sword_7_t5" />
     </EquipmentSet>
     <Flags IsNobleTemplate="true" IsCombatantTemplate="true" IsHeavyTemplate="true" />
   </EquipmentRoster>
@@ -1871,6 +1901,7 @@
       <Equipment slot="Cape" id="Item.ShienerHeavyShoulders" />
       <Equipment slot="Horse" id="Item.t2_khuzait_horse" />
       <Equipment slot="HorseHarness" id="Item.steppe_half_barding" />
+      <Equipment slot="Item2" id="Item.aserai_sword_7_t5" />
     </EquipmentSet>
     <EquipmentSet>
       <Equipment slot="Item0" id="Item.khuzait_lance_3_t5" />
@@ -1882,6 +1913,7 @@
       <Equipment slot="Cape" id="Item.ShienerHeavyShoulders" />
       <Equipment slot="Horse" id="Item.t2_khuzait_horse" />
       <Equipment slot="HorseHarness" id="Item.steppe_half_barding" />
+      <Equipment slot="Item2" id="Item.aserai_sword_7_t5" />
     </EquipmentSet>
     <EquipmentSet>
       <Equipment slot="Item0" id="Item.khuzait_lance_3_t5" />
@@ -1893,6 +1925,7 @@
       <Equipment slot="Cape" id="Item.ShienerHeavyShoulders" />
       <Equipment slot="Horse" id="Item.t2_khuzait_horse" />
       <Equipment slot="HorseHarness" id="Item.steppe_half_barding" />
+      <Equipment slot="Item2" id="Item.aserai_sword_7_t5" />
     </EquipmentSet>
     <Flags IsNobleTemplate="true" IsFlamboyantTemplate="true" IsFemaleTemplate="true" IsCombatantTemplate="true" IsMediumTemplate="true" />
   </EquipmentRoster>
@@ -1907,6 +1940,7 @@
       <Equipment slot="Cape" id="Item.brass_lamellar_shoulder_white" />
       <Equipment slot="Horse" id="Item.t2_khuzait_horse" />
       <Equipment slot="HorseHarness" id="Item.halfchain_barding" />
+      <Equipment slot="Item2" id="Item.empire_mace_4_t5" />
     </EquipmentSet>
     <EquipmentSet>
       <Equipment slot="Item0" id="Item.vlandia_lance_2_t4" />
@@ -1918,6 +1952,7 @@
       <Equipment slot="Cape" id="Item.brass_lamellar_shoulder_white" />
       <Equipment slot="Horse" id="Item.t2_khuzait_horse" />
       <Equipment slot="HorseHarness" id="Item.halfchain_barding" />
+      <Equipment slot="Item2" id="Item.empire_mace_4_t5" />
     </EquipmentSet>
     <EquipmentSet>
       <Equipment slot="Item0" id="Item.vlandia_lance_2_t4" />
@@ -1929,6 +1964,7 @@
       <Equipment slot="Cape" id="Item.brass_lamellar_shoulder_white" />
       <Equipment slot="Horse" id="Item.t2_khuzait_horse" />
       <Equipment slot="HorseHarness" id="Item.halfchain_barding" />
+      <Equipment slot="Item2" id="Item.empire_mace_4_t5" />
     </EquipmentSet>
     <Flags IsNobleTemplate="true" IsFlamboyantTemplate="true" IsCombatantTemplate="true" />
   </EquipmentRoster>
@@ -1943,6 +1979,7 @@
       <Equipment slot="Cape" id="Item.brass_lamellar_shoulder_white" />
       <Equipment slot="Horse" id="Item.t2_khuzait_horse" />
       <Equipment slot="HorseHarness" id="Item.halfchain_barding" />
+      <Equipment slot="Item2" id="Item.empire_mace_4_t5" />
     </EquipmentSet>
     <EquipmentSet>
       <Equipment slot="Item0" id="Item.vlandia_lance_2_t4" />
@@ -1954,10 +1991,12 @@
       <Equipment slot="Cape" id="Item.brass_lamellar_shoulder_white" />
       <Equipment slot="Horse" id="Item.t2_khuzait_horse" />
       <Equipment slot="HorseHarness" id="Item.halfchain_barding" />
+      <Equipment slot="Item2" id="Item.empire_mace_4_t5" />
     </EquipmentSet>
     <EquipmentSet>
       <Equipment slot="Item0" id="Item.vlandia_lance_2_t4" />
       <Equipment slot="Item1" id="Item.heavy_horsemans_kite_shield" />
+      <Equipment slot="Item2" id="Item.empire_mace_4_t5" />
       <Equipment slot="Body" id="Item.TarabonKingslifeguardarmor1" />
       <Equipment slot="Leg" id="Item.decorated_imperial_boots" />
       <Equipment slot="Head" id="Item.western_crowned_plated_helmet" />
@@ -2209,6 +2248,7 @@
     <EquipmentSet>
       <Equipment slot="Item0" id="Item.western_spear_4_t4" />
       <Equipment slot="Item1" id="Item.TEARShield1" />
+      <Equipment slot="Item2" id="Item.vlandia_sword_5_t5" />
       <Equipment slot="Head" id="Item.TearNobleHelmHeavy" />
       <Equipment slot="Body" id="Item.TearNobleHeavy1" />
       <Equipment slot="Leg" id="Item.TearNoblebootsHeavy" />
@@ -2225,6 +2265,7 @@
       <Equipment slot="Gloves" id="Item.reinforced_padded_mitten" />
       <Equipment slot="Horse" id="Item.t2_khuzait_horse" />
       <Equipment slot="HorseHarness" id="Item.mail_and_plate_barding" />
+      <Equipment slot="Item2" id="Item.vlandia_sword_5_t5" />
     </EquipmentSet>
     <EquipmentSet>
       <Equipment slot="Item0" id="Item.western_spear_4_t4" />
@@ -2235,6 +2276,7 @@
       <Equipment slot="Gloves" id="Item.reinforced_padded_mitten" />
       <Equipment slot="Horse" id="Item.t2_khuzait_horse" />
       <Equipment slot="HorseHarness" id="Item.mail_and_plate_barding" />
+      <Equipment slot="Item2" id="Item.vlandia_sword_5_t5" />
     </EquipmentSet>
     <Flags IsNobleTemplate="true" IsFlamboyantTemplate="true" IsCombatantTemplate="true" />
   </EquipmentRoster>
@@ -2248,6 +2290,7 @@
       <Equipment slot="Gloves" id="Item.reinforced_padded_mitten" />
       <Equipment slot="Horse" id="Item.t2_khuzait_horse" />
       <Equipment slot="HorseHarness" id="Item.mail_and_plate_barding" />
+      <Equipment slot="Item2" id="Item.vlandia_sword_5_t5" />
     </EquipmentSet>
     <EquipmentSet>
       <Equipment slot="Item0" id="Item.western_spear_4_t4" />
@@ -2258,6 +2301,7 @@
       <Equipment slot="Gloves" id="Item.reinforced_padded_mitten" />
       <Equipment slot="Horse" id="Item.t2_khuzait_horse" />
       <Equipment slot="HorseHarness" id="Item.mail_and_plate_barding" />
+      <Equipment slot="Item2" id="Item.vlandia_sword_5_t5" />
     </EquipmentSet>
     <EquipmentSet>
       <Equipment slot="Item0" id="Item.western_spear_4_t4" />
@@ -2268,6 +2312,7 @@
       <Equipment slot="Gloves" id="Item.reinforced_padded_mitten" />
       <Equipment slot="Horse" id="Item.t2_khuzait_horse" />
       <Equipment slot="HorseHarness" id="Item.mail_and_plate_barding" />
+      <Equipment slot="Item2" id="Item.vlandia_sword_5_t5" />
     </EquipmentSet>
     <Flags IsNobleTemplate="true" IsFlamboyantTemplate="true" IsCombatantTemplate="true" IsFemaleTemplate="true" />
   </EquipmentRoster>
@@ -2281,6 +2326,7 @@
       <Equipment slot="Gloves" id="Item.reinforced_padded_mitten" />
       <Equipment slot="Horse" id="Item.t2_khuzait_horse" />
       <Equipment slot="HorseHarness" id="Item.mail_and_plate_barding" />
+      <Equipment slot="Item2" id="Item.vlandia_sword_5_t5" />
     </EquipmentSet>
     <EquipmentSet>
       <Equipment slot="Item0" id="Item.western_spear_4_t4" />
@@ -2291,10 +2337,12 @@
       <Equipment slot="Gloves" id="Item.reinforced_padded_mitten" />
       <Equipment slot="Horse" id="Item.t2_khuzait_horse" />
       <Equipment slot="HorseHarness" id="Item.mail_and_plate_barding" />
+      <Equipment slot="Item2" id="Item.vlandia_sword_5_t5" />
     </EquipmentSet>
     <EquipmentSet>
       <Equipment slot="Item0" id="Item.western_spear_4_t4" />
       <Equipment slot="Item1" id="Item.TEARShield1" />
+      <Equipment slot="Item2" id="Item.vlandia_sword_5_t5" />
       <Equipment slot="Head" id="Item.TearNobleHelmHeavy" />
       <Equipment slot="Body" id="Item.TearNobleHeavy1" />
       <Equipment slot="Leg" id="Item.TearNoblebootsHeavy" />
@@ -2314,6 +2362,7 @@
       <Equipment slot="Gloves" id="Item.TearDefenderHands" />
       <Equipment slot="Horse" id="Item.t2_khuzait_horse" />
       <Equipment slot="HorseHarness" id="Item.mail_and_plate_barding" />
+      <Equipment slot="Item2" id="Item.vlandia_sword_5_t5" />
     </EquipmentSet>
     <EquipmentSet>
       <Equipment slot="Item0" id="Item.eastern_spear_5_t5" />
@@ -2324,6 +2373,7 @@
       <Equipment slot="Gloves" id="Item.TearDefenderHands" />
       <Equipment slot="Horse" id="Item.t2_khuzait_horse" />
       <Equipment slot="HorseHarness" id="Item.mail_and_plate_barding" />
+      <Equipment slot="Item2" id="Item.vlandia_sword_5_t5" />
     </EquipmentSet>
     <EquipmentSet>
       <Equipment slot="Item0" id="Item.eastern_spear_5_t5" />
@@ -2334,6 +2384,7 @@
       <Equipment slot="Gloves" id="Item.TearDefenderHands" />
       <Equipment slot="Horse" id="Item.t2_khuzait_horse" />
       <Equipment slot="HorseHarness" id="Item.mail_and_plate_barding" />
+      <Equipment slot="Item2" id="Item.vlandia_sword_5_t5" />
     </EquipmentSet>
     <Flags IsNobleTemplate="true" IsFlamboyantTemplate="true" IsCombatantTemplate="true" />
   </EquipmentRoster>
@@ -2347,6 +2398,7 @@
       <Equipment slot="Gloves" id="Item.TearDefenderHands" />
       <Equipment slot="Horse" id="Item.t2_khuzait_horse" />
       <Equipment slot="HorseHarness" id="Item.mail_and_plate_barding" />
+      <Equipment slot="Item2" id="Item.vlandia_sword_5_t5" />
     </EquipmentSet>
     <EquipmentSet>
       <Equipment slot="Item0" id="Item.eastern_spear_5_t5" />
@@ -2357,6 +2409,7 @@
       <Equipment slot="Gloves" id="Item.TearDefenderHands" />
       <Equipment slot="Horse" id="Item.t2_khuzait_horse" />
       <Equipment slot="HorseHarness" id="Item.mail_and_plate_barding" />
+      <Equipment slot="Item2" id="Item.vlandia_sword_5_t5" />
     </EquipmentSet>
     <EquipmentSet>
       <Equipment slot="Item0" id="Item.eastern_spear_5_t5" />
@@ -2367,12 +2420,13 @@
       <Equipment slot="Gloves" id="Item.TearDefenderHands" />
       <Equipment slot="Horse" id="Item.t2_khuzait_horse" />
       <Equipment slot="HorseHarness" id="Item.mail_and_plate_barding" />
+      <Equipment slot="Item2" id="Item.vlandia_sword_5_t5" />
     </EquipmentSet>
     <Flags IsNobleTemplate="true" IsCombatantTemplate="true" IsHeavyTemplate="true" />
   </EquipmentRoster>
   <EquipmentRoster id="WOTMayeneNoblecommander" culture="Culture.battania">
     <EquipmentSet>
-      <Equipment slot="Item0" id="Item.vlandia_lance_3_t5" />
+      <Equipment slot="Item0" id="Item.Wothalberd1" />
       <Equipment slot="Head" id="Item.battanian_crowned_helmet" />
       <Equipment slot="Body" id="Item.imperial_lamellar_over_leather" />
       <Equipment slot="Gloves" id="Item.reinforced_mail_mitten" />
@@ -2382,7 +2436,7 @@
       <Equipment slot="HorseHarness" id="Item.mail_and_plate_barding" />
     </EquipmentSet>
     <EquipmentSet>
-      <Equipment slot="Item0" id="Item.vlandia_lance_3_t5" />
+      <Equipment slot="Item0" id="Item.Wothalberd1" />
       <Equipment slot="Head" id="Item.battanian_crowned_helmet" />
       <Equipment slot="Body" id="Item.imperial_lamellar_over_leather" />
       <Equipment slot="Gloves" id="Item.reinforced_mail_mitten" />
@@ -2392,7 +2446,7 @@
       <Equipment slot="HorseHarness" id="Item.mail_and_plate_barding" />
     </EquipmentSet>
     <EquipmentSet>
-      <Equipment slot="Item0" id="Item.vlandia_lance_3_t5" />
+      <Equipment slot="Item0" id="Item.Wothalberd1" />
       <Equipment slot="Head" id="Item.battanian_crowned_helmet" />
       <Equipment slot="Body" id="Item.imperial_lamellar_over_leather" />
       <Equipment slot="Gloves" id="Item.reinforced_mail_mitten" />
@@ -2405,7 +2459,7 @@
   </EquipmentRoster>
   <EquipmentRoster id="WOTMayeneNoblecommander1" culture="Culture.battania">
     <EquipmentSet>
-      <Equipment slot="Item0" id="Item.vlandia_lance_3_t5" />
+      <Equipment slot="Item0" id="Item.Wothalberd1" />
       <Equipment slot="Head" id="Item.battanian_crowned_helmet" />
       <Equipment slot="Body" id="Item.imperial_lamellar_over_leather" />
       <Equipment slot="Gloves" id="Item.reinforced_mail_mitten" />
@@ -2415,7 +2469,7 @@
       <Equipment slot="HorseHarness" id="Item.mail_and_plate_barding" />
     </EquipmentSet>
     <EquipmentSet>
-      <Equipment slot="Item0" id="Item.vlandia_lance_3_t5" />
+      <Equipment slot="Item0" id="Item.Wothalberd1" />
       <Equipment slot="Head" id="Item.battanian_crowned_helmet" />
       <Equipment slot="Body" id="Item.imperial_lamellar_over_leather" />
       <Equipment slot="Gloves" id="Item.reinforced_mail_mitten" />
@@ -2425,7 +2479,7 @@
       <Equipment slot="HorseHarness" id="Item.mail_and_plate_barding" />
     </EquipmentSet>
     <EquipmentSet>
-      <Equipment slot="Item0" id="Item.vlandia_lance_3_t5" />
+      <Equipment slot="Item0" id="Item.Wothalberd1" />
       <Equipment slot="Head" id="Item.battanian_crowned_helmet" />
       <Equipment slot="Body" id="Item.imperial_lamellar_over_leather" />
       <Equipment slot="Gloves" id="Item.reinforced_mail_mitten" />
@@ -2438,7 +2492,7 @@
   </EquipmentRoster>
   <EquipmentRoster id="WOTMayeneNoblecommander2" culture="Culture.battania">
     <EquipmentSet>
-      <Equipment slot="Item0" id="Item.vlandia_lance_3_t5" />
+      <Equipment slot="Item0" id="Item.Wothalberd1" />
       <Equipment slot="Head" id="Item.battanian_crowned_helmet" />
       <Equipment slot="Body" id="Item.imperial_lamellar_over_leather" />
       <Equipment slot="Gloves" id="Item.reinforced_mail_mitten" />
@@ -2448,7 +2502,7 @@
       <Equipment slot="HorseHarness" id="Item.mail_and_plate_barding" />
     </EquipmentSet>
     <EquipmentSet>
-      <Equipment slot="Item0" id="Item.vlandia_lance_3_t5" />
+      <Equipment slot="Item0" id="Item.Wothalberd1" />
       <Equipment slot="Head" id="Item.battanian_crowned_helmet" />
       <Equipment slot="Body" id="Item.imperial_lamellar_over_leather" />
       <Equipment slot="Gloves" id="Item.reinforced_mail_mitten" />
@@ -2458,7 +2512,7 @@
       <Equipment slot="HorseHarness" id="Item.mail_and_plate_barding" />
     </EquipmentSet>
     <EquipmentSet>
-      <Equipment slot="Item0" id="Item.vlandia_lance_3_t5" />
+      <Equipment slot="Item0" id="Item.Wothalberd1" />
       <Equipment slot="Head" id="Item.battanian_crowned_helmet" />
       <Equipment slot="Body" id="Item.imperial_lamellar_over_leather" />
       <Equipment slot="Gloves" id="Item.reinforced_mail_mitten" />
@@ -2478,6 +2532,8 @@
       <Equipment slot="Gloves" id="Item.MayeneWingedGuardGloves" />
       <Equipment slot="Horse" id="Item.t2_vlandia_horse" />
       <Equipment slot="HorseHarness" id="Item.mail_and_plate_barding" />
+      <Equipment slot="Item1" id="Item.Wothalberd1" />
+      <Equipment slot="Item2" id="Item.jousting_shield" />
     </EquipmentSet>
     <EquipmentSet>
       <Equipment slot="Item0" id="Item.vlandia_lance_3_t5" />
@@ -2487,6 +2543,8 @@
       <Equipment slot="Gloves" id="Item.MayeneWingedGuardGloves" />
       <Equipment slot="Horse" id="Item.t2_vlandia_horse" />
       <Equipment slot="HorseHarness" id="Item.mail_and_plate_barding" />
+      <Equipment slot="Item1" id="Item.Wothalberd1" />
+      <Equipment slot="Item2" id="Item.jousting_shield" />
     </EquipmentSet>
     <EquipmentSet>
       <Equipment slot="Item0" id="Item.vlandia_lance_3_t5" />
@@ -2496,6 +2554,8 @@
       <Equipment slot="Gloves" id="Item.MayeneWingedGuardGloves" />
       <Equipment slot="Horse" id="Item.t2_vlandia_horse" />
       <Equipment slot="HorseHarness" id="Item.mail_and_plate_barding" />
+      <Equipment slot="Item1" id="Item.Wothalberd1" />
+      <Equipment slot="Item2" id="Item.jousting_shield" />
     </EquipmentSet>
     <Flags IsNobleTemplate="true" IsFlamboyantTemplate="true" IsCombatantTemplate="true" />
   </EquipmentRoster>
@@ -2508,6 +2568,8 @@
       <Equipment slot="Gloves" id="Item.MayeneWingedGuardGloves" />
       <Equipment slot="Horse" id="Item.t2_vlandia_horse" />
       <Equipment slot="HorseHarness" id="Item.mail_and_plate_barding" />
+      <Equipment slot="Item1" id="Item.Wothalberd1" />
+      <Equipment slot="Item2" id="Item.jousting_shield" />
     </EquipmentSet>
     <EquipmentSet>
       <Equipment slot="Item0" id="Item.vlandia_lance_3_t5" />
@@ -2517,6 +2579,8 @@
       <Equipment slot="Gloves" id="Item.MayeneWingedGuardGloves" />
       <Equipment slot="Horse" id="Item.t2_vlandia_horse" />
       <Equipment slot="HorseHarness" id="Item.mail_and_plate_barding" />
+      <Equipment slot="Item1" id="Item.Wothalberd1" />
+      <Equipment slot="Item2" id="Item.jousting_shield" />
     </EquipmentSet>
     <EquipmentSet>
       <Equipment slot="Item0" id="Item.vlandia_lance_3_t5" />
@@ -2526,6 +2590,8 @@
       <Equipment slot="Gloves" id="Item.MayeneWingedGuardGloves" />
       <Equipment slot="Horse" id="Item.t2_vlandia_horse" />
       <Equipment slot="HorseHarness" id="Item.mail_and_plate_barding" />
+      <Equipment slot="Item1" id="Item.Wothalberd1" />
+      <Equipment slot="Item2" id="Item.jousting_shield" />
     </EquipmentSet>
     <Flags IsNobleTemplate="true" IsCombatantTemplate="true" IsHeavyTemplate="true" />
   </EquipmentRoster>
@@ -2538,6 +2604,8 @@
       <Equipment slot="Gloves" id="Item.MayeneWingedGuardGloves" />
       <Equipment slot="Horse" id="Item.t2_vlandia_horse" />
       <Equipment slot="HorseHarness" id="Item.mail_and_plate_barding" />
+      <Equipment slot="Item1" id="Item.Wothalberd1" />
+      <Equipment slot="Item2" id="Item.jousting_shield" />
     </EquipmentSet>
     <EquipmentSet>
       <Equipment slot="Item0" id="Item.vlandia_lance_3_t5" />
@@ -2547,9 +2615,13 @@
       <Equipment slot="Gloves" id="Item.MayeneWingedGuardGloves" />
       <Equipment slot="Horse" id="Item.t2_vlandia_horse" />
       <Equipment slot="HorseHarness" id="Item.mail_and_plate_barding" />
+      <Equipment slot="Item1" id="Item.Wothalberd1" />
+      <Equipment slot="Item2" id="Item.jousting_shield" />
     </EquipmentSet>
     <EquipmentSet>
       <Equipment slot="Item0" id="Item.vlandia_lance_3_t5" />
+      <Equipment slot="Item1" id="Item.Wothalberd1" />
+      <Equipment slot="Item2" id="Item.jousting_shield" />
       <Equipment slot="Head" id="Item.MayeneWingedGuardHelmetCapt" />
       <Equipment slot="Body" id="Item.MayeneWingedGuardArmor1" />
       <Equipment slot="Leg" id="Item.MayeneWingedGuardboots" />
@@ -2858,14 +2930,14 @@
   <EquipmentRoster id="WT_civ_template_lady_normal" culture="Culture.white">
     <EquipmentSet civilian="true">
       <Equipment slot="Item0" id="Item.empire_noble_sword_1_t5" />
-      <Equipment slot="Body" id="Item.empire_dress" />
-      <Equipment slot="Leg" id="Item.fine_town_boots" />
+      <Equipment slot="Body" id="Item.AessedaiWhite" />
+      <Equipment slot="Leg" id="Item.Aessedaishoes" />
       <Equipment slot="Horse" id="Item.noble_horse_imperial" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
     <EquipmentSet civilian="true">
       <Equipment slot="Item0" id="Item.empire_noble_sword_1_t5" />
-      <Equipment slot="Body" id="Item.empire_dress" />
+      <Equipment slot="Body" id="Item.AessedaiWhite" />
       <Equipment slot="Leg" id="Item.fine_town_boots" />
       <Equipment slot="Gloves" id="Item.leather_gloves" />
       <Equipment slot="Horse" id="Item.noble_horse_imperial" />
@@ -2873,13 +2945,39 @@
     </EquipmentSet>
     <EquipmentSet civilian="true">
       <Equipment slot="Item0" id="Item.empire_noble_sword_1_t5" />
-      <Equipment slot="Body" id="Item.empire_dress" />
+      <Equipment slot="Body" id="Item.AessedaiWhite" />
       <Equipment slot="Cape" id="Item.scarf" />
       <Equipment slot="Leg" id="Item.fine_town_boots" />
       <Equipment slot="Horse" id="Item.noble_horse_imperial" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <Flags IsFemaleTemplate="true" IsNobleTemplate="true" IsNoncombatantTemplate="true" />
+    <Flags IsCivilianTemplate="true" IsFemaleTemplate="true" IsNobleTemplate="true" IsNoncombatantTemplate="true" IsMediumTemplate="true" />
+  </EquipmentRoster>
+  <EquipmentRoster id="WT_civ_template_blue_ajah" culture="Culture.white">
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.empire_noble_sword_1_t5" />
+      <Equipment slot="Body" id="Item.AessedaiBlue" />
+      <Equipment slot="Leg" id="Item.fine_town_boots" />
+      <Equipment slot="Horse" id="Item.noble_horse_imperial" />
+      <Equipment slot="HorseHarness" id="Item.light_harness" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.empire_noble_sword_1_t5" />
+      <Equipment slot="Body" id="Item.AessedaiBlue" />
+      <Equipment slot="Leg" id="Item.fine_town_boots" />
+      <Equipment slot="Gloves" id="Item.leather_gloves" />
+      <Equipment slot="Horse" id="Item.noble_horse_imperial" />
+      <Equipment slot="HorseHarness" id="Item.light_harness" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.empire_noble_sword_1_t5" />
+      <Equipment slot="Body" id="Item.AessedaiBlue" />
+      <Equipment slot="Cape" id="Item.scarf" />
+      <Equipment slot="Leg" id="Item.fine_town_boots" />
+      <Equipment slot="Horse" id="Item.noble_horse_imperial" />
+      <Equipment slot="HorseHarness" id="Item.light_harness" />
+    </EquipmentSet>
+    <Flags IsCivilianTemplate="true" IsFemaleTemplate="true" IsNobleTemplate="true" IsCombatantTemplate="true" IsMediumTemplate="true" />
   </EquipmentRoster>
   <EquipmentRoster id="WT_civ_template_stoic" culture="Culture.white">
     <EquipmentSet civilian="true">
@@ -2976,7 +3074,7 @@
       <Equipment slot="Horse" id="Item.noble_horse_imperial" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <Flags IsNobleTemplate="true" IsCombatantTemplate="true" IsCivilianTemplate="true" />
+    <Flags IsNobleTemplate="true" IsCivilianTemplate="true" IsMediumTemplate="true" />
   </EquipmentRoster>
   <EquipmentRoster id="AielnoncobatMale" culture="Culture.aserai">
     <EquipmentSet civilian="true">

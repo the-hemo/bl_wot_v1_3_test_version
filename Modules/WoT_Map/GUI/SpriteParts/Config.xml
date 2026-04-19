@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Config>
-  <SpriteCategory Name="wot_logo">
+  <SpriteCategory Name="ui_wot_logo">
     <AlwaysLoad />
   </SpriteCategory>
-  <SpriteCategory Name="ui_WOT_cc">
+  <SpriteCategory Name="ui_wot_cultures">
     <AlwaysLoad />
   </SpriteCategory>
 </Config>
